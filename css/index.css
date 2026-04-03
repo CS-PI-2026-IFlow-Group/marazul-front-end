@@ -1,0 +1,33 @@
+.container-image-text{
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    box-sizing: boder-box;
+}
+
+.image-background{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width:100%;
+    height 100%;
+    object-fit: cover;
+    z-index: -1;
+}
+
+.text-content-left{
+    position: relative;
+    padding-left: 10%;
+}
+
+
+.container-btn-right{
+    position: relative;
+    padding-right: 10%;
+    background-color: var(--marazul-blue-dark);
+    padding: 30px 30px;
+
+}
