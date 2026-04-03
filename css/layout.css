@@ -1,0 +1,133 @@
+.header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 1000;
+  background-color: #002d5f;
+  box-shadow: var(--shadow-soft);
+}
+
+.header.transparent {
+  background: transparent;
+  transition: 0.3s;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 100px;
+}
+
+.title img {
+  height: 100px;
+  cursor: pointer;
+}
+
+.nav-bar {
+  display: flex;
+  gap: 24px;
+}
+
+.nav-link {
+  text-decoration: none;
+  color: var(--marazul-white);
+  font-size: var(--paragraph);
+  font-weight: 500;
+  position: relative;
+  transition: 0.3s;
+}
+
+.nav-link::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: -4px;
+  width: 0%;
+  height: 2px;
+  background-color: var(--marazul-blue-royal);
+  transition: 0.3s;
+}
+
+.nav-link:hover {
+  color: var(--marazul-blue-royal);
+}
+
+.nav-link:hover::after {
+  width: 100%;
+}
+
+.menu-toggle {
+  display: none;
+  flex-direction: column;
+  gap: 5px;
+  cursor: pointer;
+}
+
+.menu-toggle .menu,
+.menu-toggle .menu::before,
+.menu-toggle .menu::after {
+  content: "";
+  display: block;
+  width: 25px;
+  height: 3px;
+  background: var(--text-main);
+  transition: 0.3s;
+}
+
+.menu-toggle .menu::before {
+  transform: translateY(-8px);
+}
+
+.menu-toggle .menu::after {
+  transform: translateY(5px);
+}
+
+@media (max-width: 768px) {
+  .menu-toggle {
+    display: flex;
+  }
+
+  .nav-bar {
+    position: fixed;
+    top: 0;
+    right: -100%;
+    width: 260px;
+    height: 100vh;
+    background: var(--marazul-blue-dark);
+    flex-direction: column;
+    padding: 100px 20px;
+    gap: 20px;
+    box-shadow: var(--shadow-soft);
+    transition: 0.3s;
+  }
+
+  .nav-bar.active {
+    right: 0;
+  }
+
+  .nav-link {
+    font-size: var(--subtitle);
+  }
+}
+
+.overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.4);
+  display: none;
+}
+
+.overlay.active {
+  display: block;
+}
