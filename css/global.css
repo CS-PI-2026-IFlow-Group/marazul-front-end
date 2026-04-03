@@ -1,5 +1,5 @@
 :root {
-  --marazul-blue-dark: #002855;
+  --marazul-blue-dark: #002d5f;
   --marazul-blue-royal: #0056b3;
   --marazul-red: #e31e24;
   --marazul-white: #ffffff;
@@ -14,15 +14,23 @@
   --title: 26px;
   --subtitle: 20px;
   --paragraph: 16px;
-  --btn-text:12px;
+  --btn-text: 12px;
 
   --radius-p: 4px;
   --radius-m: 8px;
   --radius-g: 16px;
   --shadow-soft: 0 4px 6px rgba(0, 0, 0, 0.1);
+
+  --spacing-xs: 4px;
+  --spacing-sm: 8px;
+  --spacing-md: 16px;
+  --spacing-lg: 32px;
+  --spacing-xl: 64px;
 }
 
 body {
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
   line-height: 1.5;
+  margin: 0;
+  padding: 0;
 }
