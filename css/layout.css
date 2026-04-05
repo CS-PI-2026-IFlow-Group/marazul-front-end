@@ -14,15 +14,15 @@
 }
 
 .container {
-  margin: 0; 
+  margin: 0 auto; 
   padding: 0 20px;
 }
 
 .wrapper {
   display: flex;
   align-items: center;
-  justify-content: space-between;
-  height: 100px;
+  justify-content: space-between; 
+  height: 110px; 
   width: 100%;
 }
 
@@ -30,24 +30,10 @@
   display: flex;
   align-items: center;
   gap: 15px;
-  padding-left: 20px;
-}
-
-.agrupamento-R {
-  display: flex;
-  align-items: center;
-  padding-right: 20px;
-}
-
-.nav-bar {
-  display: flex;
-  gap: 24px;
-  margin-left: auto; 
-
 }
 
 .title img {
-  height: 100px; 
+  height: 80px; 
   display: block;
 }
 
@@ -56,9 +42,13 @@
   font-size: var(--title);
   font-weight: bold;
   white-space: nowrap;
-  margin-bottom: 5px;
 }
 
+.nav-bar {
+  display: flex;
+  gap: 24px;
+  margin-right: 25px;
+}
 
 .nav-link {
   text-decoration: none;
@@ -84,17 +74,43 @@
   width: 100%;
 }
 
-/* Botão do Menu (Hambúrguer) */
+/* --- AJUSTE PARA TELAS DE 1024px (Tablets e Laptops pequenos) --- */
+@media (max-width: 1150px) {
+  .agrupamento-L {
+    flex-direction: column;
+    gap: 3px;
+    align-items: center;
+  }
+
+
+
+  .title img {
+    height: 80px; 
+  }
+
+  .brand-name {
+    font-size: 1rem;
+    margin-bottom: 10px;
+  }
+
+  .nav-bar {
+    gap: 15px;
+  }
+
+  .nav-link {
+    font-size: 0.85rem;
+  }
+}
+
 .menu-toggle {
-  display: none; /* Escondido no Desktop */
+  display: none;
   background: none;
   border: none;
   cursor: pointer;
   padding: 10px;
-  z-index: 1001; /* Fica acima da nav-bar */
+  z-index: 1001;
 }
 
-/* Criando as 3 linhas do hambúrguer */
 .menu-toggle .menu,
 .menu-toggle .menu::before,
 .menu-toggle .menu::after {
@@ -102,7 +118,7 @@
   display: block;
   width: 28px;
   height: 3px;
-  background: var(--marazul-white); /* Cor das linhas */
+  background: var(--marazul-white);
   transition: 0.3s;
   border-radius: 3px;
 }
@@ -118,31 +134,30 @@
   .nav-bar {
     position: fixed;
     top: 0;
-    right: -100%; /* Escondido fora da tela à direita */
-    width: 200px;
+    right: -100%; 
+    width: 190px; 
     height: 100vh;
     background-color: var(--marazul-blue-dark);
     flex-direction: column;
-    align-items: flex-start; /* Alinha links à esquerda da gaveta */
+    align-items: flex-start;
     padding: 100px 30px;
-    gap: 30px;
+    gap: 25px;
     box-shadow: -5px 0 15px rgba(0, 0, 0, 0.3);
     transition: 0.4s ease-in-out;
     z-index: 1000;
   }
 
-  /* Quando o JS adicionar a classe 'active' */
   .nav-bar.active {
-    right: 0; /* Desliza para dentro da tela */
+    right: 0; 
   }
 
   .nav-link {
-    font-size: 1.2rem;
+    font-size: 1.1rem;
     width: 100%;
+    padding: 10px 0;
   }
 }
 
-/* Overlay (Fundo escuro) */
 .overlay {
   position: fixed;
   inset: 0;
