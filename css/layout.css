@@ -14,54 +14,57 @@
 }
 
 .container {
-  max-width: 1400px;
-  margin: 0;
+  margin: 0; 
   padding: 0 20px;
 }
 
 .wrapper {
   display: flex;
   align-items: center;
-}
-
-.agrupamento-R {
-  display: flex;
-  align-items: center;
-  gap: 20px;
-
-  margin-right: auto;
+  justify-content: space-between;
+  height: 100px;
+  width: 100%;
 }
 
 .agrupamento-L {
   display: flex;
   align-items: center;
-  gap: 20px;
-  margin-left: auto;
+  gap: 15px;
+  padding-left: 20px;
+}
+
+.agrupamento-R {
+  display: flex;
+  align-items: center;
+  padding-right: 20px;
+}
+
+.nav-bar {
+  display: flex;
+  gap: 24px;
+  margin-left: auto; 
+
 }
 
 .title img {
-  height: 100px;
-  cursor: pointer;
+  height: 100px; 
+  display: block;
 }
 
 .brand-name {
   color: var(--marazul-white);
   font-size: var(--title);
   font-weight: bold;
-  margin-left: 10px;
+  white-space: nowrap;
+  margin-bottom: 5px;
 }
 
-.nav-bar {
-  display: flex;
-  gap: 24px;
-  margin-right: 50px;
-}
 
 .nav-link {
   text-decoration: none;
   color: var(--marazul-white);
   font-size: var(--paragraph);
-  font-weight: 500;
+  font-weight: 550;
   position: relative;
   transition: 0.3s;
 }
@@ -77,41 +80,37 @@
   transition: 0.3s;
 }
 
-.nav-link:hover {
-  color: var(--marazul-white);
-}
-
 .nav-link:hover::after {
   width: 100%;
 }
 
+/* Botão do Menu (Hambúrguer) */
 .menu-toggle {
-  display: none;
-  flex-direction: column;
-  gap: 5px;
+  display: none; /* Escondido no Desktop */
+  background: none;
+  border: none;
   cursor: pointer;
+  padding: 10px;
+  z-index: 1001; /* Fica acima da nav-bar */
 }
 
+/* Criando as 3 linhas do hambúrguer */
 .menu-toggle .menu,
 .menu-toggle .menu::before,
 .menu-toggle .menu::after {
   content: "";
   display: block;
-  width: 25px;
+  width: 28px;
   height: 3px;
-  background: var(--text-main);
+  background: var(--marazul-white); /* Cor das linhas */
   transition: 0.3s;
+  border-radius: 3px;
 }
 
-.menu-toggle .menu::before {
-  transform: translateY(-8px);
-}
+.menu-toggle .menu::before { transform: translateY(-8px); }
+.menu-toggle .menu::after { transform: translateY(5px); }
 
-.menu-toggle .menu::after {
-  transform: translateY(5px);
-}
-
-@media (max-width: 768px) {
+@media (max-width: 992px) {
   .menu-toggle {
     display: flex;
   }
@@ -119,34 +118,37 @@
   .nav-bar {
     position: fixed;
     top: 0;
-    right: -100%;
-    width: 260px;
+    right: -100%; /* Escondido fora da tela à direita */
+    width: 200px;
     height: 100vh;
-    background: var(--marazul-blue-dark);
+    background-color: var(--marazul-blue-dark);
     flex-direction: column;
-    padding: 100px 20px;
-    gap: 20px;
-    box-shadow: var(--shadow-soft);
-    transition: 0.3s;
+    align-items: flex-start; /* Alinha links à esquerda da gaveta */
+    padding: 100px 30px;
+    gap: 30px;
+    box-shadow: -5px 0 15px rgba(0, 0, 0, 0.3);
+    transition: 0.4s ease-in-out;
+    z-index: 1000;
   }
 
+  /* Quando o JS adicionar a classe 'active' */
   .nav-bar.active {
-    right: 0;
+    right: 0; /* Desliza para dentro da tela */
   }
 
   .nav-link {
-    font-size: var(--subtitle);
+    font-size: 1.2rem;
+    width: 100%;
   }
 }
 
+/* Overlay (Fundo escuro) */
 .overlay {
   position: fixed;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  background: rgba(0, 0, 0, 0.4);
+  inset: 0;
+  background: rgba(0, 0, 0, 0.6);
   display: none;
+  z-index: 999;
 }
 
 .overlay.active {
