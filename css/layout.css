@@ -96,6 +96,10 @@
   .nav-link {
     font-size: 0.85rem;
   }
+
+  .nav-bar.active {
+    right: 0;
+  }
 }
 
 .menu-toggle {
@@ -169,6 +173,7 @@
     box-shadow: -5px 0 15px rgba(0, 0, 0, 0.3);
     transition: 0.4s ease-in-out;
     z-index: -1;
+    margin-right: 0;
   }
 
   .nav-bar.active {
@@ -215,6 +220,10 @@
   .title img {
     height: 70px;
   }
+
+  .nav-bar.active {
+    right: 0;
+  }
 }
 
 @media (max-width: 480px) {
@@ -229,6 +238,10 @@
 
   .title img {
     height: 80px; 
+  }
+
+  .nav-bar.active {
+    right: 0;
   }
 }
 
