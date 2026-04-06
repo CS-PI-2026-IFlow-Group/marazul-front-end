@@ -1,3 +1,4 @@
+/* HEADER */
 .header {
   position: fixed;
   top: 0;
@@ -13,6 +14,7 @@
   transition: 0.3s;
 }
 
+/* LAYOUT */
 .container {
   margin: 0 auto;
   padding: 0 20px;
@@ -21,11 +23,12 @@
 .wrapper {
   display: flex;
   align-items: center;
-  justify-content: space-between; 
+  justify-content: space-between;
   height: 110px;
   width: 100%;
 }
 
+/* LOGO */
 .agrupamento-L {
   display: flex;
   align-items: center;
@@ -33,7 +36,7 @@
 }
 
 .title img {
-  height: 80px; 
+  height: 80px;
   display: block;
 }
 
@@ -44,6 +47,7 @@
   white-space: nowrap;
 }
 
+/* NAV DESKTOP */
 .nav-bar {
   display: flex;
   gap: 24px;
@@ -64,7 +68,7 @@
   position: absolute;
   left: 0;
   bottom: -4px;
-  width: 0%;
+  width: 0;
   height: 2px;
   background-color: rgb(0, 247, 255);
   transition: 0.3s;
@@ -74,40 +78,14 @@
   width: 100%;
 }
 
-@media (max-width: 1150px) {
-  .agrupamento-L {
-    flex-direction: column; 
-    gap: 2px;
-    align-items: center;
-  }
-
-  .title img {
-    height: 60px; 
-  }
-
-  .brand-name {
-    font-size: 0.9rem; 
-  }
-
-  .nav-bar {
-    gap: 15px; 
-  }
-
-  .nav-link {
-    font-size: 0.85rem;
-  }
-
-  .nav-bar.active {
-    right: 0;
-  }
-}
-
+/* HAMBURGUER */
 .menu-toggle {
   display: none;
   background: none;
   border: none;
   cursor: pointer;
   padding: 10px;
+  z-index: -1;
 }
 
 .menu-toggle .menu {
@@ -115,9 +93,8 @@
   width: 28px;
   height: 3px;
   background: var(--marazul-white);
-  display: block;
-  transition: 0.3s;
   border-radius: 3px;
+  transition: 0.3s;
 }
 
 .menu-toggle .menu::before,
@@ -128,20 +105,15 @@
   height: 3px;
   background: var(--marazul-white);
   left: 0;
-  transition: 0.3s;
   border-radius: 3px;
+  transition: 0.3s;
 }
 
-.menu-toggle .menu::before {
-  top: -8px;
-}
-
-.menu-toggle .menu::after {
-  top: 8px;
-}
+.menu-toggle .menu::before { top: -8px; }
+.menu-toggle .menu::after { top: 8px; }
 
 .menu-toggle.active .menu {
-  background: transparent; 
+  background: transparent;
 }
 
 .menu-toggle.active .menu::before {
@@ -154,7 +126,35 @@
   top: 0;
 }
 
+/* ===== RESPONSIVO ===== */
+
+/* TABLET / LAPTOP PEQUENO */
+@media (max-width: 1150px) {
+  .agrupamento-L {
+    flex-direction: column;
+    gap: 2px;
+  }
+
+  .title img {
+    height: 60px;
+  }
+
+  .brand-name {
+    font-size: 0.9rem;
+  }
+
+  .nav-bar {
+    gap: 15px;
+  }
+
+  .nav-link {
+    font-size: 0.85rem;
+  }
+}
+
+/* MOBILE MENU */
 @media (max-width: 992px) {
+
   .menu-toggle {
     display: flex;
   }
@@ -162,17 +162,21 @@
   .nav-bar {
     position: fixed;
     top: 0;
-    right: -100%; 
+    right: -100%;
     width: 190px;
     height: 100vh;
+
     background-color: var(--marazul-blue-dark);
     flex-direction: column;
     align-items: flex-start;
+
     padding: 100px 30px;
     gap: 25px;
+
     box-shadow: -5px 0 15px rgba(0, 0, 0, 0.3);
-    transition: 0.4s ease-in-out;
-    z-index: -1;
+    transition: right 0.4s ease-in-out;
+
+    z-index: -1; /* corrigido */
     margin-right: 0;
   }
 
@@ -185,8 +189,6 @@
     width: 100%;
     padding: 12px 15px;
     border-radius: 6px;
-    transition: 0.3s;
-
     border-bottom: 1px solid rgba(255, 255, 255, 0.15);
   }
 
@@ -195,62 +197,47 @@
   }
 
   .nav-link.active {
-    background: rgba(255, 255, 255, 0.12); 
-    border-left: 4px solid #00e0ff; 
-    padding-left: 11px; 
-  }
-
-  .title img {
-    height: 80px; 
+    background: rgba(255, 255, 255, 0.12);
+    border-left: 4px solid #00e0ff;
+    padding-left: 11px;
   }
 }
 
+/* TABLET GRANDE */
 @media (min-width: 768px) {
   .agrupamento-L {
-    flex-direction: row; 
-    align-items: center;
+    flex-direction: row;
     gap: 10px;
-  }
-
-  .brand-name {
-    display: block;
-    font-size: var(--title);
   }
 
   .title img {
     height: 70px;
   }
-
-  .nav-bar.active {
-    right: 0;
-  }
 }
 
+/* MOBILE PEQUENO */
 @media (max-width: 480px) {
   .brand-name {
     display: none;
   }
 
   .nav-bar {
-    width: 160px; 
+    width: 160px;
     padding: 100px 20px;
   }
 
   .title img {
-    height: 80px; 
-  }
-
-  .nav-bar.active {
-    right: 0;
+    height: 80px;
   }
 }
 
+/* OVERLAY */
 .overlay {
   position: fixed;
   inset: 0;
   background: rgba(0, 0, 0, 0.5);
   display: none;
-  z-index: 999;
+  z-index: -1;
 }
 
 .overlay.active {
