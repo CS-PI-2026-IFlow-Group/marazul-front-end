@@ -1,4 +1,3 @@
-/* HEADER */
 .header {
   position: fixed;
   top: 0;
@@ -14,7 +13,6 @@
   transition: 0.3s;
 }
 
-/* LAYOUT */
 .container {
   margin: 0 auto;
   padding: 0 20px;
@@ -28,7 +26,6 @@
   width: 100%;
 }
 
-/* LOGO */
 .agrupamento-L {
   display: flex;
   align-items: center;
@@ -47,7 +44,6 @@
   white-space: nowrap;
 }
 
-/* NAV DESKTOP */
 .nav-bar {
   display: flex;
   gap: 24px;
@@ -78,7 +74,6 @@
   width: 100%;
 }
 
-/* HAMBURGUER */
 .menu-toggle {
   display: none;
   background: none;
@@ -109,8 +104,12 @@
   transition: 0.3s;
 }
 
-.menu-toggle .menu::before { top: -8px; }
-.menu-toggle .menu::after { top: 8px; }
+.menu-toggle .menu::before {
+  top: -8px;
+}
+.menu-toggle .menu::after {
+  top: 8px;
+}
 
 .menu-toggle.active .menu {
   background: transparent;
@@ -126,9 +125,6 @@
   top: 0;
 }
 
-/* ===== RESPONSIVO ===== */
-
-/* TABLET / LAPTOP PEQUENO */
 @media (max-width: 1150px) {
   .agrupamento-L {
     flex-direction: column;
@@ -152,9 +148,7 @@
   }
 }
 
-/* MOBILE MENU */
 @media (max-width: 992px) {
-
   .menu-toggle {
     display: flex;
   }
@@ -176,7 +170,7 @@
     box-shadow: -5px 0 15px rgba(0, 0, 0, 0.3);
     transition: right 0.4s ease-in-out;
 
-    z-index: -1; /* corrigido */
+    z-index: -1;
     margin-right: 0;
   }
 
@@ -198,12 +192,11 @@
 
   .nav-link.active {
     background: rgba(255, 255, 255, 0.12);
-    border-left: 4px solid #00e0ff;
+    border-left: 4px solid rgb(0, 247, 255);
     padding-left: 11px;
   }
 }
 
-/* TABLET GRANDE */
 @media (min-width: 768px) {
   .agrupamento-L {
     flex-direction: row;
@@ -215,7 +208,6 @@
   }
 }
 
-/* MOBILE PEQUENO */
 @media (max-width: 480px) {
   .brand-name {
     display: none;
@@ -231,7 +223,6 @@
   }
 }
 
-/* OVERLAY */
 .overlay {
   position: fixed;
   inset: 0;
