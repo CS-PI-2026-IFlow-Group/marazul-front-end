@@ -10,6 +10,7 @@
 
 
 
+
 .wellcome-page-wrapper{
     position: relative;
     max-width:;
@@ -24,7 +25,18 @@
     bottom: -200px;
     left: 50%;
     transform: translateX(-50%);
-    height: 470px;
+    height: 500px;
+}
+
+.hero{
+    position: relative;
+    width: 100vw;
+    height: 110vh;
+    left: 50%;
+    right: 50%;
+    margin-top: -4vw;
+    transform: translateX(-50%);
+    overflow: visible;
 }
 
 
@@ -33,13 +45,13 @@
     top: 0;
     left: 0;
     width:100%;
-    height 100%;
+    height: 100%;
     object-fit: cover;
     z-index: -1;
 }
 
 .text-content-left{
-    padding-left: 10%;
+    padding-left: 25%;
     color: var(--marazul-white);
     font-size: 30px;
     text-shadow: 0px 0px 1px var(--marazul-blue-dark);
@@ -54,13 +66,14 @@
     text-transform: capitalize;
     font-weight: bold;
     letter-spacing: 0px;
-    font-size: 40px;
-    max-width: 150px;
+    font-size: 60px;
+    max-width: 180px;
 }
 
 .capitalized-text h1{
     margin: 0px;
-    line-height: 70px;
+    height: 120px;
+    line-height: 90px;
 
 }
 
