@@ -3,9 +3,9 @@
     height: 100vh;
     overflow: hidden;
     display: flex;
+    justify-content: center;
     align-items: center;
-    justify-content: space-between;
-    box-sizing: boder-box;
+    flex-direction: column;
 }
 
 
@@ -19,14 +19,6 @@
     justify-content: space-between;
 }
 
-
-.image-bus{
-    position:absolute;
-    bottom: -200px;
-    left: 50%;
-    transform: translateX(-50%);
-    height: 500px;
-}
 
 .hero{
     position: relative;
@@ -51,15 +43,16 @@
 }
 
 .text-content-left{
-    padding-left: 25%;
     color: var(--marazul-white);
-    font-size: 30px;
     text-shadow: 0px 0px 1px var(--marazul-blue-dark);
-}
+    margin: 73px;
+    text-align: center;
+
+    }
+
 
 .cursive-wellcome-text h1{
-    margin: 0px;
-    height: 100px;
+    margin: 20px;
 }
 
 .capitalized-text{
@@ -67,13 +60,12 @@
     font-weight: bold;
     letter-spacing: 0px;
     font-size: 60px;
-    max-width: 180px;
 }
 
 .capitalized-text h1{
     margin: 0px;
-    height: 120px;
-    line-height: 90px;
+    line-height: 2px;
+    color: var(--marazul-red);
 
 }
 
@@ -92,31 +84,9 @@
     cursor: pointer;
     color: var(--marazul-white);
     text-decoration: none;
-    transition: all 300ms ease 0ms;
     display: inline-block;
     position: relative;
     overflow: hidden;
 }
-
-.container-btn-right a::after{
-    content: '>';
-    position: absolute;
-    right: 20px;
-    opacity: 0;
-    transform: translateX(-12px);
-    transition: all 300ms ease 0ms;
-}
-
-
-.container-btn-right a:hover{
-    padding: 30px 50px;
-    background-color: var(--marazul-blue-dark);
-}
-
-.container-btn-right a:hover::after{
-    opacity: 1;
-    transform: translateX(2px);
-}
-
 
 
