@@ -10,37 +10,52 @@
   <body>
     <div class="overlay" id="overlay"></div>
     <header class="header">
-      <div class="container">
-        <div class="wrapper">
-          <div class="agrupamento-L">
-            <div class="title">
-              <a href="index.html">
-                <img
-                  src="./assets/images/logo-marazul-M.png"
-                  alt="Logo Marazul"
-                />
-              </a>
+      <!-- NAV -->
+      <nav class="navbar">
+        <div class="container nav-content">
+          <!-- LOGO -->
+          <a href="index.html" class="logo">
+            <img src="./assets/images/logo-correta.png" alt="Marazul" />
+            <div>
+              <span class="brand-strong">Marazul</span>
+              <span class="brand-light">Turismo</span>
             </div>
-            <span class="brand-name">Marazul Turismo</span>
+          </a>
+
+          <!-- DESKTOP NAV -->
+          <div class="nav-links">
+            <a href="#inicio">Início</a>
+            <a href="#sobre">Sobre Nós</a>
+            <a href="#frota">Nossa Frota</a>
+            <a href="#dicas">Dicas de Viagem</a>
+            <a href="#feedbacks">Feedbacks</a>
+            <a href="#contato">Contato</a>
+            <a href="#links">Links Úteis</a>
           </div>
 
-          <div class="agrupamento-R">
-            <nav class="nav-bar">
-              <a href="index.html" class="nav-link">Início</a>
-              <a href="about.html" class="nav-link">Sobre Nós</a>
-              <a href="fleet.html" class="nav-link">Nossa Frota</a>
-              <a href="travel-tips.html" class="nav-link">Dicas de Viagem</a>
-              <a href="#feedback" class="nav-link">Feedbacks</a>
-              <a href="contact.html" class="nav-link">Contato</a>
-              <a href="useful-links.html" class="nav-link">Links Úteis</a>
-            </nav>
+          <!-- CTA + MENU -->
+          <div class="nav-actions">
+            <button class="btn-cta">Solicitar Orçamento</button>
 
-            <button class="menu-toggle" aria-label="open menu">
-              <span class="menu"></span>
+            <button class="menu-toggle" id="menuToggle">
+              <span></span>
             </button>
           </div>
         </div>
-      </div>
+
+        <!-- MOBILE MENU -->
+        <div class="mobile-menu" id="mobileMenu">
+          <a href="#inicio">Início</a>
+          <a href="#sobre">Sobre Nós</a>
+          <a href="#frota">Nossa Frota</a>
+          <a href="#dicas">Dicas de Viagem</a>
+          <a href="#feedbacks">Feedbacks</a>
+          <a href="#contato">Contato</a>
+          <a href="#links">Links Úteis</a>
+
+          <button class="btn-cta full">Solicitar Orçamento</button>
+        </div>
+      </nav>
     </header>
 
     <main>

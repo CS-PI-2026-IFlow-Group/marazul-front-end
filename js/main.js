@@ -1,25 +1,26 @@
-const menuToggle = document.querySelector('.menu-toggle');
-const navBar = document.querySelector('.nav-bar');
-const overlay = document.getElementById('overlay');
+const menuToggle = document.getElementById("menuToggle");
+const mobileMenu = document.getElementById("mobileMenu");
+const navbar = document.querySelector(".navbar");
 
-menuToggle.addEventListener('click', () => {
-  navBar.classList.toggle('active');
-  overlay.classList.toggle('active');
-  menuToggle.classList.toggle('active'); // 🔥 ISSO FAZ VIRAR X
+// toggle menu
+menuToggle.addEventListener("click", () => {
+  menuToggle.classList.toggle("active");
+  mobileMenu.classList.toggle("active");
 });
 
-overlay.addEventListener('click', () => {
-  navBar.classList.remove('active');
-  overlay.classList.remove('active');
-  menuToggle.classList.remove('active'); // volta pro hambúrguer
+// fechar ao clicar
+document.querySelectorAll(".mobile-menu a").forEach(link => {
+  link.addEventListener("click", () => {
+    menuToggle.classList.remove("active");
+    mobileMenu.classList.remove("active");
+  });
 });
 
-const currentPage = window.location.pathname.split("/").pop();
-
-document.querySelectorAll('.nav-link').forEach(link => {
-  const linkPage = link.getAttribute('href');
-
-  if (linkPage === currentPage) {
-    link.classList.add('active');
+// efeito scroll
+window.addEventListener("scroll", () => {
+  if (window.scrollY > 20) {
+    navbar.classList.add("scrolled");
+  } else {
+    navbar.classList.remove("scrolled");
   }
 });
