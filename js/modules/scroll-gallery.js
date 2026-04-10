@@ -5,6 +5,9 @@ export function initHorizontalScroll() {
     const scrollContainer = document.querySelector('.photos-container');
 
     if (!stickySection || !scrollContainer) return;
+    const totalScroll = scrollContainer.scrollWidth - window.innerWidth + window.innerWidth * 0.10;
+    const desiredHeight = window.innerHeight + totalScroll;
+    stickySection.style.height = desiredHeight + 'px';
     console.log('initHorizontalScroll chamado');
     console.log('stickySection:', stickySection);
     console.log('scrollContainer:', scrollContainer);
@@ -18,7 +21,8 @@ export function initHorizontalScroll() {
 
         if (scrollY >= offsetTop && scrollY <= (offsetTop + sectionHeight - windowHeight)) {
             const progress = (scrollY - offsetTop) / (sectionHeight - windowHeight);
-            const maxMove = scrollContainer.scrollWidth - window.innerWidth;
+            const paddingLeft = window.innerWidth * 0.10;
+            const maxMove = scrollContainer.scrollWidth - window.innerWidth + paddingLeft;
             scrollContainer.style.transform = `translateX(-${progress * maxMove}px)`;
         }
     };
