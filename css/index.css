@@ -21,6 +21,43 @@
     min-width: 300px;
 }
 
+.about-image-wrapper {
+    flex: 1;
+    position: relative;
+    min-width: 300px;
+}
+
+.about-image-wrapper img {
+    width: 100%;
+    height: auto;
+    border-radius: var(--radius-m);
+}
+
+.experience-badge {
+    position: absolute;
+    bottom: -20px;
+    right: -20px;
+    background-color: var(--marazul-red);
+    color: var(--marazul-white);
+    padding: 2rem;
+    border-radius: var(--radius-m);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 4px 15px rgba(211, 30, 30, 0.4);
+}
+
+.experience-badge .badge-number {
+    font-size: var(--subtitle);
+    font-weight: bold;
+    line-height: 1;
+}
+
+.experience-badge .badge-text {
+    font-size: var(--btn-text);
+}
+
 .btn-read-more {
     background-color: var(--marazul-blue-dark, #0d1b2a);
     color: var(--marazul-white);
