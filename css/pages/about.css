@@ -1,70 +1,26 @@
 
 
 
-.about-hero h1 {
-    font-size: var(--title);
-    color: var(--marazul-blue-dark);
-    margin-bottom: var(--spacing-md);
+.about-banner-img {
+    height: 500px;
+    object-fit: cover;
+}
+.about-banner-overlay {
+    background: linear-gradient(to top, rgba(6, 42, 69, 0.85) 0%, transparent 60%);
+}
+
+.about-intro-title {
+    color: var(--marazul-white);
     text-transform: uppercase;
     letter-spacing: 1px;
 }
 
-.about-hero p {
-    font-size: var(--paragraph);
-    color: var(--text-muted);
+.about-intro-text {
+    color: rgba(255, 255, 255, 0.85);
+    line-height: 1.8;
 }
 
 
-@media (max-width: 480px) {
-    .about-hero h1 {
-        font-size: var(--subtitle);
-    }
-}
-
-.about-values {
-    padding: var(--spacing-xl) var(--spacing-md);
-    background-color: var(--bg-light);
-}
-
-.values-grid {
-    display: grid;
-    gap: var(--spacing-lg);
-    max-width: 1200px;
-    margin: 0 auto;
-    grid-template-columns: 1fr;
-}
-
-.value-card {
-    background: var(--marazul-white);
-    padding: var(--spacing-lg);
-    border-radius: var(--radius-m);
-    box-shadow: var(--shadow-soft);
-    border-top: 4px solid var(--marazul-red);
-    transition: transform 0.3s ease;
-}
-
-.value-card:hover {
-    transform: translateY(-5px);
-}
-
-.value-card h2 {
-    color: var(--marazul-blue-dark);
-    font-size: var(--subtitle);
-    margin-bottom: var(--spacing-md);
-    text-transform: uppercase;
-}
-
-.value-card p {
-    color: var(--text-main);
-    font-size: var(--paragraph);
-    line-height: 1.6;
-}
-
-@media (min-width: 1024px) {
-    .values-grid {
-        grid-template-columns: repeat(3, 1fr);
-    }
-}
 .about-stats {
     background-color: var(--marazul-blue-dark);
 }
@@ -84,14 +40,6 @@ body {
     font-size: 40px;
     font-weight: 700;
     color: var(--marazul-red);
-}
-
-.stat-item p {
-    margin-top: var(--spacing-sm);
-    color: var(--marazul-white);
-    font-size: var(--paragraph);
-    text-transform: uppercase;
-    letter-spacing: 1px;
 }
 
 
@@ -158,4 +106,54 @@ body {
     .photo-item {
         flex: 0 0 600px;
     }
+}
+.about-mvv {
+    background-color: var(--bg-light);
+}
+
+.mvv-card {
+    padding: var(--spacing-lg);
+    border-left: 4px solid var(--marazul-red);
+    height: 100%;
+}
+
+.mvv-label {
+    color: var(--marazul-red);
+    font-size: var(--btn-text);
+    font-weight: 700;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    margin-bottom: var(--spacing-sm);
+}
+
+.mvv-card h2 {
+    color: var(--marazul-blue-dark);
+    font-size: var(--subtitle);
+    text-transform: uppercase;
+    margin-bottom: var(--spacing-md);
+}
+
+.mvv-card p {
+    color: var(--text-muted);
+    font-size: var(--paragraph);
+    line-height: 1.7;
+}
+
+.mvv-values-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.mvv-values-list li {
+    color: var(--text-muted);
+    font-size: var(--paragraph);
+    padding: var(--spacing-xs) 0;
+    border-bottom: 1px solid #e0e0e0;
+}
+
+.mvv-values-list li::before {
+    content: "→ ";
+    color: var(--marazul-red);
+    font-weight: bold;
 }
