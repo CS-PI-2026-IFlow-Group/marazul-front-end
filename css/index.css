@@ -39,7 +39,7 @@
     right: -20px;
     background-color: var(--marazul-red);
     color: var(--marazul-white);
-    padding: 2rem;
+    padding: 1.5rem;
     border-radius: var(--radius-m);
     display: flex;
     flex-direction: column;
