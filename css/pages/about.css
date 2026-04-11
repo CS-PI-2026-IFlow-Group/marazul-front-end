@@ -10,14 +10,29 @@
 }
 
 .about-intro-title {
+    font-family: 'Mrs Saint Delafield', cursive;
+    font-size: 110px;
     color: var(--marazul-white);
-    text-transform: uppercase;
-    letter-spacing: 1px;
+    line-height: 1.1;
 }
 
-.about-intro-text {
-    color: rgba(255, 255, 255, 0.85);
-    line-height: 1.8;
+
+.timeline-title {
+    font-size: var(--title);
+    color: var(--marazul-blue-dark);
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+.about-section-label {
+    display: flex;
+    align-items: center;
+    gap: var(--spacing-xs);
+    color: var(--marazul-red);
+    font-size: var(--btn-text);
+    font-weight: 700;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    margin-bottom: var(--spacing-md);
 }
 
 
@@ -45,7 +60,8 @@ body {
 
 .horizontal-scroll-section {
     width: 100%;
-    padding: var(--spacing-xl) 0;
+    padding: var(--spacing-md) 0;
+    background-color: var(--bg-light);
 }
 
 .photos-container {
