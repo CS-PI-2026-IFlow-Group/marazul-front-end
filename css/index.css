@@ -1,38 +1,3 @@
-.about {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    padding: 4rem 2rem;
-    background-color: var(--marazul-white);
-}
-
-.container-about {
-    display: flex;
-    gap: 60px;
-    align-items: center;
-    width: 100%;
-    max-width: 1200px;
-}
-.about-content {
-    flex: 1;
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    min-width: 300px;
-}
-
-.about-image-wrapper {
-    flex: 1;
-    position: relative;
-    min-width: 300px;
-}
-
-.about-image-wrapper img {
-    width: 100%;
-    height: auto;
-    border-radius: var(--radius-m);
-}
-
 .experience-badge {
     position: absolute;
     bottom: -20px;
@@ -41,10 +6,6 @@
     color: var(--marazul-white);
     padding: 1.5rem;
     border-radius: var(--radius-m);
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
     box-shadow: 0 4px 15px rgba(211, 30, 30, 0.4);
 }
 
