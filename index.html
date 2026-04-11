@@ -4,93 +4,38 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Marazul</title>
-      <link href="/assets/bootstrap-5.3.8-dist/css/bootstrap.min.css" rel="stylesheet">
-      <link rel="stylesheet" href="./css/main.css" />
+    <link
+      href="/assets/bootstrap-5.3.8-dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./css/main.css" />
   </head>
 
   <body>
     <header></header>
     <main>
       <section class="hero"></section>
-      <section class="about">
-        <div class="container-about">
-          <div class="about-image-wrapper">
-            <img
-              src="assets/images/bus5.jpeg"
-              alt="Imagem de um ônibus com a logo da MarAzul"
-            />
+      <section class="about py-5">
+        <div class="container py-lg-4">
+          <div class="row align-items-center gy-5 gx-lg-5">
+            <div class="col-lg-6">
+              <div class="position-relative d-inline-block w-100">
+                <img
+                  src="assets/images/bus5.jpeg"
+                  alt="Imagem de um ônibus com a logo da Marazul"
+                  class="img-fluid w-100 object-fit-cover shadow-sm about-img"
+                />
 
-            <div class="experience-badge">
-              <span class="badge-number">50+</span>
-              <span class="badge-text" data-i18n="index.badge-text"
-                >anos no mercado</span
-              >
-            </div>
-          </div>
-
-          <div class="about-content">
-            <h2 data-i18n="index.about-title">SOBRE NÓS</h2>
-            <span class="subtitle-red" data-i18n="index.about-subtitle">
-              Sua viagem dos sonhos começa aqui
-            </span>
-
-            <p data-i18n="index.about-desc">
-              Com 70 anos de tradição, a Marazul Turismo conecta destinos e
-              realiza sonhos com segurança e conforto. Nossa história de sucesso
-              é fruto de dedicação da nossa equipe e da confiança contínua de
-              nossos clientes e parceiros. Seguimos rumo ao futuro com o
-              compromisso de inovar e oferecer excelência em cada viagem.
-            </p>
-
-            <div class="stats-grid">
-              <div class="stat-item">
-                <div class="stat-icon">
-                  <img
-                    src="assets/icons/users.svg"
-                    alt="Ícone de uma pessoa com outra atrás"
-                  />
-                </div>
-                <div class="stat-text">
-                  <strong>5.000+</strong>
-                  <span data-i18n="index.stat-clients">Clientes Atendidos</span>
-                </div>
-              </div>
-
-              <div class="stat-item">
-                <div class="stat-icon">
-                  <img
-                    src="assets/icons/award.svg"
-                    alt="Ícone de uma medalha"
-                  />
-                </div>
-                <div class="stat-text">
-                  <strong>50+</strong>
-                  <span data-i18n="index.stat-experience"
-                    >Anos de Experiência</span
+                <div
+                  class="experience-badge position-absolute text-center shadow"
+                >
+                  <span class="badge-number d-block">50+</span>
+                  <span class="badge-text" data-i18n="index.badge-text"
+                    >anos no mercado</span
                   >
                 </div>
               </div>
-
-              <div class="stat-item">
-                <div class="stat-icon">
-                  <img
-                    src="assets/icons/bus-front.svg"
-                    alt="Ícone de um ônibus de fronte"
-                  />
-                </div>
-                <div class="stat-text">
-                  <strong>2.000+</strong>
-                  <span data-i18n="index.stat-trips">Viagens Realizadas</span>
-                </div>
-              </div>
             </div>
-
-            <a
-              href="pages/about.html"
-              class="btn-read-more"
-              data-i18n="index.btn-about-us"
-              >Leia mais</a
-            >
           </div>
         </div>
       </section>
