@@ -53,21 +53,25 @@
 
 .cursive-wellcome-text h1{
     margin: 20px;
+    font-weight: 600;
+    margin-bottom: 15px;
+    font-size: 5.25rem;
+
 }
 
-.capitalized-text{
-    text-transform: capitalize;
+.normal-text{
     font-weight: bold;
     letter-spacing: 0px;
     font-size: 60px;
 }
 
-.capitalized-text h1{
+.normal-text h1{
     margin: 0px;
     line-height: 2px;
     font-size: 3.25rem;
     color: var(--marazul-red);
     font-family: Playfair Display, serif;
+    font-size: 5.25rem;
 
 }
 
@@ -91,4 +95,9 @@
     overflow: hidden;
 }
 
+.efeito-vidro {
+    backdrop-filter: blur(4px);
+    -webkit-backdrop-filter: blur(4px);
+    background-color: rgba(255, 255, 255, 0.1);
+}
 
