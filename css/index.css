@@ -10,6 +10,28 @@
 
 
 
+.btn-location{
+    padding: 6px 13px 5px 16px;
+    border-radius: 50px;
+    color: #f8f9fa;
+    border: 1px solid #f8f9fa;
+    text-decoration: none;
+}
+.btn-icon{
+    width: 18px;
+    margin-left: 5px;
+    height: 20px;
+    filter: invert(1);
+}
+
+.btn-location:hover{
+    background: rgba(248, 249, 250, 0.2);
+}
+
+.hover-transparent:hover{
+ background: rgba(248, 249, 250, 0.2);
+ color: #f8f9fa;
+}
 
 .wellcome-page-wrapper{
     position: relative;
@@ -23,12 +45,23 @@
 .hero{
     position: relative;
     width: 100vw;
-    height: 110vh;
+    height: 100vh;
     left: 50%;
     right: 50%;
     margin-top: -4vw;
     transform: translateX(-50%);
     overflow: visible;
+}
+
+.hero::after{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(5, 30, 60, 0.65);
+    z-index: -1;
 }
 
 
@@ -52,11 +85,9 @@
 
 
 .cursive-wellcome-text h1{
-    margin: 20px;
     font-weight: 600;
-    margin-bottom: 15px;
+    margin: 40px 0 10px 0;
     font-size: 5.25rem;
-
 }
 
 .normal-text{
@@ -95,9 +126,45 @@
     overflow: hidden;
 }
 
-.efeito-vidro {
+
+.glass-effect {
     backdrop-filter: blur(4px);
     -webkit-backdrop-filter: blur(4px);
     background-color: rgba(255, 255, 255, 0.1);
 }
 
+.description-text{
+    position: relative;
+    top: 70px;
+    max-width: 650px;
+    font-size: 19px;
+    line-height: 18px;
+}
+
+@media (max-width: 796px){
+    .normal-text h1{
+        font-size: 48px;
+        line-height: 0.9;
+        min-width: 450px;
+    }
+
+   .cursive-wellcome-text h1{
+    font-size: 3.25rem;
+   }
+
+    .description-text{
+        top: 20px;
+        font-size: 16px;
+        padding: 0 15px;
+        margin-bottom: -60px;
+        max-width: 500px;
+    }
+
+
+    .container-btn-right .btn{
+    width: 110%;
+    max-width: 350px;
+
+    }
+
+}
