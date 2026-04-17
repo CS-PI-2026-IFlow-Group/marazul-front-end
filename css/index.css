@@ -11,7 +11,7 @@
 }
 
 .experience-badge .badge-number {
-    font-size: var(--subtitle);
+    font-size: var(--paragraph);
     font-weight: bold;
     line-height: 1;
 }
@@ -105,12 +105,12 @@
 @media (max-width: 768px) {
     .experience-badge {
         right: 0.5px; 
-        padding: 0.5rem;
+        padding: 0.7rem;
         width: 7rem;
     }
     
     .experience-badge .badge-number {
-        font-size: 1.2rem;
+        font-size: 0.8rem;
     }
 
     .carousel-photo {
