@@ -27,13 +27,12 @@ body {
   gap: 20px;
 }
 
-
 .logo {
   display: flex;
   align-items: center;
   gap: 10px;
   text-decoration: none;
-  margin-left: -180px;
+  margin-left: -50px;
 }
 
 .logo img {
@@ -54,7 +53,7 @@ body {
 .nav-links {
   display: flex;
   gap: 20px;
-  flex: 1; 
+  flex: 1;
   justify-content: center;
 }
 
@@ -63,7 +62,7 @@ body {
   text-decoration: none;
   position: relative;
   padding: 5px;
-  white-space: nowrap; 
+  white-space: nowrap;
 }
 
 .nav-links a::after {
@@ -84,7 +83,7 @@ body {
 .nav-actions {
   display: flex;
   align-items: center;
-  flex-shrink: 0; 
+  flex-shrink: 0;
 }
 
 .btn-cta {
@@ -92,7 +91,6 @@ body {
   align-items: center;
   justify-content: center;
   gap: 8px;
-  margin-right: -90px;
 
   background: var(--marazul-red);
   color: var(--marazul-white);
@@ -102,6 +100,7 @@ body {
   cursor: pointer;
   justify-content: flex-end;
   font-size: 1rem;
+  margin-right: -50px;
 }
 
 .btn-cta:hover {
@@ -138,7 +137,7 @@ body {
 
 .menu-toggle span::after {
   position: absolute;
-  top: 8px;
+  top: var(--spacing-sm);
 }
 
 .menu-toggle.active span {
@@ -204,6 +203,7 @@ body {
   .btn-cta {
     display: none;
   }
+
   .logo {
     margin-left: 0;
   }
@@ -232,12 +232,10 @@ body {
 }
 
 @media (max-width: 1024px) {
-
-  .nav-content{
+  .nav-content {
     padding: 10px;
   }
-
-  .logo{
+  .logo {
     margin: 0;
   }
 
@@ -255,16 +253,16 @@ body {
 
   .nav-links {
     gap: 10px;
-    font-size: 0.80rem;
+    font-size: 0.8rem;
     justify-content: flex-start;
   }
 
   .btn-cta {
     font-size: 0.85rem;
     padding: 6px 10px;
-    gap: 4px;
+    gap: var(--spacing-xs);
     white-space: nowrap;
     margin: 0;
-
+    
   }
 }
