@@ -1,13 +1,12 @@
 .container-image-text{
     width: 100%;
-    height: 100vh;
-    overflow: hidden;
+    min-height: 100vh;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    padding-bottom: 40px;
 }
-
 
 
 .btn-location{
@@ -44,13 +43,14 @@
 
 .hero{
     position: relative;
-    width: 100vw;
-    height: 100vh;
+    width: 101vw;
+    min-height: 100vh;
     left: 50%;
     right: 50%;
     margin-top: -4vw;
     transform: translateX(-50%);
-    overflow: visible;
+    overflow-y: visible;
+    overflow-x: hidden;
 }
 
 .hero::after{
@@ -64,6 +64,12 @@
     z-index: -1;
 }
 
+.hero-wrapper-overflow{
+    width: 100%;
+    overflow-x: hidden;
+    position: relative;
+
+}
 
 .image-background{
     position: absolute;
@@ -149,14 +155,14 @@
     }
 
    .cursive-wellcome-text h1{
-    font-size: 3.25rem;
+    font-size: 4.00rem;
    }
 
     .description-text{
         top: 20px;
         font-size: 16px;
         padding: 0 15px;
-        margin-bottom: -60px;
+        margin: 0 70px -60px 70px;
         max-width: 500px;
     }
 
@@ -166,5 +172,22 @@
     max-width: 350px;
 
     }
+
+}
+
+
+@media (orientation: landscape) and (max-height: 500px){
+    .container-btn-right .btn{
+        width: auto !important;
+        padding: 10px 20px;
+        font-size: 16px;
+    }
+
+
+    .container-image-text{
+        justify-content: flex-start;
+        padding-top: 20px;
+    }
+
 
 }
