@@ -1,6 +1,4 @@
 
-
-
 .about-banner-img {
     height: 500px;
     object-fit: cover;
@@ -59,8 +57,6 @@ body {
 
 
 .horizontal-scroll-section {
-    width: 100%;
-    padding: var(--spacing-md) 0;
     background-color: var(--bg-light);
 }
 
