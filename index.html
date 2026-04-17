@@ -20,12 +20,58 @@
           <div class="row align-items-center gy-5 gx-lg-5">
             <div class="col-lg-6">
               <div class="position-relative d-inline-block w-100">
-                <img
-                  src="assets/images/bus5.jpeg"
-                  alt="Imagem de um ônibus com a logo da MarAzul"
-                  class="img-fluid w-100 object-fit-cover about-img"
-                />
+                <div id="aboutCarousel" class="carousel slide carousel-fade">
+                  <div class="carousel-indicators">
+                    <button
+                      type="button"
+                      data-bs-target="#aboutCarousel"
+                      data-bs-slide-to="0"
+                      class="active"
+                      aria-current="true"
+                      aria-label="Ônibus Marazul imagem 1"
+                    ></button>
+                    <button
+                      type="button"
+                      data-bs-target="#aboutCarousel"
+                      data-bs-slide-to="1"
+                      aria-label="Ônibus Marazul imagem 2"
+                    ></button>
+                    <button
+                      type="button"
+                      data-bs-target="#aboutCarousel"
+                      data-bs-slide-to="2"
+                      aria-label="Ônibus Marazul imagem 3"
+                    ></button>
+                  </div>
 
+                  <div class="carousel-inner about-img">
+                    <div class="carousel-item active">
+                      <img
+                        src="assets/images/bus5.jpeg"
+                        class="d-block w-100 object-fit-cover carousel-photo"
+                        alt="Ônibus Marazul"
+                      />
+                    </div>
+
+                    <div class="carousel-item">
+                      <img
+                        src="assets/images/bus5.jpeg"
+                        class="d-block w-100 object-fit-cover carousel-photo"
+                        alt="Foto 2"
+                        style="filter: grayscale(100%)"
+                      />
+                    </div>
+
+                    <div class="carousel-item">
+                      <img
+                        src="assets/images/bus5.jpeg"
+                        class="d-block w-100 object-fit-cover carousel-photo"
+                        alt="Foto 3"
+                        style="filter: brightness(70%)"
+                      />
+                    </div>
+                  </div>
+                </div>
                 <div
                   class="experience-badge position-absolute text-center shadow"
                 >
