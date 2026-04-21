@@ -1,5 +1,5 @@
 :root {
-  --marazul-blue-dark: #002855;
+  --marazul-blue-dark: #002d5f;
   --marazul-blue-royal: #0056b3;
   --marazul-red: #e31e24;
   --marazul-white: #ffffff;
@@ -31,4 +31,6 @@
 body {
   font-family: "Roboto", sans-serif;
   line-height: 1.5;
+  margin: 0;
+  padding: 0;
 }

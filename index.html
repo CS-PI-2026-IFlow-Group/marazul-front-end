@@ -4,15 +4,194 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Marazul</title>
-      <link href="/assets/bootstrap-5.3.8-dist/css/bootstrap.min.css" rel="stylesheet">
-      <link rel="stylesheet" href="./css/main.css" />
+    <link
+      href="/assets/bootstrap-5.3.8-dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./css/main.css" />
   </head>
 
   <body>
     <header></header>
     <main>
       <section class="hero"></section>
-      <section class="about"></section>
+      <section class="about py-5">
+        <div class="container py-lg-4">
+          <div class="row align-items-center gy-5 gx-lg-5">
+            <div class="col-lg-6">
+              <div class="position-relative d-inline-block w-100">
+                <div id="aboutCarousel" class="carousel slide carousel-fade">
+                  <div class="carousel-indicators">
+                    <button
+                      type="button"
+                      data-bs-target="#aboutCarousel"
+                      data-bs-slide-to="0"
+                      class="active"
+                      aria-current="true"
+                      aria-label="Ir para a primeira foto"
+                    ></button>
+                    <button
+                      type="button"
+                      data-bs-target="#aboutCarousel"
+                      data-bs-slide-to="1"
+                      aria-label="Ir para a segunda foto"
+                    ></button>
+                    <button
+                      type="button"
+                      data-bs-target="#aboutCarousel"
+                      data-bs-slide-to="2"
+                      aria-label="Ir para a terceira foto"
+                    ></button>
+                    <button
+                      type="button"
+                      data-bs-target="#aboutCarousel"
+                      data-bs-slide-to="3"
+                      aria-label="Ir para a quarta foto"
+                    ></button>
+                  </div>
+
+                  <div class="carousel-inner about-img">
+                    <div class="carousel-item active">
+                      <img
+                        src="assets/images/bus5.jpeg"
+                        class="d-block w-100 object-fit-cover carousel-photo"
+                        data-i18n="img.bus5"
+                        alt="Ônibus da Marazul na estrada de lado"
+                      />
+                    </div>
+
+                    <div class="carousel-item">
+                      <img
+                        src="assets/images/bus_inside.jpg"
+                        class="d-block w-100 object-fit-cover carousel-photo"
+                        data-i18n="img.bus-inside"
+                        alt="Foto do interno do ônibus com assentos"
+                      />
+                    </div>
+
+                    <div class="carousel-item">
+                      <img
+                        src="assets/images/our_fleet.jpg"
+                        class="d-block w-100 object-fit-cover carousel-photo"
+                        data-i18n="img.our-fleet"
+                        alt="Foto dos ônibus da Marazul alinhados lado a lado"
+                      />
+                    </div>
+
+                    <div class="carousel-item">
+                      <img
+                        src="assets/images/bus_sunset.jpg"
+                        class="d-block w-100 object-fit-cover carousel-photo"
+                        data-i18n="img.bus-sunset"
+                        alt="Foto do ônibus na estrada ao pôr do sol"
+                      />
+                    </div>
+                  </div>
+                </div>
+                <div
+                  class="experience-badge position-absolute text-center shadow"
+                >
+                  <span class="badge-number d-block" data-i18n="badge-number">Desde 1956</span>
+                  <span class="badge-text fw-bold" data-i18n="badge-text"
+                    >no mercado</span
+                  >
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-6">
+              <h2 class="about-title text-uppercase" data-i18n="about-title">
+                Sobre Nós
+              </h2>
+              <span
+                class="subtitle-red fw-bold mb-4"
+                data-i18n="about-subtitle"
+              >
+                Sua viagem dos sonhos começa aqui
+              </span>
+
+              <p class="about-desc fs-5 mt-3 mb-4" data-i18n="about-desc">
+                Com 70 anos de tradição, a Marazul Turismo conecta destinos e
+                realiza sonhos com segurança e conforto. Nossa história de
+                sucesso é fruto de dedicação da nossa equipe e da confiança
+                contínua de nossos clientes e parceiros. Seguimos rumo ao futuro
+                com o compromisso de inovar e oferecer excelência em cada
+                viagem.
+              </p>
+              <div class="row g-3 mb-4">
+                <div class="col-sm-6">
+                  <div class="stat-card d-flex p-3 rounded-3">
+                    <div
+                      class="stat-icon flex-shrink-0 me-3 rounded-3 d-flex align-items-center justify-content-center"
+                    >
+                      <img
+                        src="assets/icons/users.svg"
+                        data-i18n="img.users"
+                        alt="Ícone de clientes"
+                      />
+                    </div>
+                    <div>
+                      <strong class="stat-number d-block mb-0 fs-5"
+                        >3.500+</strong
+                      >
+                      <span class="stat-label small" data-i18n="stat-clients"
+                        >Clientes Atendidos</span
+                      >
+                    </div>
+                  </div>
+                </div>
+
+                <div class="col-sm-6">
+                  <div class="stat-card d-flex p-3 rounded-3">
+                    <div
+                      class="stat-icon flex-shrink-0 me-3 rounded-3 d-flex align-items-center justify-content-center"
+                    >
+                      <img
+                        src="assets/icons/award.svg"
+                        data-i18n="img.award"
+                        alt="Ícone de medalha"
+                      />
+                    </div>
+                    <div>
+                      <strong class="stat-number d-block mb-0 fs-5">70+</strong>
+                      <span class="stat-label small" data-i18n="stat-experience"
+                        >Anos de Experiência</span
+                      >
+                    </div>
+                  </div>
+                </div>
+                <div class="col-sm-12">
+                  <div class="stat-card d-flex p-3 rounded-3">
+                    <div
+                      class="stat-icon flex-shrink-0 me-3 rounded-3 d-flex align-items-center justify-content-center"
+                    >
+                      <img
+                        src="assets/icons/bus-front.svg"
+                        data-i18n="img.bus-front"
+                        alt="Ícone de ônibus"
+                      />
+                    </div>
+                    <div>
+                      <strong class="stat-number d-block mb-0 fs-5"
+                        >2.000+</strong
+                      >
+                      <span class="stat-label small" data-i18n="stat-trips"
+                        >Viagens Realizadas</span
+                      >
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <a
+                href="pages/about.html"
+                class="btn-read-more d-inline-block"
+                data-i18n="btn-about-us"
+                aria-label="Botão conhecer nossa história"
+                >Conheça nossa história</a
+              >
+            </div>
+          </div>
+        </div>
+      </section>
       <section class="fleet"></section>
       <section class="travel-tips"></section>
       <section class="feedbacks"></section>
