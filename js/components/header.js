@@ -1,8 +1,6 @@
 export async function loadHeader() {
   try {
-    const path = window.location.pathname.includes("/pages/")
-      ? "../components/header.html"
-      : "./components/header.html";
+    const path = "/components/header.html";
 
     const response = await fetch(path);
     const data = await response.text();
