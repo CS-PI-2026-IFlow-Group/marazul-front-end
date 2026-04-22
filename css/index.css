@@ -1,136 +1,132 @@
-.container-image-text{
-    width: 100%;
-    min-height: 100vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    padding-bottom: 40px;
+.container-image-text {
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding-bottom: 40px;
 }
 
-
-.btn-location{
-    padding: 6px 13px 5px 16px;
-    border-radius: 50px;
-    color: #f8f9fa;
-    border: 1px solid #f8f9fa;
-    text-decoration: none;
-    cursor: default;
+.btn-location {
+  padding: 6px 13px 5px 16px;
+  border-radius: 50px;
+  color: #f8f9fa;
+  border: 1px solid #f8f9fa;
+  text-decoration: none;
+  cursor: default;
 }
 
-.btn-icon{
-    width: 18px;
-    margin-left: 5px;
-    height: 20px;
-    filter: invert(1);
+.btn-icon {
+  width: 18px;
+  margin-left: 5px;
+  height: 20px;
+  filter: invert(1);
 }
 
-.btn-location:hover{
-    background: rgba(248, 249, 250, 0.2);
+.btn-location:hover {
+  background: rgba(248, 249, 250, 0.2);
 }
 
-.hover-transparent:hover{
- background: rgba(248, 249, 250, 0.2);
- color: #f8f9fa;
+.hover-transparent:hover {
+  background: rgba(248, 249, 250, 0.2);
+  color: #f8f9fa;
 }
 
-.wellcome-page-wrapper{
-    position: relative;
-    margin:0 auto;
-    display: flex;
-    justify-content: space-between;
+.wellcome-page-wrapper {
+  position: relative;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
 }
 
-
-.hero{
-    position: relative;
-    width: 101vw;
-    min-height: 100vh;
-    left: 50%;
-    right: 50%;
-    margin-top: -4vw;
-    transform: translateX(-50%);
-    overflow-y: visible;
-    overflow-x: hidden;
+.hero {
+  position: relative;
+  width: 101vw;
+  min-height: 100vh;
+  left: 50%;
+  right: 50%;
+  margin-top: -4vw;
+  transform: translateX(-50%);
+  overflow-y: visible;
+  overflow-x: hidden;
 }
 
-.hero::after{
-    content: "";
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background-color: rgba(5, 30, 60, 0.65);
-    z-index: -1;
+.hero::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(5, 30, 60, 0.65);
+  z-index: -1;
 }
 
-.hero-wrapper-overflow{
-    width: 100%;
-    overflow-x: hidden;
-    position: relative;
-
+.hero-wrapper-overflow {
+  width: 100%;
+  overflow-x: hidden;
+  position: relative;
 }
 
-.image-background{
-    position: absolute;
-    top: 0;
-    left: 0;
-    width:100%;
-    height: 100%;
-    object-fit: cover;
-    z-index: -1;
+.image-background {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  z-index: -1;
 }
 
-.text-content-wellcome{
-    color: var(--marazul-white);
-    text-shadow: 0px 0px 1px var(--marazul-blue-dark);
-    margin: 73px;
-    text-align: center;
-    line-height: 0.7;
-    }
-
-
-.cursive-wellcome-text h1{
-    font-weight: 600;
-    margin: 40px 0 10px 0;
-    font-size: 5.25rem;
+.text-content-wellcome {
+  color: var(--marazul-white);
+  text-shadow: 0px 0px 1px var(--marazul-blue-dark);
+  margin: 73px;
+  text-align: center;
+  line-height: 0.7;
 }
 
-.normal-letters{
-    font-weight: bold;
-    letter-spacing: 0px;
-    font-size: 60px;
+.cursive-wellcome-text h1 {
+  font-weight: 600;
+  margin: 40px 0 10px 0;
+  font-size: 5.25rem;
 }
 
-.normal-letters h1{
-    margin: 0px;
-    line-height: 2px;
-    font-size: 3.25rem;
-    color: var(--marazul-red);
-    font-family: Playfair Display, serif;
-    font-size: 5.25rem;
-
+.normal-letters {
+  font-weight: bold;
+  letter-spacing: 0px;
+  font-size: 60px;
 }
 
-.cursive-wellcome-text{
-    font-family: 'Mrs Saint Delafield', cursive !important;
-    font-size: 40px;
+.normal-letters h1 {
+  margin: 0px;
+  line-height: 2px;
+  font-size: 3.25rem;
+  color: var(--marazul-red);
+  font-family:
+    Playfair Display,
+    serif;
+  font-size: 5.25rem;
 }
 
+.cursive-wellcome-text {
+  font-family: "Mrs Saint Delafield", cursive !important;
+  font-size: 40px;
+}
 
-.container-btn-right btn-budget a{
-    background-color: var(--marazul-red);
-    padding: 30px 40px 30px 30px;
-    font-size: 18px;
-    margin-right: 70px;
-    border-width: 0px !important;
-    cursor: pointer;
-    color: var(--marazul-white);
-    text-decoration: none;
-    display: inline-block;
-    position: relative;
-    overflow: hidden;
+.container-btn-right btn-budget a {
+  background-color: var(--marazul-red);
+  padding: 30px 40px 30px 30px;
+  font-size: 18px;
+  margin-right: 70px;
+  border-width: 0px !important;
+  cursor: pointer;
+  color: var(--marazul-white);
+  text-decoration: none;
+  display: inline-block;
+  position: relative;
+  overflow: hidden;
 }
 
 #btn-fleet {
@@ -138,60 +134,53 @@
 }
 
 .glass-effect {
-    backdrop-filter: blur(4px);
-    -webkit-backdrop-filter: blur(4px);
-    background-color: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(4px);
+  -webkit-backdrop-filter: blur(4px);
+  background-color: rgba(255, 255, 255, 0.1);
 }
 
-.description{
-    position: relative;
-    top: 70px;
-    max-width: 650px;
-    font-size: 19px;
-    line-height: 18px;
+.description {
+  position: relative;
+  top: 70px;
+  max-width: 650px;
+  font-size: 19px;
+  line-height: 18px;
 }
 
-@media (max-width: 796px){
-    .normal-letters h1{
-        font-size: 48px;
-        line-height: 0.9;
-        min-width: 450px;
-    }
+@media (max-width: 796px) {
+  .normal-letters h1 {
+    font-size: 48px;
+    line-height: 0.9;
+    min-width: 450px;
+  }
 
-   .cursive-wellcome-text h1{
-    font-size: 3.00rem;
-   }
+  .cursive-wellcome-text h1 {
+    font-size: 3rem;
+  }
 
-    .description{
-        top: 20px;
-        font-size: 16px;
-        padding: 0 15px;
-        margin: 0 70px -60px 70px;
-        max-width: 500px;
-    }
+  .description {
+    top: 20px;
+    font-size: 16px;
+    padding: 0 15px;
+    margin: 0 70px -60px 70px;
+    max-width: 500px;
+  }
 
-
-    .container-btn-right .btn{
+  .container-btn-right .btn {
     width: 110%;
     max-width: 350px;
-
-    }
-
+  }
 }
 
+@media (orientation: landscape) and (max-height: 500px) {
+  .container-btn-right .btn {
+    width: auto !important;
+    padding: 10px 20px;
+    font-size: 16px;
+  }
 
-@media (orientation: landscape) and (max-height: 500px){
-    .container-btn-right .btn{
-        width: auto !important;
-        padding: 10px 20px;
-        font-size: 16px;
-    }
-
-
-    .container-image-text{
-        justify-content: flex-start;
-        padding-top: 20px;
-    }
-
-
+  .container-image-text {
+    justify-content: flex-start;
+    padding-top: 20px;
+  }
 }
