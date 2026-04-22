@@ -118,7 +118,6 @@ body {
   padding: 6px;
   background: transparent;
   border: none;
-
 }
 
 .menu-toggle span,
@@ -159,9 +158,11 @@ body {
 
 .mobile-menu {
   display: none;
-  flex-direction: column;
+  flex-direction:column;
   background: var(--marazul-blue-dark);
   padding: 20px;
+  border-top: 1px solid var(--text-muted);
+  width: 100%;
 }
 
 .mobile-menu a {
@@ -193,7 +194,7 @@ body {
   }
 }
 
-@media (max-width: 767px) {
+@media (max-width: 768px) {
   .nav-links {
     display: none;
   }
@@ -203,7 +204,7 @@ body {
   }
 
   .btn-cta {
-    display: none;
+    display: none !important;
   }
 
   .logo {
@@ -265,6 +266,5 @@ body {
     gap: var(--spacing-xs);
     white-space: nowrap;
     margin: 0;
-    
   }
 }
