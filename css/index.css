@@ -1,3 +1,73 @@
+.experience-badge {
+    position: absolute;
+    bottom: -20px;
+    right: -20px;
+    background-color: var(--marazul-red);
+    color: var(--marazul-white);
+    padding: 1.5rem;
+    border-radius: var(--radius-m);
+    box-shadow: 0 4px 15px rgba(211, 30, 30, 0.4);
+    z-index: 5;
+}
+
+.experience-badge .badge-number {
+    font-size: var(--paragraph);
+    font-weight: bold;
+    line-height: 1;
+}
+
+.experience-badge .badge-text {
+    font-size: var(--btn-text);
+}
+
+.carousel-photo {
+    height: 450px;
+}
+
+.about-img {
+    border-radius: var(--radius-m);
+    box-shadow: var(--shadow-soft);
+}
+
+.about-content {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    min-width: 300px;
+}
+
+.about-title {
+    margin: 0;
+}
+
+.subtitle-red {
+    color: var(--marazul-red);
+    text-transform: uppercase;
+    font-size: 0.9rem;
+    letter-spacing: 1px;
+}
+
+.stat-card {
+    background-color: var(--bg-light);
+    border-radius: var(--radius-m);
+}
+
+.stat-item {
+    background-color: var(--bg-light);
+    padding: 1.5rem;
+    border-radius: var(--radius-m);
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.stat-icon {
+    background-color: var(--marazul-blue-dark);
+    color: var(--marazul-white);
+    width: 48px;
+    height: 48px;
+}
 .container-image-text {
   width: 100%;
   min-height: 100vh;
@@ -183,4 +253,53 @@
     justify-content: flex-start;
     padding-top: 20px;
   }
+}
+
+.stat-icon img {
+    width: 24px;
+    filter: brightness(0) invert(1);
+}
+
+.stat-number {
+    color: var(--marazul-blue-dark);
+}
+
+.stat-label {
+    color: var(--text-muted);
+}
+
+.stat-text {
+    display: flex;
+    flex-direction: column;
+}
+
+.btn-read-more {
+    background-color: var(--marazul-blue-dark);
+    color: var(--marazul-white);
+    text-decoration: none;
+    padding: 12px 30px;
+    border-radius: var(--radius-p);
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+    margin-top: 1rem;
+}
+
+.btn-read-more:hover {
+    background-color: var(--hover-blue);
+}
+
+@media (max-width: 768px) {
+    .experience-badge {
+        right: 0.5px;
+        padding: 0.7rem;
+        width: 7rem;
+    }
+
+    .experience-badge .badge-number {
+        font-size: 0.8rem;
+    }
+
+    .carousel-photo {
+        height: 300px;
+    }
 }
