@@ -1,0 +1,270 @@
+body {
+  margin: 0;
+}
+
+.header {
+  position: fixed;
+  width: 100%;
+  z-index: 1000;
+  top: 0;
+}
+
+.navbar {
+  background: var(--marazul-blue-dark);
+  transition: 0.3s;
+}
+
+.navbar.scrolled {
+  backdrop-filter: blur(10px);
+  background: var(--marazul-blue-dark);
+  box-shadow: var(--shadow-soft);
+}
+
+.nav-content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 20px;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  text-decoration: none;
+  margin-left: -50px;
+}
+
+.logo img {
+  height: 100px;
+}
+
+.brand-strong {
+  color: var(--marazul-white);
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+
+.brand-light {
+  color: var(--bg-light);
+  font-size: 1.3rem;
+}
+
+.nav-links {
+  display: flex;
+  gap: 20px;
+  flex: 1;
+  justify-content: center;
+}
+
+.nav-links a {
+  color: var(--marazul-white);
+  text-decoration: none;
+  position: relative;
+  padding: 5px;
+  white-space: nowrap;
+}
+
+.nav-links a::after {
+  content: "";
+  position: absolute;
+  bottom: -3px;
+  left: 0;
+  width: 0;
+  height: 2px;
+  background: var(--marazul-red);
+  transition: 0.3s;
+}
+
+.nav-links a:hover::after {
+  width: 100%;
+}
+
+.nav-actions {
+  display: flex;
+  align-items: center;
+  flex-shrink: 0;
+}
+
+.btn-cta {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+
+  background: var(--marazul-red);
+  color: var(--marazul-white);
+  border: none;
+  padding: 8px 14px;
+  border-radius: var(--radius-m);
+  cursor: pointer;
+  justify-content: flex-end;
+  font-size: 1rem;
+  margin-right: -50px;
+}
+
+.btn-cta:hover {
+  background: var(--hover-red);
+}
+
+.btn-cta:hover .icon-arrow {
+  transform: translateX(4px);
+}
+
+.menu-toggle {
+  display: none;
+  flex-direction: column;
+  cursor: pointer;
+  padding: 6px;
+  background: transparent;
+  border: none;
+}
+
+.menu-toggle span,
+.menu-toggle span::before,
+.menu-toggle span::after {
+  content: "";
+  display: block;
+  width: 25px;
+  height: 3px;
+  background: var(--marazul-white);
+  position: relative;
+  transition: 0.3s;
+}
+
+.menu-toggle span::before {
+  position: absolute;
+  top: -8px;
+}
+
+.menu-toggle span::after {
+  position: absolute;
+  top: var(--spacing-sm);
+}
+
+.menu-toggle.active span {
+  background: transparent;
+}
+
+.menu-toggle.active span::before {
+  transform: rotate(45deg);
+  top: 0;
+}
+
+.menu-toggle.active span::after {
+  transform: rotate(-45deg);
+  top: 0;
+}
+
+.mobile-menu {
+  display: none;
+  flex-direction:column;
+  background: var(--marazul-blue-dark);
+  padding: 20px;
+  border-top: 1px solid var(--text-muted);
+  width: 100%;
+}
+
+.mobile-menu a {
+  padding: 10px;
+  color: var(--marazul-white);
+  text-decoration: none;
+}
+
+.mobile-menu a:hover {
+  background: var(--text-muted);
+}
+
+.mobile-menu .btn-cta-full {
+  background: var(--marazul-red);
+  color: var(--marazul-white);
+  border: none;
+  padding: 10px;
+  border-radius: var(--radius-m);
+  margin-top: 15px;
+}
+
+.mobile-menu.active {
+  display: flex;
+}
+
+@media (max-width: 540px) and (min-width: 344px) {
+  .btn-cta {
+    display: none !important;
+  }
+}
+
+@media (max-width: 912px) and (min-width: 768px) {
+  .nav-links {
+    display: none;
+  }
+
+  .menu-toggle {
+    display: flex;
+  }
+
+  .btn-cta {
+    display: none !important;
+  }
+
+  .logo {
+    margin-left: 0;
+  }
+
+  .logo img {
+    height: 50px;
+  }
+}
+
+@media (max-width: 992px) {
+  .nav-links {
+    display: none;
+  }
+
+  .menu-toggle {
+    display: flex;
+  }
+
+  .btn-cta {
+    display: flex;
+  }
+
+  .logo {
+    margin-left: 0;
+  }
+}
+
+@media (max-width: 1024px) {
+  .nav-content {
+    padding: 10px;
+  }
+  .logo {
+    margin: 0;
+  }
+
+  .logo img {
+    height: 60px;
+  }
+
+  .brand-strong {
+    font-size: 1rem;
+  }
+
+  .brand-light {
+    font-size: 0.9rem;
+  }
+
+  .nav-links {
+    gap: 10px;
+    font-size: 0.8rem;
+    justify-content: flex-start;
+  }
+
+  .btn-cta {
+    font-size: 0.85rem;
+    padding: 6px 10px;
+    gap: var(--spacing-xs);
+    white-space: nowrap;
+    margin: 0;
+  }
+}
