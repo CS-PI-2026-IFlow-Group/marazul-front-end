@@ -1,0 +1,305 @@
+.experience-badge {
+    position: absolute;
+    bottom: -20px;
+    right: -20px;
+    background-color: var(--marazul-red);
+    color: var(--marazul-white);
+    padding: 1.5rem;
+    border-radius: var(--radius-m);
+    box-shadow: 0 4px 15px rgba(211, 30, 30, 0.4);
+    z-index: 5;
+}
+
+.experience-badge .badge-number {
+    font-size: var(--paragraph);
+    font-weight: bold;
+    line-height: 1;
+}
+
+.experience-badge .badge-text {
+    font-size: var(--btn-text);
+}
+
+.carousel-photo {
+    height: 450px;
+}
+
+.about-img {
+    border-radius: var(--radius-m);
+    box-shadow: var(--shadow-soft);
+}
+
+.about-content {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    min-width: 300px;
+}
+
+.about-title {
+    margin: 0;
+}
+
+.subtitle-red {
+    color: var(--marazul-red);
+    text-transform: uppercase;
+    font-size: 0.9rem;
+    letter-spacing: 1px;
+}
+
+.stat-card {
+    background-color: var(--bg-light);
+    border-radius: var(--radius-m);
+}
+
+.stat-item {
+    background-color: var(--bg-light);
+    padding: 1.5rem;
+    border-radius: var(--radius-m);
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.stat-icon {
+    background-color: var(--marazul-blue-dark);
+    color: var(--marazul-white);
+    width: 48px;
+    height: 48px;
+}
+.container-image-text {
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding-bottom: 40px;
+}
+
+.btn-location {
+  padding: 6px 13px 5px 16px;
+  border-radius: 50px;
+  color: #f8f9fa;
+  border: 1px solid #f8f9fa;
+  text-decoration: none;
+  cursor: default;
+}
+
+.btn-icon {
+  width: 18px;
+  margin-left: 5px;
+  height: 20px;
+  filter: invert(1);
+}
+
+.btn-location:hover {
+  background: rgba(248, 249, 250, 0.2);
+}
+
+.hover-transparent:hover {
+  background: rgba(248, 249, 250, 0.2);
+  color: #f8f9fa;
+}
+
+.wellcome-page-wrapper {
+  position: relative;
+  margin: 40px auto;
+  display: flex;
+  justify-content: space-between;
+}
+
+.hero {
+  position: relative;
+  width: 101vw;
+  min-height: 100vh;
+  left: 50%;
+  right: 50%;
+  margin-top: -4vw;
+  transform: translateX(-50%);
+  overflow-y: visible;
+  overflow-x: hidden;
+}
+
+.hero::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(5, 30, 60, 0.65);
+  z-index: -1;
+}
+
+.hero-wrapper-overflow {
+  width: 100%;
+  overflow-x: hidden;
+  position: relative;
+}
+
+.image-background {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  z-index: -1;
+}
+
+.text-content-wellcome {
+  color: var(--marazul-white);
+  text-shadow: 0px 0px 1px var(--marazul-blue-dark);
+  margin: 73px;
+  text-align: center;
+  line-height: 0.7;
+}
+
+.cursive-wellcome-text h1 {
+  font-weight: 600;
+  margin: 40px 0 10px 0;
+  font-size: 5.25rem;
+}
+
+.normal-letters {
+  font-weight: bold;
+  letter-spacing: 0px;
+  font-size: 60px;
+}
+
+.normal-letters h1 {
+  margin: 0px;
+  line-height: 2px;
+  font-size: 3.25rem;
+  color: var(--marazul-red);
+  font-family:
+    Playfair Display,
+    serif;
+  font-size: 5.25rem;
+}
+
+.cursive-wellcome-text {
+  font-family: "Mrs Saint Delafield", cursive !important;
+  font-size: 40px;
+}
+
+.container-btn-right btn-budget a {
+  background-color: var(--marazul-red);
+  padding: 30px 40px 30px 30px;
+  font-size: 18px;
+  margin-right: 70px;
+  border-width: 0px !important;
+  cursor: pointer;
+  color: var(--marazul-white);
+  text-decoration: none;
+  display: inline-block;
+  position: relative;
+  overflow: hidden;
+}
+
+#btn-fleet {
+  scroll-behavior: smooth;
+}
+
+.glass-effect {
+  backdrop-filter: blur(4px);
+  -webkit-backdrop-filter: blur(4px);
+  background-color: rgba(255, 255, 255, 0.1);
+}
+
+.description {
+  position: relative;
+  top: 70px;
+  max-width: 650px;
+  font-size: 19px;
+  line-height: 18px;
+}
+
+@media (max-width: 796px) {
+  .normal-letters h1 {
+    font-size: 48px;
+    line-height: 0.9;
+    min-width: 450px;
+  }
+
+  .cursive-wellcome-text h1 {
+    font-size: 3rem;
+  }
+
+  .description {
+    top: 20px;
+    font-size: 16px;
+    padding: 0 15px;
+    margin: 0 70px -60px 70px;
+    max-width: 500px;
+  }
+
+  .container-btn-right .btn {
+    width: 110%;
+    max-width: 350px;
+  }
+}
+
+@media (orientation: landscape) and (max-height: 500px) {
+  .container-btn-right .btn {
+    width: auto !important;
+    padding: 10px 20px;
+    font-size: 16px;
+  }
+
+  .container-image-text {
+    justify-content: flex-start;
+    padding-top: 20px;
+  }
+}
+
+.stat-icon img {
+    width: 24px;
+    filter: brightness(0) invert(1);
+}
+
+.stat-number {
+    color: var(--marazul-blue-dark);
+}
+
+.stat-label {
+    color: var(--text-muted);
+}
+
+.stat-text {
+    display: flex;
+    flex-direction: column;
+}
+
+.btn-read-more {
+    background-color: var(--marazul-blue-dark);
+    color: var(--marazul-white);
+    text-decoration: none;
+    padding: 12px 30px;
+    border-radius: var(--radius-p);
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+    margin-top: 1rem;
+}
+
+.btn-read-more:hover {
+    background-color: var(--hover-blue);
+}
+
+@media (max-width: 768px) {
+    .experience-badge {
+        right: 0.5px;
+        padding: 0.7rem;
+        width: 7rem;
+    }
+
+    .experience-badge .badge-number {
+        font-size: 0.8rem;
+    }
+
+    .carousel-photo {
+        height: 300px;
+    }
+}
