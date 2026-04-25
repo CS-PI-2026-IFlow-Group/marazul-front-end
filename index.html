@@ -160,7 +160,9 @@
                 <div
                   class="experience-badge position-absolute text-center shadow"
                 >
-                  <span class="badge-number d-block" data-i18n="badge-number">Desde 1956</span>
+                  <span class="badge-number d-block" data-i18n="badge-number"
+                    >Desde 1956</span
+                  >
                   <span class="badge-text fw-bold" data-i18n="badge-text"
                     >no mercado</span
                   >
@@ -267,7 +269,115 @@
       <section class="contact"></section>
       <section class="useful-links"></section>
     </main>
-    <footer></footer>
+    <footer class="footer text-white">
+      <div class="container py-5">
+        <div
+          class="d-flex flex-column flex-lg-row justify-content-between gap-4 mb-4"
+        >
+          <div>
+            <h5 class="fw-bold mb-2">
+              <span>Marazul</span> <span class="fw-light">Turismo</span>
+            </h5>
+
+            <p class="small text-white-50" data-i18n="global.footer-desc">
+              Com sete décadas de tradição, a Marazul garante viagens seguras e
+              confortáveis para você apenas relaxar e aproveitar o trajeto.
+            </p>
+          </div>
+
+          <div>
+            <button class="btn btn-outline-light btn-sm" id="langToggle">
+              PT / ES
+            </button>
+          </div>
+        </div>
+
+        <div class="row text-white-50 small gy-4">
+          <div class="col-6 col-md-4 col-lg-2">
+            <strong data-i18n="global.footer-horario">Horário</strong><br />
+            <span data-i18n="global.footer-horario-desc"
+              >Horário de funcionamento</span
+            >
+          </div>
+
+          <div class="col-6 col-md-4 col-lg-2">
+            <strong data-i18n="global.footer-email">E-mail</strong><br />
+            <span>contato@marazul.com</span>
+          </div>
+
+          <div class="col-6 col-md-4 col-lg-2">
+            <strong data-i18n="global.footer-telefone">Telefone</strong><br />
+            <span>(00) 00000-0000</span>
+          </div>
+
+          <div class="col-6 col-md-6 col-lg-3">
+            <strong data-i18n="global.footer-endereco">Endereço</strong><br />
+            <span data-i18n="global.footer-endereco-desc"
+              >Endereço da empresa</span
+            >
+          </div>
+
+          <div class="col-6 col-md-6 col-lg-3">
+            <strong>Instagram</strong><br />
+            <a href="#" class="footer-link">insta da empresa</a>
+          </div>
+        </div>
+
+        <div class="mt-5">
+          <div class="row text-white-50 small">
+            <div class="col-6 col-md-3">
+              <a
+                href="/index.html"
+                class="footer-link"
+                data-i18n="global.nav-inicio"
+                >Início</a
+              >
+            </div>
+
+            <div class="col-6 col-md-3">
+              <a
+                href="/pages/about.html"
+                class="footer-link"
+                data-i18n="global.nav-sobre"
+                >Sobre Nós</a
+              >
+            </div>
+
+            <div class="col-6 col-md-3">
+              <a
+                href="/pages/fleet.html"
+                class="footer-link"
+                data-i18n="global.nav-frota"
+                >Frota</a
+              >
+            </div>
+
+            <div class="col-6 col-md-3">
+              <a
+                href="/index.html#feedbacks"
+                class="footer-link"
+                data-i18n="global.nav-feedbacks"
+                >Feedbacks</a
+              >
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="border-top border-secondary">
+        <div
+          class="container py-3 d-flex flex-column flex-md-row justify-content-between align-items-center text-white-50 small"
+        >
+          <span> © <span id="year"></span> Marazul Turismo </span>
+
+          <span data-i18n="global.footer-rights">
+            Todos os direitos reservados
+          </span>
+
+          <span> Administrado por IflowGroup </span>
+        </div>
+      </div>
+    </footer>
     <script src="/assets/popper2.11.8/popper.min.js"></script>
     <script src="/assets/bootstrap-5.3.8-dist/js/bootstrap.bundle.min.js"></script>
     <script type="module" src="./js/main.js"></script>

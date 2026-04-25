@@ -268,3 +268,8 @@ body {
     margin: 0;
   }
 }
+
+/* FOOTER */
+.footer {
+  background: var(--marazul-blue-dark);
+}
