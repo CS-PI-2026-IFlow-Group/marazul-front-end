@@ -1,0 +1,14 @@
+.carousel-inner .carousel-item img{
+    width: 100%;
+    height: 500px;
+    object-fit: cover;
+    object-position: center;
+}
+
+
+.carousel-outer{
+    max-width: 900px;
+    margin: 0 outo;
+    border-radius: 15px;
+    overflow: hidden;
+}
