@@ -19,8 +19,24 @@
     font-size: var(--title);
     color: var(--marazul-blue-dark);
     text-transform: uppercase;
-    letter-spacing: 2px;
+    letter-spacing: 6px;
+    position: relative;
+    display: inline-block;
+    padding-bottom: 16px;
 }
+
+.timeline-title::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 80px;
+    height: 4px;
+    background-color: var(--marazul-red);
+    border-radius: 2px;
+}
+
 .about-section-label {
     display: flex;
     align-items: center;
