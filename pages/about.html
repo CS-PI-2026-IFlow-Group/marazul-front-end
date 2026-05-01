@@ -1,4 +1,4 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="pt-BR">
   <head>
     <meta charset="UTF-8" />
@@ -11,47 +11,169 @@
     <link rel="stylesheet" href="../css/main.css" />
   </head>
   <body>
-<!--    <div id="header"></div>-->
+<div id="header"></div>
     <main>
       <section class="Infra-section">
-        <div class="carousel slide carousel-fade" id="carousel-outer" data-bs-ride="carousel">
-         <div class="carousel-indicators">
-           <!--indicadores de passagem das fotos-->
-           <button type="button" data-bs-target="#carousel-outter" data-bs-slide-to="0" class="active"></button>
-           <button type="button" data-bs-target="#carousel-outter" data-bs-slide-to="1"></button>
-           <button type="button" data-bs-target="#carousel-outter" data-bs-slide-to="2"></button>
-           <button type="button" data-bs-target="#carousel-outter" data-bs-slide-to="3"></button>
-           <button type="button" data-bs-target="#carousel-outter" data-bs-slide-to="4"></button>
-           <button type="button" data-bs-target="#carousel-outter" data-bs-slide-to="5"></button>
-
-           </div>
-          <div class="carousel-inner">
-            <div class="carousel-item active">
-              <img src="../assets/images/internal-bus-blue.jpg" class="">
-            </div>
-            <div class="carousel-item active">
-              <img src="../assets/images/internal-bus-yellow.jpg" class="">
-            </div>
-            <div class="carousel-item">
-              <img src="../assets/images/placeholder1.jpg" class="">
-            </div>
-            <div class="carousel-item">
-              <img src="../assets/images/placeholder2.jpg" class="">
-            </div>
-            <div class="carousel-item">
-              <img src="../assets/images/placeholder3.jpg" class="">
-            </div>
-            <div class="carousel-item">
-              <img src="../assets/images/placeholder4.jpg" class="">
-            </div>
-          </div>
+        <div class="container text-center mt-5">
+        <span class="fw-bold text-uppercase d-block mb-2 color-text">Nossa frota</span>
+         <h2 class="display-6 title-carousel" data-i18n="about-title">
+              Conheça a estrutura dos nossos ônibus
+              </h2>
         </div>
-        <div class="description-infra">
-          <p>Nossa frota é composta por ônibus modernos e cuidadosamente equipados para garantir uma experiência de viagem agradável do início ao fim. Cada veículo passa por manutenção preventiva rigorosa e inspeção técnica antes de cada trajeto.
+        <div class="carousel-class">
+        <div class="container py-lg-4">
+          <div class="row align-items-center gy-5 gx-lg-5">
+            <div class="col-lg-6">
+              <div class="position-relative d-inline-block w-100">
+                <div id="aboutCarousel" class="carousel slide carousel-fade">
+                  <!-- <div class="carousel-indicators">
+                    <button
+                      type="button"
+                      data-bs-target="#aboutCarousel"
+                      data-bs-slide-to="0"
+                      class="active"
+                      aria-current="true"
+                      aria-label="Ir para a primeira foto"
+                    ></button>
+                    <button
+                      type="button"
+                      data-bs-target="#aboutCarousel"
+                      data-bs-slide-to="1"
+                      aria-label="Ir para a segunda foto"
+                    ></button>
+                    <button
+                      type="button"
+                      data-bs-target="#aboutCarousel"
+                      data-bs-slide-to="2"
+                      aria-label="Ir para a terceira foto"
+                    ></button>
+                    <button
+                      type="button"
+                      data-bs-target="#aboutCarousel"
+                      data-bs-slide-to="3"
+                      aria-label="Ir para a quarta foto"
+                    ></button>
+                    <button
+                      type="button"
+                      data-bs-target="#aboutCarousel"
+                      data-bs-slide-to="4"
+                      aria-label="Ir para a quarta foto"
+                    ></button>
+                    <button
+                      type="button"
+                      data-bs-target="#aboutCarousel"
+                      data-bs-slide-to="5"
+                      aria-label="Ir para a quarta foto"
+                    ></button>
+                  </div> -->
+
+                  <div class="carousel-inner about-img">
+                    <div class="carousel-item active">
+                      <img
+                        src="../assets/images/internal-bus-blue.jpg"
+                        class="d-block w-100 object-fit-cover carousel-photo"
+                        data-i18n="img.bus5"
+                        alt="Imagem interna do Ônibus mostrando amplo espaço interno"
+                      />
+                       <div class="carousel-caption d-none d-md-block text-start">
+                        <h5 class="fw-bold">Interior e Poltronas</h5>
+                      </div>
+                    </div>
+
+                    <div class="carousel-item">
+                      <img
+                        src="../assets/images/internal-bus-yellow.jpg"
+                        class="d-block w-100 object-fit-cover carousel-photo"
+                        data-i18n="img.bus-inside"
+                        alt="Foto do interno do ônibus com assentos"
+                      />
+                       <div class="carousel-caption d-none d-md-block text-start">
+                        <h5 class="fw-bold">Interior e Poltronas</h5>
+                      </div>
+                    </div>
+
+                    <div class="carousel-item">
+                      <img
+                        src="../assets/images/placeholder1.jpg"
+                        class="d-block w-100 object-fit-cover carousel-photo"
+                        data-i18n="img.our-fleet"
+                        alt="Foto dos ônibus da Marazul alinhados lado a lado"
+                      />
+                       <div class="carousel-caption d-none d-md-block text-start">
+                        <h5 class="fw-bold">Interior e Poltronas</h5>
+                      </div>
+                    </div>
+
+                    <div class="carousel-item">
+                      <img
+                        src="../assets/images/placeholder2.jpg"
+                        class="d-block w-100 object-fit-cover carousel-photo"
+                        data-i18n="img.bus-sunset"
+                        alt="Foto do ônibus na estrada ao pôr do sol"
+                      />
+                       <div class="carousel-caption d-none d-md-block text-start">
+                        <h5 class="fw-bold">Interior e Poltronas</h5>
+                      </div>
+                    </div>
+
+                     <div class="carousel-item">
+                      <img
+                        src="../assets/images/placeholder3.jpg"
+                        class="d-block w-100 object-fit-cover carousel-photo"
+                        data-i18n="img.bus-sunset"
+                        alt="Foto do ônibus na estrada ao pôr do sol"
+                      />
+                      <div class="carousel-caption d-none d-md-block text-start">
+                        <h5 class="fw-bold">Interior e Poltronas</h5>
+                      </div>
+                    </div>
+
+                     <div class="carousel-item">
+                      <img
+                        src="../assets/images/placeholder4.jpg"
+                        class="d-block w-100 object-fit-cover carousel-photo"
+                        data-i18n="img.bus-sunset"
+                        alt="Foto do ônibus na estrada ao pôr do sol"
+                      />
+                       <div class="carousel-caption d-none d-md-block text-start">
+                        <h5 class="fw-bold">Interior e Poltronas</h5>
+                      </div>
+                    </div>
+                  </div>
+                    <button class="carousel-control-prev custom-nav btn-border" type="button" data-bs-target="#aboutCarousel" data-bs-slide="prev">
+                      <img src="../assets/icons/arrow-left.svg" alt="Anterior" class="nav-icon">
+                    </button>
+                    <button class="carousel-control-next custom-nav btn-border" type="button" data-bs-target="#aboutCarousel" data-bs-slide="next">
+                      <img src="../assets/icons/arrow-right.svg" alt="Próximo" class="nav-icon">
+                    </button>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-6 margin-top">
+              <span
+                class="subtitle-red fw-bold mb-4"
+                data-i18n="about-subtitle"
+              >
+               Conforto, segurança e tecnologia em cada detalhe
+              </span>
+
+              <p class="about-desc fs-5 mt-3 mb-4" data-i18n="about-desc">
+                Nossa frota é composta por ônibus modernos e cuidadosamente equipados para garantir uma experiência de viagem agradável do início ao fim. Cada veículo passa por manutenção preventiva rigorosa e inspeção técnica antes de cada trajeto.<br/>
             Os passageiros contam com poltronas reclináveis e ergonômicas, ar-condicionado,
             iluminação ambiente, banheiro a bordo, cabine equipada com tecnologia de monitoramento,
             bagageiros espaçosos e Wi-Fi de alta velocidade para
-            se manterem conectados durante toda a viagem.</p>
+            se manterem conectados durante toda a viagem. <br/>
+            Tudo pensado para que você relaxe, aproveite a paisagem e chegue ao seu destino com tranquilidade.
+              </p>
+              <div class="row g-3 mb-4">
+                <div class="col-sm-6">
+                </div>
+                <div class="col-sm-12">
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
         </div>
       </section>
     </main>

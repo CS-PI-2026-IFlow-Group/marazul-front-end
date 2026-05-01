@@ -1,14 +1,36 @@
-.carousel-inner .carousel-item img{
-    width: 100%;
-    height: 500px;
-    object-fit: cover;
-    object-position: center;
+
+.color-text{
+    color: var(--marazul-red);
+    font-size: 0.85rem; 
+    letter-spacing: 1px;
 }
 
 
-.carousel-outer{
-    max-width: 900px;
-    margin: 0 outo;
-    border-radius: 15px;
-    overflow: hidden;
+.margin-top{
+    margin-top: 18px;
+}
+
+.carousel-caption{
+    left: 2%;
+    bottom: -10px;
+}
+
+.carousel-caption h5{
+    font-size: 1.05rem;
+    text-shadow: 2px 2px 4px rgb(0, 0, 0);
+}
+                 
+.title-carousel{
+    color: var(--marazul-blue-dark);
+    font-weight: 700;
+    margin: 0 0 20px 0;
+}
+
+.btn-border img{
+    background-color: var(--marazul-white);
+    border-radius: 40px;
+}
+
+.Infra-section{
+    margin: 400px 0 0 0;
 }
