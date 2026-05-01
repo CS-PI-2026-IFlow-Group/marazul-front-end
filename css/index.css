@@ -103,7 +103,7 @@
   color: #f8f9fa;
 }
 
-.wellcome-page-wrapper {
+.welcome-page-wrapper {
   position: relative;
   margin: 40px auto;
   display: flex;
@@ -149,7 +149,7 @@
   z-index: -1;
 }
 
-.text-content-wellcome {
+.text-content-welcome {
   color: var(--marazul-white);
   text-shadow: 0px 0px 1px var(--marazul-blue-dark);
   margin: 73px;
@@ -157,7 +157,7 @@
   line-height: 0.7;
 }
 
-.cursive-wellcome-text h1 {
+.cursive-welcome-text h1 {
   font-weight: 600;
   margin: 40px 0 10px 0;
   font-size: 5.25rem;
@@ -180,7 +180,7 @@
   font-size: 5.25rem;
 }
 
-.cursive-wellcome-text {
+.cursive-welcome-text {
   font-family: "Mrs Saint Delafield", cursive !important;
   font-size: 40px;
 }
@@ -224,7 +224,7 @@
     min-width: 450px;
   }
 
-  .cursive-wellcome-text h1 {
+  .cursive-welcome-text h1 {
     font-size: 3rem;
   }
 
