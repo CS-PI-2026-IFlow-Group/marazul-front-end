@@ -37,7 +37,7 @@
 .about-stats {
     background-color: var(--marazul-blue-dark);
 }
-body {
+body.page-about {
     overflow-x: hidden;
 }
 
@@ -122,7 +122,8 @@ body {
     }
 }
 .about-mvv {
-    background-color: var(#white);
+    background-color: var(--marazul-white);
+
 }
 
 .mvv-card {
