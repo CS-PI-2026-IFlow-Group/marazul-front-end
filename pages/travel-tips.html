@@ -1,21 +1,67 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="pt-BR">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Marazul</title>
-    <link
-      href="/assets/bootstrap-5.3.8-dist/css/bootstrap.min.css"
-      rel="stylesheet"
-    />
-    <link rel="stylesheet" href="../css/main.css" />
-  </head>
-  <body>
-    <div id="header"></div>
-    <main></main>
-    <footer></footer>
-    <script src="/assets/popper2.11.8/popper.min.js"></script>
-    <script src="/assets/bootstrap-5.3.8-dist/js/bootstrap.bundle.min.js"></script>
-    <script type="module" src="../js/main.js"></script>
-  </body>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title data-i18n="page-title">Dicas de Viagem - Marazul</title>
+  <link href="../assets/bootstrap-5.3.8-dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Mrs+Saint+Delafield&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="../css/main.css">
+</head>
+<body>
+<div id="header"></div>
+
+<section class="tips-hero">
+  <div class="container">
+    <span class="tips-section-label" data-i18n="hero-label">Prepare-se para embarcar</span>
+    <h1 class="tips-title" data-i18n="hero-title">Dicas e regras para a sua viagem</h1>
+    <p class="tips-subtitle" data-i18n="hero-subtitle">Tudo o que você precisa saber para a melhor experiência a bordo da Marazul.</p>
+  </div>
+</section>
+
+<section class="tips-cards-section">
+  <div class="container">
+    <div class="row g-4">
+
+      <div class="col-12 col-md-4">
+        <a href="../assets/docs/regras-da-viagem.pdf" target="_blank" rel="noopener" class="tip-card">
+          <span class="tip-card-tag" data-i18n="card-tag">Documento</span>
+          <h2 class="tip-card-title" data-i18n="card-1-title">Regras da Viagem</h2>
+          <p class="tip-card-text" data-i18n="card-1-text">PDF com as regras gerais da viagem: horários, bagagem, comportamento a bordo e cuidados durante o trajeto.</p>
+          <span class="tip-card-link" data-i18n="card-1-link">Abrir PDF →</span>
+        </a>
+      </div>
+
+      <div class="col-12 col-md-4">
+        <a href="../assets/docs/documentacao-exigida.pdf" target="_blank" rel="noopener" class="tip-card">
+          <span class="tip-card-tag" data-i18n="card-tag">Documento</span>
+          <h2 class="tip-card-title" data-i18n="card-2-title">Documentação Exigida</h2>
+          <p class="tip-card-text" data-i18n="card-2-text">PDF com a documentação necessária para passageiros maiores e menores de idade antes de embarcar.</p>
+          <span class="tip-card-link" data-i18n="card-2-link">Abrir PDF →</span>
+        </a>
+      </div>
+
+      <div class="col-12 col-md-4">
+        <a href="../assets/docs/termo-responsabilidade.pdf" target="_blank" rel="noopener" class="tip-card">
+          <span class="tip-card-tag" data-i18n="card-tag">Documento</span>
+          <h2 class="tip-card-title" data-i18n="card-3-title">Termo de Responsabilidade</h2>
+          <p class="tip-card-text" data-i18n="card-3-text">PDF padrão com os termos de responsabilidade aos passageiros durante a excursão.</p>
+          <span class="tip-card-link" data-i18n="card-3-link">Abrir PDF →</span>
+        </a>
+      </div>
+
+    </div>
+
+    <div class="tips-cta">
+      <h3 data-i18n="cta-title">Pronto para a viagem?</h3>
+      <a href="./contact.html" class="btn-marazul-red" data-i18n="cta-btn">Solicitar orçamento</a>
+    </div>
+  </div>
+</section>
+
+<script src="../assets/bootstrap-5.3.8-dist/js/bootstrap.bundle.min.js"></script>
+<script type="module" src="../js/main.js"></script>
+</body>
 </html>

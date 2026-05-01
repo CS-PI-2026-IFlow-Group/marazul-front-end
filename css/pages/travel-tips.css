@@ -1,0 +1,113 @@
+.tips-hero {
+    background-color: var(--marazul-blue-dark);
+    color: var(--marazul-white);
+    padding: 140px 0 var(--spacing-xl);
+    min-height: 280px;
+    display: flex;
+    align-items: center;
+}
+
+.tips-section-label {
+    display: inline-block;
+    color: var(--marazul-red);
+    font-size: var(--btn-text);
+    font-weight: 700;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    margin-bottom: var(--spacing-sm);
+}
+
+.tips-title {
+    font-size: var(--title);
+    color: var(--marazul-white);
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin-bottom: var(--spacing-sm);
+}
+
+.tips-subtitle {
+    font-size: var(--paragraph);
+    color: rgba(255, 255, 255, 0.8);
+    max-width: 600px;
+}
+
+.tips-cards-section {
+    background-color: var(--bg-light);
+    padding: var(--spacing-xl) 0;
+}
+
+.tip-card {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    padding: var(--spacing-lg);
+    background-color: var(--marazul-white);
+    border: 1px solid #e6e6e6;
+    border-radius: var(--radius-m);
+    text-decoration: none;
+    color: inherit;
+    transition: transform 0.25s ease, box-shadow 0.25s ease, border-color 0.25s ease;
+    box-shadow: 0 2px 6px rgba(6, 42, 69, 0.05);
+}
+
+.tip-card:hover,
+.tip-card:focus-visible {
+    transform: translateY(-6px);
+    box-shadow: 0 14px 30px rgba(6, 42, 69, 0.15);
+    border-color: var(--marazul-red);
+    color: inherit;
+}
+
+.tip-card-tag {
+    align-self: flex-start;
+    font-size: 12px;
+    font-weight: 700;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: var(--marazul-red);
+    margin-bottom: var(--spacing-sm);
+}
+
+.tip-card-title {
+    font-size: var(--subtitle);
+    color: var(--marazul-blue-dark);
+    text-transform: uppercase;
+    margin-bottom: var(--spacing-sm);
+}
+
+.tip-card-text {
+    color: var(--text-muted);
+    font-size: var(--paragraph);
+    line-height: 1.6;
+    flex-grow: 1;
+    margin-bottom: var(--spacing-md);
+}
+
+.tip-card-link {
+    font-weight: 700;
+    color: var(--marazul-red);
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-size: var(--btn-text);
+}
+
+.tip-card:hover .tip-card-link {
+    text-decoration: underline;
+}
+
+.tips-cta {
+    margin-top: var(--spacing-xl);
+    text-align: center;
+}
+
+.tips-cta h3 {
+    color: var(--marazul-blue-dark);
+    text-transform: uppercase;
+    margin-bottom: var(--spacing-md);
+}
+
+@media (max-width: 767px) {
+    .tip-card {
+        padding: var(--spacing-md);
+    }
+}
