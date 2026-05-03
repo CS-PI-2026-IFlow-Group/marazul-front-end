@@ -49,6 +49,8 @@
     position: relative;
     display: inline-block;
     padding-bottom: 16px;
+    max-width: 100%;
+    overflow-wrap: anywhere;
 }
 
 .timeline-title::after {
@@ -100,6 +102,11 @@ body.page-about {
 
 .horizontal-scroll-section {
     background-color: var(--bg-light);
+    padding: var(--spacing-xl) 0;
+}
+
+.sticky-content {
+    width: 100%;
 }
 
 .photos-container {
@@ -107,17 +114,27 @@ body.page-about {
     flex-direction: column;
     gap: var(--spacing-lg);
     padding: 0 var(--spacing-md);
+    width: 100%;
+    transform: none;
+}
+
+.photo-item {
+    width: 100%;
 }
 
 .photo-item img {
+    display: block;
     width: 100%;
-    height: 350px;
+    height: auto;
+    aspect-ratio: 16 / 10;
     object-fit: cover;
     border-radius: var(--radius-m);
 }
+
 .photo-item .info {
     margin-top: var(--spacing-sm);
     padding: 0 var(--spacing-xs);
+    text-align: center;
 }
 
 .photo-item .info span {
@@ -132,10 +149,20 @@ body.page-about {
     font-size: var(--paragraph);
     font-weight: 500;
 }
+
+.horizontal-scroll-section .timeline-title {
+    display: block;
+    width: fit-content;
+    max-width: calc(100% - 24px);
+    margin-left: auto;
+    margin-right: auto;
+}
+
 @media (min-width: 1024px) {
     .horizontal-scroll-section {
         height: 600vh;
         position: relative;
+        padding: 0;
     }
 
     .sticky-content {
@@ -161,6 +188,16 @@ body.page-about {
 
     .photo-item {
         flex: 0 0 600px;
+        width: auto;
+    }
+
+    .photo-item img {
+        height: 350px;
+        aspect-ratio: auto;
+    }
+
+    .photo-item .info {
+        text-align: left;
     }
 }
 .about-mvv {
