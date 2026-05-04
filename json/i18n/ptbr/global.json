@@ -1,10 +1,10 @@
 {
-  "nav-inicio": "Início",
-  "nav-sobre": "Sobre Nós",
-  "nav-frota": "Nossa Frota",
-  "nav-dicas": "Dicas de Viagem",
+  "nav-hero": "Início",
+  "nav-about": "Sobre Nós",
+  "nav-fleet": "Nossa Frota",
+  "nav-travel-tips": "Dicas de Viagem",
   "nav-feedbacks": "Feedbacks",
-  "nav-contato": "Contato",
-  "nav-links": "Links Úteis",
-  "btn-orcamento": "Solicitar Orçamento"
+  "nav-contact": "Contato",
+  "nav-useful-links": "Links Úteis",
+  "btn-budget": "Solicitar Orçamento"
 }
