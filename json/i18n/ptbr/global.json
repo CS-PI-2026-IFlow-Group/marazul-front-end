@@ -6,5 +6,22 @@
   "nav-feedbacks": "Feedbacks",
   "nav-contact": "Contato",
   "nav-useful-links": "Links Úteis",
-  "btn-budget": "Solicitar Orçamento"
+  "btn-budget": "Solicitar Orçamento",
+
+  "footer-desc": "Com sete décadas de tradição, a Marazul garante viagens seguras e confortáveis para você apenas relaxar e aproveitar o trajeto.",
+
+  "footer-time": "Horário de funcionamento",
+  "footer-time-desc": "Segunda a Sábado: 08:00 - 18:00",
+
+  "footer-email": "E-mail",
+  "footer-phone": "Telefone",
+
+  "footer-address": "Endereço",
+
+  "footer-instagram": "Instagram",
+
+  "footer-rights": "Todos os direitos reservados",
+
+  "footer-admin": "Administrado por IflowGroup"
+
 }

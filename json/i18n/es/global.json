@@ -6,5 +6,22 @@
   "nav-feedbacks": "Opiniones",
   "nav-contact": "Contacto",
   "nav-useful-links": "Enlaces Útiles",
-  "btn-budget": "Solicitar Presupuesto"
+  "btn-budget": "Solicitar Presupuesto",
+
+  "footer-desc": "Con siete décadas de tradición, Marazul garantiza viajes seguros y cómodos para que solo te relajes y disfrutes del trayecto.",
+
+  "footer-time": "Horario de atención",
+  "footer-time-desc": "Lunes a sábado: 08:00 - 18:00",
+
+  "footer-email": "Correo electrónico",
+  "footer-phone": "Teléfono",
+
+  "footer-address": "Dirección",
+  "footer-address-desc": "R. José Brazilino da Silva, 420 - Zona 4, Paranavaí - PR",
+
+  "footer-instagram": "Instagram",
+
+  "footer-rights": "Todos los derechos reservados",
+
+  "footer-admin": "Administrado por IflowGroup"
 }
