@@ -1,5 +1,8 @@
-body {
+html,
+body{
   margin: 0;
+  padding: 0;
+  overflow-x: hidden;
 }
 
 .header {
@@ -311,23 +314,17 @@ body {
 }
 
 .instagram-link {
-  display: inline-flex;
-  align-items: center;
-  gap: 8px;
+  display: inline-block;
+  margin-top: 2px;
 }
 
-.instagram-icon {
-  width: 40px;
-  height: 40px;
-  object-fit: contain;
-  filter: brightness(0) invert(1);
-}
-
-.instagram-icon img {
+.instagram-link i {
+  font-size: 20px;
   color: rgba(255, 255, 255, 0.5);
+  transition: 0.3s ease;
 }
 
-.instagram-link:hover .instagram-icon {
+.instagram-link:hover i {
+  color: var(--marazul-red);
   transform: scale(1.1);
-  transition: 0.3s;
 }
