@@ -1,5 +1,5 @@
 html,
-body{
+body {
   margin: 0;
   padding: 0;
   overflow-x: hidden;
@@ -277,10 +277,6 @@ body{
   background: var(--marazul-blue-dark);
 }
 
-.footer {
-  background: var(--marazul-blue-dark);
-}
-
 .footer-logo {
   width: 50px;
   height: auto;
@@ -326,4 +322,8 @@ body{
 .instagram-link:hover i {
   color: var(--marazul-red);
   transform: scale(1.1);
+}
+
+.footer-admin-link {
+  cursor: pointer;
 }
