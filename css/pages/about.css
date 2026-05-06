@@ -32,4 +32,29 @@
 
 .Infra-section{
     margin: 400px 0 0 0;
+}.fleet-section {
+    background-color: var(--marazul-blue-dark);
+    color: var(--marazul-white);
+}
+
+.fleet-section h2 {
+    font-size: var(--title);
+}
+
+.fleet-section p {
+    font-size: var(--paragraph);
+}
+
+.fleet-btn {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    font-size: var(--paragraph);  
+}
+
+.fleet-btn:hover {
+    transform: translateY(-5px);
+    box-shadow: var(--shadow-soft);
+}
+
+.arrow-img {
+    filter: invert(1);
 }
