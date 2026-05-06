@@ -1,10 +1,27 @@
 {
-  "nav-inicio": "Início",
-  "nav-sobre": "Sobre Nós",
-  "nav-frota": "Nossa Frota",
-  "nav-dicas": "Dicas de Viagem",
+  "nav-hero": "Início",
+  "nav-about": "Sobre Nós",
+  "nav-fleet": "Nossa Frota",
+  "nav-travel-tips": "Dicas de Viagem",
   "nav-feedbacks": "Feedbacks",
-  "nav-contato": "Contato",
-  "nav-links": "Links Úteis",
-  "btn-orcamento": "Solicitar Orçamento"
+  "nav-contact": "Contato",
+  "nav-useful-links": "Links Úteis",
+  "btn-budget": "Solicitar Orçamento",
+
+  "footer-desc": "Com sete décadas de tradição, a Marazul garante viagens seguras e confortáveis para você apenas relaxar e aproveitar o trajeto.",
+
+  "footer-time": "Horário de funcionamento",
+  "footer-time-desc": "Segunda a Sábado: 08:00 - 18:00",
+
+  "footer-email": "E-mail",
+  "footer-phone": "Telefone",
+
+  "footer-address": "Endereço",
+  "footer-address-desc": "R. José Brazilino da Silva, 420 - Zona 4, Paranavaí - PR",
+
+  "footer-instagram": "Instagram",
+
+  "footer-rights": "Todos os direitos reservados",
+
+  "footer-admin": "Administrado por IflowGroup"
 }
