@@ -1,5 +1,8 @@
+html,
 body {
   margin: 0;
+  padding: 0;
+  overflow-x: hidden;
 }
 
 .header {
@@ -158,7 +161,7 @@ body {
 
 .mobile-menu {
   display: none;
-  flex-direction:column;
+  flex-direction: column;
   background: var(--marazul-blue-dark);
   padding: 20px;
   border-top: 1px solid var(--text-muted);
@@ -267,4 +270,60 @@ body {
     white-space: nowrap;
     margin: 0;
   }
+}
+
+/* FOOTER */
+.footer {
+  background: var(--marazul-blue-dark);
+}
+
+.footer-logo {
+  width: 50px;
+  height: auto;
+  object-fit: contain;
+}
+
+.footer-link {
+  color: rgba(255, 255, 255, 0.5);
+  text-decoration: none;
+  transition: 0.3s ease;
+}
+
+.footer-link:hover {
+  color: var(--marazul-red);
+}
+
+.footer-nav {
+  border-top: 1px solid rgba(255, 255, 255, 0.1);
+  padding-top: 20px;
+}
+
+@media (max-width: 768px) {
+  .footer {
+    text-align: center;
+  }
+
+  .footer-logo {
+    width: 40px;
+  }
+}
+
+.instagram-link {
+  display: inline-block;
+  margin-top: 2px;
+}
+
+.instagram-link i {
+  font-size: 20px;
+  color: rgba(255, 255, 255, 0.5);
+  transition: 0.3s ease;
+}
+
+.instagram-link:hover i {
+  color: var(--marazul-red);
+  transform: scale(1.1);
+}
+
+.footer-admin-link {
+  cursor: pointer;
 }
