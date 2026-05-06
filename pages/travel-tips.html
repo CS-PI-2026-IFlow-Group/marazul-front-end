@@ -1,25 +1,204 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="pt-BR">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Marazul</title>
-    <link
-      href="/assets/bootstrap-5.3.8-dist/css/bootstrap.min.css"
-      rel="stylesheet"
-    />
-    <link
-      rel="stylesheet"
-      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css"
-    />
-    <link rel="stylesheet" href="../css/main.css" />
-  </head>
-  <body>
-    <div id="header"></div>
-    <main></main>
-    <div id="footer"></div>
-    <script src="/assets/popper2.11.8/popper.min.js"></script>
-    <script src="/assets/bootstrap-5.3.8-dist/js/bootstrap.bundle.min.js"></script>
-    <script type="module" src="../js/main.js"></script>
-  </body>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title data-i18n="page-title">Dicas de Viagem - Marazul</title>
+  <link href="../assets/bootstrap-5.3.8-dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Mrs+Saint+Delafield&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="../css/main.css">
+</head>
+<body>
+<div id="header"></div>
+
+<main>
+  <section class="tips-hero">
+    <div class="container">
+      <div class="row align-items-center g-5">
+        <div class="col-12 col-lg-7">
+          <span class="tips-section-label" data-i18n="hero-label">Prepare-se para embarcar</span>
+          <h1 class="tips-title" data-i18n="hero-title">Dicas e regras para viajar com tranquilidade</h1>
+          <p class="tips-subtitle" data-i18n="hero-subtitle">
+            Organize documentos, bagagens e cuidados pessoais antes da saída para aproveitar cada etapa da experiência com a Marazul.
+          </p>
+          <div class="tips-hero-actions">
+            <a href="#documentos" class="btn-marazul-red" data-i18n="hero-documents-btn">Ver Documentos</a>
+            <a href="#checklist" class="tips-ghost-link" data-i18n="hero-checklist-btn">Checklist Rápido</a>
+          </div>
+        </div>
+
+        <div class="col-12 col-lg-5">
+          <div class="tips-boarding-card" aria-label="Resumo de preparacao para viagem">
+            <div class="boarding-card-header">
+              <span data-i18n="boarding-title">Checklist de embarque</span>
+              <strong>Marazul</strong>
+            </div>
+            <ul class="boarding-list">
+              <li><span class="boarding-list-number">01</span><span class="boarding-list-text" data-i18n="boarding-item-1">Documento original em mãos</span></li>
+              <li><span class="boarding-list-number">02</span><span class="boarding-list-text" data-i18n="boarding-item-2">Bagagem identificada</span></li>
+              <li><span class="boarding-list-number">03</span><span class="boarding-list-text" data-i18n="boarding-item-3">Casaco leve para o ônibus</span></li>
+              <li><span class="boarding-list-number">04</span><span class="boarding-list-text" data-i18n="boarding-item-4">Remédios e itens pessoais</span></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="tips-intro-section" id="checklist">
+    <div class="container">
+      <div class="tips-intro-grid">
+        <div>
+          <span class="tips-section-label" data-i18n="intro-label">Antes de sair de casa</span>
+          <h2 class="tips-section-title" data-i18n="intro-title">Pequenos cuidados evitam atrasos e imprevistos</h2>
+        </div>
+        <p data-i18n="intro-text">
+          Separamos orientações práticas para grupos, excursões e viagens rodoviárias. A ideia é facilitar o embarque,
+          deixar a bagagem mais segura e tornar o trajeto mais confortável para todos.
+        </p>
+      </div>
+
+      <div class="row g-4">
+        <div class="col-12 col-md-6 col-lg-3">
+          <div class="tip-mini-card">
+            <span class="tip-mini-icon">
+              <img src="../assets/icons/id-card.svg" alt="Icone de documento de identificacao">
+            </span>
+            <h3 data-i18n="mini-card-1-title">Documentos</h3>
+            <p data-i18n="mini-card-1-text">Confira RG, CNH ou documento aceito antes do dia da viagem. Para menores, veja as autorizações necessárias.</p>
+          </div>
+        </div>
+        <div class="col-12 col-md-6 col-lg-3">
+          <div class="tip-mini-card">
+            <span class="tip-mini-icon">
+              <img src="../assets/icons/luggage.svg" alt="Icone de bagagem">
+            </span>
+            <h3 data-i18n="mini-card-2-title">Bagagem</h3>
+            <p data-i18n="mini-card-2-text">Identifique malas por dentro e por fora, use cadeado e deixe objetos de valor sempre na bagagem de mão.</p>
+          </div>
+        </div>
+        <div class="col-12 col-md-6 col-lg-3">
+          <div class="tip-mini-card">
+            <span class="tip-mini-icon">
+              <img src="../assets/icons/armchair.svg" alt="Icone de poltrona confortavel">
+            </span>
+            <h3 data-i18n="mini-card-3-title">Conforto</h3>
+            <p data-i18n="mini-card-3-text">Prefira roupas leves, calçados confortáveis e leve um casaco para o ar-condicionado durante o trajeto.</p>
+          </div>
+        </div>
+        <div class="col-12 col-md-6 col-lg-3">
+          <div class="tip-mini-card">
+            <span class="tip-mini-icon">
+              <img src="../assets/icons/heart-plus.svg" alt="Icone de cuidados com a saude">
+            </span>
+            <h3 data-i18n="mini-card-4-title">Saúde</h3>
+            <p data-i18n="mini-card-4-text">Leve medicamentos de uso contínuo, itens de higiene e lanches leves para viagens mais longas.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="tips-cards-section" id="documentos">
+    <div class="container">
+      <div class="tips-section-heading">
+        <span class="tips-section-label" data-i18n="documents-label">Documentos importantes</span>
+        <h2 class="tips-section-title" data-i18n="documents-title">Arquivos para consultar antes do embarque</h2>
+      </div>
+
+      <div class="row g-4">
+        <div class="col-12 col-md-6">
+          <a href="../assets/docs/travel-tips/regras-de-viagem.pdf" target="_blank" rel="noopener" class="tip-card">
+            <span class="tip-card-tag" data-i18n="card-tag">Documento</span>
+            <h2 class="tip-card-title" data-i18n="card-1-title">Regras de Viagem</h2>
+            <p class="tip-card-text" data-i18n="card-1-text">PDF com orientações gerais para embarque, bagagem, conduta durante o trajeto e organização da viagem.</p>
+            <span class="tip-card-link" data-i18n="card-1-link">Abrir PDF</span>
+          </a>
+        </div>
+
+        <div class="col-12 col-md-6">
+          <a href="../assets/docs/travel-tips/dicas-fretamento-turistico.pdf" target="_blank" rel="noopener" class="tip-card">
+            <span class="tip-card-tag" data-i18n="card-tag">Documento</span>
+            <h2 class="tip-card-title" data-i18n="card-2-title">Dicas de Fretamento Turístico</h2>
+            <p class="tip-card-text" data-i18n="card-2-text">Material com recomendações práticas para grupos e excursões, ajudando no planejamento e na experiência do passeio.</p>
+            <span class="tip-card-link" data-i18n="card-2-link">Abrir PDF</span>
+          </a>
+        </div>
+
+        <div class="col-12 col-md-6">
+          <a href="../assets/docs/travel-tips/guia-para-compras-bras.pdf" target="_blank" rel="noopener" class="tip-card">
+            <span class="tip-card-tag" data-i18n="card-tag">Documento</span>
+            <h2 class="tip-card-title" data-i18n="card-3-title">Guia para Compras - Bras</h2>
+            <p class="tip-card-text" data-i18n="card-3-text">Guia de apoio para quem participa de viagens de compras ao Bras, com dicas para aproveitar melhor o roteiro.</p>
+            <span class="tip-card-link" data-i18n="card-3-link">Abrir PDF</span>
+          </a>
+        </div>
+
+        <div class="col-12 col-md-6">
+          <a href="../assets/docs/travel-tips/termo-de-responsabilidade-e-condicoes-gerais-de-viagem.pdf" target="_blank" rel="noopener" class="tip-card">
+            <span class="tip-card-tag" data-i18n="card-tag">Documento</span>
+            <h2 class="tip-card-title" data-i18n="card-4-title">Termo de Responsabilidade e Condições Gerais de Viagem</h2>
+            <p class="tip-card-text" data-i18n="card-4-text">Documento com os termos, responsabilidades e condições gerais aplicáveis à viagem e aos passageiros.</p>
+            <span class="tip-card-link" data-i18n="card-4-link">Abrir PDF</span>
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="tips-guide-section">
+    <div class="container">
+      <div class="tips-section-heading">
+        <span class="tips-section-label" data-i18n="guide-label">Guia prático</span>
+        <h2 class="tips-section-title" data-i18n="guide-title">Dicas para uma viagem mais tranquila</h2>
+      </div>
+
+      <div class="tips-guide-list">
+        <article class="tips-guide-item">
+          <span>01</span>
+          <div>
+            <h3 data-i18n="guide-item-1-title">Monte uma mala inteligente</h3>
+            <p data-i18n="guide-item-1-text">Escolha peças versáteis, que combinem entre si e amassem pouco. Separe uma troca de roupa na bagagem de mão para emergências.</p>
+          </div>
+        </article>
+        <article class="tips-guide-item">
+          <span>02</span>
+          <div>
+            <h3 data-i18n="guide-item-2-title">Deixe a sua mala fácil de reconhecer</h3>
+            <p data-i18n="guide-item-2-text">Use etiqueta com nome e telefone, além de fita ou identificador colorido. Isso agiliza a retirada no bagageiro.</p>
+          </div>
+        </article>
+        <article class="tips-guide-item">
+          <span>03</span>
+          <div>
+            <h3 data-i18n="guide-item-3-title">Proteja itens importantes</h3>
+            <p data-i18n="guide-item-3-text">Dinheiro, documentos, aparelhos eletrônicos e remédios devem viajar com você, não no compartimento de bagagens.</p>
+          </div>
+        </article>
+        <article class="tips-guide-item">
+          <span>04</span>
+          <div>
+            <h3 data-i18n="guide-item-4-title">Prepare-se para o trajeto</h3>
+            <p data-i18n="guide-item-4-text">Leve carregador, garrafa de água, fone de ouvido, casaco leve e alimentos de fácil digestão para manter o conforto.</p>
+          </div>
+        </article>
+      </div>
+
+      <div class="tips-cta">
+        <div>
+          <span class="tips-section-label" data-i18n="cta-label">Pronto para a viagem?</span>
+          <h3 data-i18n="cta-title">Fale com a Marazul e organize o seu grupo
+          </h3>
+        </div>
+        <a href="./contact.html" class="btn-marazul-red" data-i18n="cta-btn">Conheça nossa frota</a>
+      </div>
+    </div>
+  </section>
+</main>
+<div id="footer"></div>
+<script src="../assets/bootstrap-5.3.8-dist/js/bootstrap.bundle.min.js"></script>
+<script type="module" src="../js/main.js"></script>
+</body>
 </html>
