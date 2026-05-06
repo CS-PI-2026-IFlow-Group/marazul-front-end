@@ -1,60 +1,61 @@
-
-.color-text{
-    color: var(--marazul-red);
-    font-size: 0.85rem; 
-    letter-spacing: 1px;
+.color-text {
+  color: var(--marazul-red);
+  font-size: 0.85rem;
+  letter-spacing: 1px;
 }
 
-
-.margin-top{
-    margin-top: 47px;
+.margin-top {
+  margin-top: 47px;
 }
 
-.carousel-caption{
-    left: 2%;
+.carousel-caption {
+  left: 2%;
 }
 
-.carousel-caption h5{
-    font-size: 1.05rem;
-    text-shadow: 2px 2px 4px rgb(0, 0, 0);
-}
-                 
-.title-carousel{
-    color: var(--marazul-blue-dark);
-    font-weight: 700;
-    margin: 0 0 20px 0;
+.carousel-caption h5 {
+  font-size: 1.05rem;
+  text-shadow: 2px 2px 4px rgb(0, 0, 0);
 }
 
-.btn-border img{
-    background-color: var(--marazul-white);
-    border-radius: 40px;
+.title-carousel {
+  color: var(--marazul-blue-dark);
+  font-weight: 700;
+  margin: 0 0 20px 0;
 }
 
-.Infra-section{
-    margin: 400px 0 0 0;
-}.fleet-section {
-    background-color: var(--marazul-blue-dark);
-    color: var(--marazul-white);
+.btn-border img {
+  background-color: var(--marazul-white);
+  border-radius: 40px;
+}
+
+.Infra-section {
+  margin: 400px 0 0 0;
+}
+.fleet-section {
+  background-color: var(--marazul-blue-dark);
+  color: var(--marazul-white);
 }
 
 .fleet-section h2 {
-    font-size: var(--title);
+  font-size: var(--title);
 }
 
 .fleet-section p {
-    font-size: var(--paragraph);
+  font-size: var(--paragraph);
 }
 
 .fleet-btn {
-    transition: transform 0.3s ease, box-shadow 0.3s ease;
-    font-size: var(--paragraph);  
+  transition:
+    transform 0.3s ease,
+    box-shadow 0.3s ease;
+  font-size: var(--paragraph);
 }
 
 .fleet-btn:hover {
-    transform: translateY(-5px);
-    box-shadow: var(--shadow-soft);
+  transform: translateY(-5px);
+  box-shadow: var(--shadow-soft);
 }
 
 .arrow-img {
-    filter: invert(1);
+  filter: invert(1);
 }
