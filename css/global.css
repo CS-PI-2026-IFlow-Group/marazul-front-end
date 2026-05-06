@@ -20,6 +20,7 @@
   --radius-m: 8px;
   --radius-g: 16px;
   --shadow-soft: 0 4px 6px rgba(0, 0, 0, 0.1);
+  --transition-default: 0.25s ease;
 
   --spacing-xs: 4px;
   --spacing-sm: 8px;
@@ -33,4 +34,25 @@ body {
   line-height: 1.5;
   margin: 0;
   padding: 0;
+}
+.btn-marazul-red {
+  display: inline-flex;
+  align-items: center;
+  gap: var(--spacing-sm);
+  background-color: var(--marazul-red);
+  color: var(--marazul-white);
+  font-size: var(--paragraph);
+  font-weight: 700;
+  text-decoration: none;
+  padding: 14px 32px;
+  border-radius: var(--radius-m);
+  border: none;
+  cursor: pointer;
+  transition: background-color var(--transition-default), transform var(--transition-default);
+}
+
+.btn-marazul-red:hover {
+  background-color: var(--hover-red);
+  color: var(--marazul-white);
+  transform: translateY(-2px);
 }
