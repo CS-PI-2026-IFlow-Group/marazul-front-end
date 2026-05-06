@@ -128,7 +128,7 @@
     font-weight: 800;
 }
 
-.boarding-list span,
+.boarding-list-number,
 .tip-mini-icon {
     width: 42px;
     height: 42px;
@@ -140,10 +140,23 @@
     background: rgba(227, 30, 36, 0.1);
 }
 
-.boarding-list span {
+.boarding-list-number {
     color: var(--marazul-red);
     font-size: 13px;
     font-weight: 900;
+}
+
+.boarding-list-text {
+    width: auto;
+    height: auto;
+    display: block;
+    flex: 1 1 auto;
+    border-radius: 0;
+    background: transparent;
+    color: var(--marazul-blue-dark);
+    font-size: inherit;
+    font-weight: inherit;
+    line-height: 1.4;
 }
 
 .tip-mini-icon img {
@@ -368,4 +381,5 @@
     .tips-guide-item {
         grid-template-columns: 1fr;
     }
+
 }
