@@ -1,15 +1,14 @@
 {
-    "infra-caption": "Nossa frota",
-    "infra-title": "Conheça a estrutura dos nossos ônibus",
-    "caption-first-img": "Interior e Poltronas",
-    "caption-second-img": "Interior e Poltronas",
-    "caption-third-img": "Interior e Poltronas",
-    "caption-fourth-img": "Interior e Poltronas",
-    "caption-fifth-img": "Interior e Poltronas",
-    "caption-sixth-img": "Interior e Poltronas",
-    "infra-subtitle": "Conforto, segurança e tecnologia em cada detalhe",
-    "infra-description-fleet": "Nossa frota é composta por ônibus modernos e cuidadosamente equipados para garantir uma experiência de viagem agradável do início ao fim. Cada veículo passa por manutenção preventiva rigorosa e inspeção técnica antes de cada trajeto.",
-    "infra-description-comfort": "Os passageiros contam com poltronas reclináveis e ergonômicas, ar-condicionado, iluminação ambiente, banheiro a bordo, cabine equipada com tecnologia de monitoramento, bagageiros espaçosos e Wi-Fi de alta velocidade para se manterem conectados durante toda a viagem.",
-    "infra-description-conclusion": "Tudo pensado para que você relaxe, aproveite a paisagem e chegue ao seu destino com tranquilidade."
-    
+  "infra-caption": "Nossa frota",
+  "infra-title": "Conheça a estrutura dos nossos ônibus",
+  "caption-first-img": "Interior e poltronas com corredor espaçoso",
+  "caption-second-img": "Interior e poltronas com banheiro ao fundo",
+  "caption-third-img": "Escadaria do ônibus",
+  "caption-fourth-img": "Poltronas espaçosas",
+  "caption-fifth-img": "Poltronas reclináveis para descanso",
+  "caption-sixth-img": "Wi-Fi a bordo",
+  "infra-subtitle": "Conforto, segurança e tecnologia em cada detalhe",
+  "infra-description-fleet": "Nossa frota é composta por ônibus modernos e cuidadosamente equipados para garantir uma experiência de viagem agradável do início ao fim. Cada veículo passa por manutenção preventiva rigorosa e inspeção técnica antes de cada trajeto.",
+  "infra-description-comfort": "Os passageiros contam com poltronas reclináveis e ergonômicas, ar-condicionado, iluminação ambiente, banheiro a bordo, cabine equipada com tecnologia de monitoramento, bagageiros espaçosos e Wi-Fi de alta velocidade para se manterem conectados durante toda a viagem.",
+  "infra-description-conclusion": "Tudo foi pensado para que você relaxe, aproveite a paisagem e chegue ao seu destino com tranquilidade."
 }
