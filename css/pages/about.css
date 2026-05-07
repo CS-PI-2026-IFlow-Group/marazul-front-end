@@ -29,11 +29,13 @@
 }
 
 .Infra-section {
-  margin: 400px 0 0 0;
+  padding: 30px 0 0 0;
+  background-color: var(--bg-light);
 }
 .fleet-section {
-  background-color: var(--marazul-blue-dark);
-  color: var(--marazul-white);
+  background-color: var(--marazul-white);
+  color: var(--marazul-blue-dark);
+
 }
 
 .fleet-section h2 {
@@ -105,12 +107,19 @@
     align-items: center;
     gap: var(--spacing-xs);
     color: var(--marazul-red);
-    font-size: var(--btn-text);
+    font-size: var(--subtitle);
     font-weight: 700;
     letter-spacing: 2px;
     text-transform: uppercase;
     margin-bottom: var(--spacing-md);
+    margin-left: 40px;
 }
+
+.organization-description{
+    margin: 0 40px var(--spacing-md) 40px;
+    font-size: var(--subtitle);
+}
+
 
 
 .about-stats {
@@ -180,13 +189,14 @@ html.page-about-root {
     display: block;
     color: var(--marazul-red);
     font-weight: bold;
-    font-size: var(--btn-text);
+    font-size: 20px;
 }
 
 .photo-item .info p {
     color: var(--marazul-blue-dark);
     font-size: var(--paragraph);
     font-weight: 500;
+    font-size: 20px;
 }
 
 .horizontal-scroll-section .timeline-title {
