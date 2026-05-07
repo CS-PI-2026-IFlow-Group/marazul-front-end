@@ -4,9 +4,6 @@
   letter-spacing: 1px;
 }
 
-.margin-top {
-  margin-top: 47px;
-}
 
 .carousel-caption {
   left: 2%;
@@ -28,8 +25,7 @@
   border-radius: 40px;
 }
 
-.Infra-section {
-  padding: 30px 0 0 0;
+.infra-section {
   background-color: var(--bg-light);
 }
 .fleet-section {
@@ -47,8 +43,6 @@
 }
 
 .fleet-btn {
-
-
     transition: transform 0.3s ease, box-shadow 0.3s ease;
     font-size: var(--paragraph);
 }
@@ -153,9 +147,6 @@ html.page-about-root {
     padding: var(--spacing-xl) 0;
 }
 
-.sticky-content {
-    width: 100%;
-}
 
 .photos-container {
     display: flex;
@@ -182,7 +173,6 @@ html.page-about-root {
 .photo-item .info {
     margin-top: var(--spacing-sm);
     padding: 0 var(--spacing-xs);
-    text-align: center;
 }
 
 .photo-item .info span {
@@ -283,7 +273,6 @@ html.page-about-root {
 }
 
 .mvv-values-list {
-    list-style: none;
     padding: 0;
     margin: 0;
 }
