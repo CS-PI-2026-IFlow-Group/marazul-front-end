@@ -1,14 +1,45 @@
+.color-text {
+  color: var(--marazul-red);
+  font-size: 0.85rem;
+  letter-spacing: 1px;
+}
+
+
+.carousel-caption {
+  left: 2%;
+}
+
+.carousel-caption h5 {
+  font-size: 1.05rem;
+  text-shadow: 2px 2px 4px rgb(0, 0, 0);
+}
+
+.title-carousel {
+  color: var(--marazul-blue-dark);
+  font-weight: 700;
+  margin: 0 0 20px 0;
+}
+
+.btn-border img {
+  background-color: var(--marazul-white);
+  border-radius: 40px;
+}
+
+.infra-section {
+  background-color: var(--bg-light);
+}
 .fleet-section {
-    background-color: var(--marazul-blue-dark);
-    color: var(--marazul-white);
+  background-color: var(--marazul-white);
+  color: var(--marazul-blue-dark);
+
 }
 
 .fleet-section h2 {
-    font-size: var(--title);
+  font-size: var(--title);
 }
 
 .fleet-section p {
-    font-size: var(--paragraph);
+  font-size: var(--paragraph);
 }
 
 .fleet-btn {
@@ -17,12 +48,12 @@
 }
 
 .fleet-btn:hover {
-    transform: translateY(-5px);
-    box-shadow: var(--shadow-soft);
+  transform: translateY(-5px);
+  box-shadow: var(--shadow-soft);
 }
 
 .arrow-img {
-    filter: invert(1);
+  filter: invert(1);
 }
 
 .about-banner-img {
@@ -70,12 +101,19 @@
     align-items: center;
     gap: var(--spacing-xs);
     color: var(--marazul-red);
-    font-size: var(--btn-text);
+    font-size: var(--subtitle);
     font-weight: 700;
     letter-spacing: 2px;
     text-transform: uppercase;
     margin-bottom: var(--spacing-md);
+    margin-left: 40px;
 }
+
+.organization-description{
+    margin: 0 40px var(--spacing-md) 40px;
+    font-size: var(--subtitle);
+}
+
 
 
 .about-stats {
@@ -109,9 +147,6 @@ html.page-about-root {
     padding: var(--spacing-xl) 0;
 }
 
-.sticky-content {
-    width: 100%;
-}
 
 .photos-container {
     display: flex;
@@ -138,20 +173,20 @@ html.page-about-root {
 .photo-item .info {
     margin-top: var(--spacing-sm);
     padding: 0 var(--spacing-xs);
-    text-align: center;
 }
 
 .photo-item .info span {
     display: block;
     color: var(--marazul-red);
     font-weight: bold;
-    font-size: var(--btn-text);
+    font-size: 20px;
 }
 
 .photo-item .info p {
     color: var(--marazul-blue-dark);
     font-size: var(--paragraph);
     font-weight: 500;
+    font-size: 20px;
 }
 
 .horizontal-scroll-section .timeline-title {
@@ -238,7 +273,6 @@ html.page-about-root {
 }
 
 .mvv-values-list {
-    list-style: none;
     padding: 0;
     margin: 0;
 }
