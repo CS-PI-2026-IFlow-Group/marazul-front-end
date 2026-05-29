@@ -7,13 +7,15 @@ body {
 
 .header {
   position: fixed;
+  top: 0;
   width: 100%;
   z-index: 1000;
-  top: 0;
 }
 
 .navbar {
   background: var(--marazul-blue-dark);
+  padding: 8px 0;
+  min-height: 64px;
   transition: 0.3s;
 }
 
@@ -35,11 +37,11 @@ body {
   align-items: center;
   gap: 10px;
   text-decoration: none;
-  margin-left: -50px;
+  margin-left: -60px;
 }
 
 .logo img {
-  height: 100px;
+  height: 80px;
 }
 
 .brand-strong {
@@ -66,6 +68,11 @@ body {
   position: relative;
   padding: 5px;
   white-space: nowrap;
+  font-size: 1.2rem;
+}
+
+.nav-links a[aria-current="page"] {
+  color: var(--marazul-red);
 }
 
 .nav-links a::after {
@@ -76,10 +83,18 @@ body {
   width: 0;
   height: 2px;
   background: var(--marazul-red);
-  transition: 0.3s;
+  transition: 0.3s ease;
 }
 
 .nav-links a:hover::after {
+  width: 100%;
+}
+
+.nav-links a.active {
+  color: var(--marazul-red);
+}
+
+.nav-links a.active::after {
   width: 100%;
 }
 
@@ -87,6 +102,13 @@ body {
   display: flex;
   align-items: center;
   flex-shrink: 0;
+}
+
+.nav-links a,
+.mobile-menu a {
+  min-height: 44px;
+  display: flex;
+  align-items: center;
 }
 
 .btn-cta {
@@ -103,7 +125,7 @@ body {
   cursor: pointer;
   justify-content: flex-end;
   font-size: 1rem;
-  margin-right: -50px;
+  margin-right: -60px;
 }
 
 .btn-cta:hover {
@@ -169,7 +191,7 @@ body {
 }
 
 .mobile-menu a {
-  padding: 10px;
+  padding: 12px 10px;
   color: var(--marazul-white);
   text-decoration: none;
 }
@@ -246,7 +268,7 @@ body {
   }
 
   .logo img {
-    height: 60px;
+    height: 45px;
   }
 
   .brand-strong {

@@ -125,12 +125,15 @@
 .hero::after {
   content: "";
   position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  background-color: rgba(5, 30, 60, 0.65);
+  inset: 0;
+  background: linear-gradient(
+    90deg,
+    rgba(5, 30, 60, 0.78) 0%,
+    rgba(5, 30, 60, 0.45) 60%,
+    rgba(5, 30, 60, 0.25) 100%
+  );
   z-index: -1;
+  pointer-events: none;
 }
 
 .hero-wrapper-overflow {
@@ -146,7 +149,7 @@
   width: 100%;
   height: 100%;
   object-fit: cover;
-  z-index: -1;
+  z-index: -2;
 }
 
 .text-content-welcome {
@@ -182,7 +185,7 @@
 
 .cursive-welcome-text {
   font-family: "Mrs Saint Delafield", cursive !important;
-  font-size: 40px;
+  font-size: 60px;
 }
 
 .container-btn-right btn-budget a {
@@ -252,6 +255,8 @@
   .container-image-text {
     justify-content: flex-start;
     padding-top: 20px;
+    position: relative;
+    z-index: 1;
   }
 }
 
