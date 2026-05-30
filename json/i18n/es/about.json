@@ -49,5 +49,8 @@
   "call-to-action-title": "¿Listo para viajar con nosotros?",
   "call-to-action-subtitle": "El primer paso para tu próximo gran recuerdo.",
   "fleet-btn": "Conoce nuestra flota",
-  "img-icon-arrow": "símbolo de flecha hacia la derecha"
+  "img-icon-arrow": "símbolo de flecha hacia la derecha",
+  "img.bus-wifi": "Imagen del logotipo de la empresa Starlink indicando Wi-Fi a bordo",
+"img.bus-inclined-armchair": "Foto interior del autobús mostrando asientos reclinados",
+"img.bus-armchair": "Foto interior del autobús mostrando asientos y un pasillo espacioso"
 }
