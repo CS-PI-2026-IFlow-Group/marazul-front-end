@@ -3,6 +3,7 @@ body {
   margin: 0;
   padding: 0;
   overflow-x: hidden;
+  font-family: "Exo 2", sans-serif;
 }
 
 .header {
@@ -47,12 +48,14 @@ body {
 .brand-strong {
   color: var(--marazul-white);
   font-weight: bold;
-  font-size: 1.5rem;
+  font-size: 1.6rem;
+  font-family: "Rajdhani", sans-serif;
 }
 
 .brand-light {
   color: var(--bg-light);
-  font-size: 1.3rem;
+  font-size: 1.5rem;
+  font-family: "Rajdhani", sans-serif;
 }
 
 .nav-links {
@@ -244,16 +247,23 @@ body {
   }
 
   .logo img {
-    height: 50px;
+    height: 60px;
   }
 
-  .navbar{
+  .brand-strong {
+    font-size: 1.6rem;
+  }
+
+  .brand-light {
+    font-size: 1.5rem;
+  }
+
+  .navbar {
     padding: 2px 0 !important;
   }
 }
 
 @media (max-width: 992px) {
-
   .nav-content {
     display: flex;
     align-items: center;
@@ -314,11 +324,11 @@ body {
   }
 
   .brand-strong {
-    font-size: 1rem;
+    font-size: 1.2rem;
   }
 
   .brand-light {
-    font-size: 0.9rem;
+    font-size: 1.1rem;
   }
 
   .nav-links {
@@ -328,12 +338,12 @@ body {
   }
   .nav-links {
     gap: 8px;
-    font-size: 0.7rem;
+    font-size: 0.6rem;
     justify-content: flex-start;
   }
 
   .nav-links a {
-    font-size: 1rem;
+    font-size: 0.95rem;
   }
 
   .btn-cta {
