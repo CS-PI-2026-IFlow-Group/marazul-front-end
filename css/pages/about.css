@@ -226,14 +226,16 @@ html.page-about-root {
     }
 
     .photo-item {
-        flex: 0 0 600px;
+        flex: 0 0 clamp(280px, 40vw, 600px);
         width: auto;
     }
 
     .photo-item img {
-        height: 350px;
-        aspect-ratio: auto;
-    }
+    width: 100%;
+    height: 350px;
+    object-fit: cover;
+    border-radius: var(--radius-m);
+}
 
     .photo-item .info {
         text-align: left;

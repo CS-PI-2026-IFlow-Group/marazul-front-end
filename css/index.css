@@ -1,72 +1,72 @@
 .experience-badge {
-    position: absolute;
-    bottom: -20px;
-    right: -20px;
-    background-color: var(--marazul-red);
-    color: var(--marazul-white);
-    padding: 1.5rem;
-    border-radius: var(--radius-m);
-    box-shadow: 0 4px 15px rgba(211, 30, 30, 0.4);
-    z-index: 5;
+  position: absolute;
+  bottom: -20px;
+  right: -20px;
+  background-color: var(--marazul-red);
+  color: var(--marazul-white);
+  padding: 1.5rem;
+  border-radius: var(--radius-m);
+  box-shadow: 0 4px 15px rgba(211, 30, 30, 0.4);
+  z-index: 5;
 }
 
 .experience-badge .badge-number {
-    font-size: var(--paragraph);
-    font-weight: bold;
-    line-height: 1;
+  font-size: var(--paragraph);
+  font-weight: bold;
+  line-height: 1;
 }
 
 .experience-badge .badge-text {
-    font-size: var(--btn-text);
+  font-size: var(--btn-text);
 }
 
 .carousel-photo {
-    height: 450px;
+  height: 450px;
 }
 
 .about-img {
-    border-radius: var(--radius-m);
-    box-shadow: var(--shadow-soft);
+  border-radius: var(--radius-m);
+  box-shadow: var(--shadow-soft);
 }
 
 .about-content {
-    flex: 1;
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    min-width: 300px;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  min-width: 300px;
 }
 
 .about-title {
-    margin: 0;
+  margin: 0;
 }
 
 .subtitle-red {
-    color: var(--marazul-red);
-    text-transform: uppercase;
-    font-size: 0.9rem;
-    letter-spacing: 1px;
+  color: var(--marazul-red);
+  text-transform: uppercase;
+  font-size: 0.9rem;
+  letter-spacing: 1px;
 }
 
 .stat-card {
-    background-color: var(--bg-light);
-    border-radius: var(--radius-m);
+  background-color: var(--bg-light);
+  border-radius: var(--radius-m);
 }
 
 .stat-item {
-    background-color: var(--bg-light);
-    padding: 1.5rem;
-    border-radius: var(--radius-m);
-    display: flex;
-    align-items: center;
-    gap: 15px;
+  background-color: var(--bg-light);
+  padding: 1.5rem;
+  border-radius: var(--radius-m);
+  display: flex;
+  align-items: center;
+  gap: 15px;
 }
 
 .stat-icon {
-    background-color: var(--marazul-blue-dark);
-    color: var(--marazul-white);
-    width: 48px;
-    height: 48px;
+  background-color: var(--marazul-blue-dark);
+  color: var(--marazul-white);
+  width: 48px;
+  height: 48px;
 }
 .container-image-text {
   width: 100%;
@@ -114,15 +114,11 @@
 
 .hero {
   position: relative;
-  isolation: isolate;
-  width: 101vw;
+  width: 100%;
   min-height: 100vh;
-  left: 50%;
-  right: 50%;
-  margin-top: -4vw;
-  transform: translateX(-50%);
-  overflow-y: visible;
-  overflow-x: hidden;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
 }
 
 .hero::after {
@@ -153,6 +149,7 @@
   height: 100%;
   object-fit: cover;
   z-index: 0;
+  object-position: center;
 }
 
 .text-content-welcome {
@@ -264,51 +261,61 @@
 }
 
 .stat-icon img {
-    width: 24px;
-    filter: brightness(0) invert(1);
+  width: 24px;
+  filter: brightness(0) invert(1);
 }
 
 .stat-number {
-    color: var(--marazul-blue-dark);
+  color: var(--marazul-blue-dark);
 }
 
 .stat-label {
-    color: var(--text-muted);
+  color: var(--text-muted);
 }
 
 .stat-text {
-    display: flex;
-    flex-direction: column;
+  display: flex;
+  flex-direction: column;
 }
 
-
 .btn-read-more {
-    background-color: var(--marazul-blue-dark);
-    color: var(--marazul-white);
-    text-decoration: none;
-    padding: 12px 30px;
-    border-radius: var(--radius-p);
-    font-weight: bold;
-    transition: background-color 0.3s ease;
-    margin-top: 1rem;
+  background-color: var(--marazul-blue-dark);
+  color: var(--marazul-white);
+  text-decoration: none;
+  padding: 12px 30px;
+  border-radius: var(--radius-p);
+  font-weight: bold;
+  transition: background-color 0.3s ease;
+  margin-top: 1rem;
 }
 
 .btn-read-more:hover {
-    background-color: var(--hover-blue);
+  background-color: var(--hover-blue);
 }
 
 @media (max-width: 768px) {
-    .experience-badge {
-        right: 0.5px;
-        padding: 0.7rem;
-        width: 7rem;
-    }
+  .experience-badge {
+    right: 0.5px;
+    padding: 0.7rem;
+    width: 7rem;
+  }
 
-    .experience-badge .badge-number {
-        font-size: 0.8rem;
-    }
+  .experience-badge .badge-number {
+    font-size: 0.8rem;
+  }
 
-    .carousel-photo {
-        height: 300px;
-    }
+  .carousel-photo {
+    height: 300px;
+  }
+
+  .hero {
+    min-height: auto;
+    padding: 80px 0;
+  }
+}
+
+@media (max-width: 1024px) {
+  .hero {
+    min-height: 100svh;
+  }
 }
