@@ -1,56 +1,73 @@
 {
-  "page-title": "Sobre Nosotros - Marazul",
-  "intro-title": "Nuestra Historia",
-  "story-label": "La Empresa",
-  "intro-text": "Desde nuestra fundación, Marazul construyó su trayectoria con dedicación, seguridad y compromiso con cada pasajero. A lo largo de los años, expandimos rutas, renovamos nuestra flota y fortalecimos los lazos con las comunidades que atendemos — siempre guiados por el mismo propósito: conectar personas.",
-  "timeline-title": "Nuestra Trayectoria",
-  "mvv-title": "Nuestros Valores",
-  "mission-label": "Misión",
-  "mission-title": "Nuestra Misión",
-  "mission-text": "Transportar personas con alegría, seguridad y compromiso inquebrantable con la calidad. Más que traslados, creamos conexiones y experiencias inolvidables.",
-  "vision-label": "Visión",
-  "vision-title": "Nuestra Visión",
-  "vision-text": "Ser referente en el transporte regional, invirtiendo en innovación, capacitación del equipo y renovación continua de la flota para ofrecer la mejor experiencia.",
-  "values-label": "Valores",
-  "values-title": "Nuestros Valores",
-  "value-1": "Enfoque en el cliente",
-  "value-2": "Seguridad ante todo",
-  "value-3": "Ética y transparencia",
-  "value-4": "Compromiso con la calidad",
-  "value-5": "Respeto a las personas",
-  "photo-1": "Primer Autobús",
-  "photo-2": "Viaje a Aparecida do Norte",
-  "photo-3": "Exposición de la flota",
-  "photo-4": "Expansión de la flota",
-  "photo-5": "Viaje a Beto Carreiro",
-  "photo-6": "Nuevos Puertos",
-  "photo-7": "Tecnología",
-  "img-bus": "Autobús Marazul",
-  "img-busFront": "Autobús Marazul de frente",
-  "img-firstBus": "Foto 1 - Fundación Marazul",
-  "img-travelingToAparecidaDoNorte": "Foto 2 - Viaje Aparecida do Norte",
-  "img-driver": "Foto 3 - Conductor",
-  "img-betoCarreiro": "Foto 4 - Viaje a Beto Carreiro",
-  "img-fleet": "Foto 5 - Expansión de la flota",
-  "img-photo-6": "Foto 6 - Nuevos Puertos",
-  "img-photo-7": "Foto 7 - Tecnología",
-  "infra-caption": "Nuestra flota",
-  "infra-title": "Conozca la estructura de nuestros autobuses",
-  "caption-first-img": "Interior y asientos con pasillo espacioso",
-  "caption-second-img": "Interior y asientos con baño al fondo",
-  "caption-third-img": "Escalera del autobús",
-  "caption-fourth-img": "Asientos espaciosos",
-  "caption-fifth-img": "Asientos reclinables para descanso",
-  "caption-sixth-img": "Wi-Fi a bordo",
-  "infra-subtitle": "Comodidad, seguridad y tecnología en cada detalle",
-  "infra-description-fleet": "Nuestra flota está compuesta por autobuses modernos y cuidadosamente equipados para garantizar una experiencia de viaje agradable de principio a fin. Cada vehículo pasa por un riguroso mantenimiento preventivo y una inspección técnica antes de cada trayecto.",
-  "infra-description-comfort": "Los pasajeros cuentan con asientos reclinables y ergonómicos, aire acondicionado, iluminación ambiental, baño a bordo, cabina equipada con tecnología de monitoreo, compartimentos de equipaje espaciosos y Wi-Fi de alta velocidad para mantenerse conectados durante todo el viaje.",
-  "infra-description-conclusion": "Todo fue pensado para que usted se relaje, disfrute del paisaje y llegue a su destino con tranquilidad.",
-  "call-to-action-title": "¿Listo para viajar con nosotros?",
-  "call-to-action-subtitle": "El primer paso para tu próximo gran recuerdo.",
-  "fleet-btn": "Conoce nuestra flota",
-  "img-icon-arrow": "símbolo de flecha hacia la derecha",
-  "img.bus-wifi": "Imagen del logotipo de la empresa Starlink indicando Wi-Fi a bordo",
-  "img.bus-inclined-armchair": "Foto interior del autobús mostrando asientos reclinados",
-  "img.bus-armchair": "Foto interior del autobús mostrando asientos y un pasillo espacioso"
+  "about.page-title": "Sobre Nosotros - Marazul",
+
+  "about.intro-title": "Nuestra Historia",
+  "about.story-label": "NUESTRA HISTORIA",
+
+  "about.main-title": "El viaje de tus sueños comienza aquí",
+
+  "about.intro-text": "Marazul Turismo es referencia en turismo por carretera en Brasil. Con más de 15 años de experiencia, ofrecemos viajes seguros, cómodos e inolvidables a los destinos más hermosos del país.",
+
+  "about.history-text-1": "Fundada en 2010, nuestra empresa nació del sueño de hacer el turismo accesible y agradable para todos. Comenzamos con solo dos vehículos y un equipo apasionado.",
+
+  "about.history-text-2": "Nuestra misión es proporcionar momentos únicos para ti y tu familia, con un equipo dedicado y una flota moderna.",
+
+  "about.timeline-title": "Nuestra Trayectoria",
+
+  "about.mvv-title": "Nuestros Valores",
+
+  "about.mission-label": "Misión",
+  "about.mission-title": "Nuestra Misión",
+  "about.mission-text": "Transportar personas con alegría, seguridad y compromiso inquebrantable con la calidad. Más que traslados, creamos conexiones y experiencias inolvidables.",
+
+  "about.vision-label": "Visión",
+  "about.vision-title": "Nuestra Visión",
+  "about.vision-text": "Ser referencia en el transporte regional, invirtiendo en innovación, capacitación del equipo y renovación continua de la flota para ofrecer la mejor experiencia.",
+
+  "about.values-label": "Valores",
+  "about.values-title": "Nuestros Valores",
+
+  "about.value-1": "Enfoque en el cliente",
+  "about.value-2": "Seguridad ante todo",
+  "about.value-3": "Ética y transparencia",
+  "about.value-4": "Compromiso con la calidad",
+  "about.value-5": "Respeto a las personas",
+
+  "about.photo-1": "Primer Autobús",
+  "about.photo-2": "Viaje a Aparecida do Norte",
+  "about.photo-3": "Exposición de la flota",
+  "about.photo-4": "Expansión de la flota",
+  "about.photo-5": "Viaje a Beto Carreiro",
+  "about.photo-6": "Viaje a Costão de Santinho",
+  "about.photo-7": "Tecnología",
+
+  "about.img-bus": "Autobús Marazul",
+  "about.img-firstBus": "Foto 1 - Fundación Marazul",
+  "about.img-travelingToAparecidaDoNorte": "Foto 2 - Viaje Aparecida do Norte",
+  "about.img-driver": "Foto 3 - Conductor",
+  "about.img-betoCarreiro": "Foto 4 - Viaje a Beto Carreiro",
+  "about.img-fleet": "Foto 5 - Expansión de la flota",
+  "about.img-photo-6": "Foto 6 - Nuevos Puertos",
+  "about.img-photo-7": "Foto 7 - Tecnología",
+
+  "about.stat-security-value": "100%",
+  "about.stat-security-label": "Seguridad",
+
+  "about.stat-clients-value": "5.000+",
+  "about.stat-clients-label": "Clientes",
+
+  "about.stat-years-value": "15+",
+  "about.stat-years-label": "Años",
+
+  "about.stat-trips-value": "2.000+",
+  "about.stat-trips-label": "Viajes",
+
+  "about.badge-number": "15+",
+  "about.badge-text": "Años en el mercado",
+
+  "about.call-to-action-title": "¿Listo para viajar con nosotros?",
+  "about.call-to-action-subtitle": "El primer paso para tu próximo gran recuerdo.",
+
+  "about.fleet-btn": "Conoce nuestra flota",
+  "about.img-icon-arrow": "símbolo de flecha hacia la derecha"
 }

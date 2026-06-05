@@ -35,7 +35,10 @@
     <main>
       <section class="about-banner position-relative">
         <picture>
-          <source srcset="../assets/images/about/travelingToAparecidaDoNorte.webp" type="image/webp" />
+          <source
+            srcset="../assets/images/about/travelingToAparecidaDoNorte.webp"
+            type="image/webp"
+          />
           <img
             src="../assets/images/about/travelingToAparecidaDoNorte.webp"
             alt="Ônibus Marazul"
@@ -57,48 +60,91 @@
         </div>
       </section>
 
-      <section class="about-intro py-4">
+      <section class="about-intro py-5">
         <div class="container" style="max-width: 1200px">
           <div class="row align-items-center g-5">
             <div class="col-12 col-lg-6">
               <p class="about-section-label" data-i18n="about.story-label">
-                <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  width="14"
-                  height="14"
-                  viewBox="0 0 16 16"
-                  class="me-1"
-                  aria-hidden="true"
-                  focusable="false"
-                >
-                  <path d="M8 16A8 8 0 1 0 8 0a8 8 0 0 0 0 16z" />
-                </svg>
-                A Empresa
+                NOSSA HISTÓRIA
               </p>
-              <p
-                class="text-muted organization-description"
-                data-i18n="about.intro-text"
-              >
-                Desde a nossa fundação a Marazul construiu sua trajetória com
-                dedicação, segurança e compromisso com cada passageiro. Ao longo
-                dos anos, expandimos rotas, renovamos nossa frota e fortalecemos
-                os laços com as comunidades que atendemos — sempre guiados pelo
-                mesmo propósito: conectar pessoas.
+
+              <h2 class="about-main-title mb-4" data-i18n="about.main-title">
+                Sua viagem dos sonhos começa aqui
+              </h2>
+
+              <p class="text-muted about-text" data-i18n="about.intro-text">
+                A Marazul Turismo é referência em turismo rodoviário no Brasil.
+                Com mais de 15 anos de experiência, oferecemos viagens seguras,
+                confortáveis e inesquecíveis para os mais belos destinos do
+                país.
               </p>
+
+              <p class="text-muted about-text" data-i18n="about.history-text-1">
+                Fundada em 2010, nossa empresa nasceu do sonho de tornar o
+                turismo acessível e prazeroso para todos. Começamos com apenas
+                dois veículos e uma equipe apaixonada.
+              </p>
+
+              <p class="text-muted about-text" data-i18n="about.history-text-2">
+                Nossa missão é proporcionar momentos únicos para você e sua
+                família, com uma equipe dedicada e uma frota moderna.
+              </p>
+
+              <div class="row g-3 mt-4">
+                <div class="col-6">
+                  <div class="stat-card">
+                    <i class="bi bi-shield-check"></i>
+                    <div class="information">
+                      <strong data-i18n="about.stat-security-value">100%</strong>
+                      <small data-i18n="about.stat-security-label">Segurança</small>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="col-6">
+                  <div class="stat-card">
+                    <i class="bi bi-people"></i>
+                    <div class="information">
+                      <strong data-i18n="about.stat-clients-value">5.000+</strong>
+                      <small data-i18n="about.stat-clients-label">Clientes</small>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="col-6">
+                  <div class="stat-card">
+                    <i class="bi bi-award"></i>
+                    <div class="information">
+                      <strong data-i18n="about.stat-years-value">15+</strong>
+                      <small data-i18n="about.stat-years-label">Anos</small>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="col-6">
+                  <div class="stat-card">
+                    <i class="bi bi-clock"></i>
+                    <div class="information">
+                      <strong data-i18n="about.stat-trips-value">2.000+</strong>
+                      <small data-i18n="about.stat-trips-label">Viagens</small>
+                    </div>
+                  </div>
+                </div>
+              </div>
             </div>
             <div class="col-12 col-lg-6">
-              <picture>
-                <source
-                  srcset="../assets/images/about/busFront.webp"
-                  type="image/webp"
-                />
+              <div class="about-image-wrapper position-relative">
                 <img
-                  src="../assets/images/about/busFront.jpg"
-                  alt="Ônibus Marazul de frente"
-                  data-i18n-alt="about.img-busFront"
-                  class="img-fluid rounded"
+                  src="../assets/images/about/driver.webp"
+                  class="img-fluid about-main-image"
+                  alt="Ônibus Marazul"
                 />
-              </picture>
+
+                <div class="about-badge shadow">
+                  <span data-i18n="about.badge-number">15+</span>
+                  <small data-i18n="about.badge-text">Anos no mercado</small>
+                </div>
+              </div>
             </div>
           </div>
         </div>
@@ -288,261 +334,7 @@
           </div>
         </div>
       </section>
-      <section class="infra-section pt-3">
-        <div class="container text-center mt-5">
-          <span
-            class="fw-bold text-uppercase d-block mb-2 color-text"
-            data-i18n="infra-caption"
-            >Nossa frota</span
-          >
-          <h2 class="display-6 title-carousel" data-i18n="infra-title">
-            Conheça a estrutura dos nossos ônibus
-          </h2>
-        </div>
-        <div class="carousel-class">
-          <div class="container py-lg-4">
-            <div class="row align-items-center gy-5 gx-lg-5">
-              <div class="col-lg-6">
-                <div class="position-relative d-inline-block w-100">
-                  <div id="aboutCarousel" class="carousel slide carousel-fade">
-                    <div class="carousel-indicators">
-                      <button
-                        type="button"
-                        data-bs-target="#aboutCarousel"
-                        data-bs-slide-to="0"
-                        class="active"
-                        aria-current="true"
-                        aria-label="Ir para a primeira foto"
-                      ></button>
-                      <button
-                        type="button"
-                        data-bs-target="#aboutCarousel"
-                        data-bs-slide-to="1"
-                        aria-label="Ir para a segunda foto"
-                      ></button>
-                      <button
-                        type="button"
-                        data-bs-target="#aboutCarousel"
-                        data-bs-slide-to="2"
-                        aria-label="Ir para a terceira foto"
-                      ></button>
-                      <button
-                        type="button"
-                        data-bs-target="#aboutCarousel"
-                        data-bs-slide-to="3"
-                        aria-label="Ir para a quarta foto"
-                      ></button>
-                      <button
-                        type="button"
-                        data-bs-target="#aboutCarousel"
-                        data-bs-slide-to="4"
-                        aria-label="Ir para a quinta foto"
-                      ></button>
-                      <button
-                        type="button"
-                        data-bs-target="#aboutCarousel"
-                        data-bs-slide-to="5"
-                        aria-label="Ir para a sexta foto"
-                      ></button>
-                    </div>
-
-                    <div class="carousel-inner about-img">
-                      <div class="carousel-item active">
-                        <picture>
-                          <source
-                            srcset="../assets/images/interna3.webp"
-                            type="image/webp"
-                          />
-                          <img
-                            src="../assets/images/interna3.jpeg"
-                            class="d-block w-100 object-fit-cover carousel-photo"
-                            data-i18n="img.bus5"
-                            alt="Imagem interna do Ônibus mostrando amplo espaço interno"
-                          />
-                        </picture>
-                        <div
-                          class="carousel-caption d-none d-md-block text-start"
-                        >
-                          <h5 class="fw-bold" data-i18n="caption-first-img">
-                            Interior e Poltronas com corredor espaçoso
-                          </h5>
-                        </div>
-                      </div>
-
-                      <div class="carousel-item">
-                        <picture>
-                          <source
-                            srcset="../assets/images/internal-bus-yellow.webp"
-                            type="image/webp"
-                          />
-                          <img
-                            src="../assets/images/internal-bus-yellow.jpg"
-                            class="d-block w-100 object-fit-cover carousel-photo"
-                            data-i18n="img.bus-inside"
-                            alt="Foto do interno do ônibus com assentos"
-                          />
-                        </picture>
-                        <div
-                          class="carousel-caption d-none d-md-block text-start"
-                        >
-                          <h5 class="fw-bold" data-i18n="caption-second-img">
-                            Interior e Poltronas com banheiro ao fundo
-                          </h5>
-                        </div>
-                      </div>
-
-                      <div class="carousel-item">
-                        <picture>
-                          <source
-                            srcset="
-                              ../assets/images/Escadaria-18001-editada.webp
-                            "
-                            type="image/webp"
-                          />
-                          <img
-                            src="../assets/images/Escadaria-18001-editada.jpg"
-                            class="d-block w-100 object-fit-cover carousel-photo"
-                            data-i18n="img.our-fleet"
-                            alt="Foto dos ônibus da Marazul alinhados lado a lado"
-                          />
-                        </picture>
-                        <div
-                          class="carousel-caption d-none d-md-block text-start"
-                        >
-                          <h5 class="fw-bold" data-i18n="caption-third-img">
-                            Escadaria do ônibus
-                          </h5>
-                        </div>
-                      </div>
-
-                      <div class="carousel-item">
-                        <picture>
-                          <source
-                            srcset="../assets/images/Interno-18001-editado.webp"
-                            type="image/webp"
-                          />
-                          <img
-                            src="../assets/images/Interno-18001-editado.jpg"
-                            class="d-block w-100 object-fit-cover carousel-photo"
-                            data-i18n="img.bus-armchair"
-                            alt="Foto interna do ônibus mostrando poltronas e corredor espaçoso"
-                          />
-                        </picture>
-                        <div
-                          class="carousel-caption d-none d-md-block text-start"
-                        >
-                          <h5 class="fw-bold" data-i18n="caption-fourth-img">
-                            Poltronas espaçosas
-                          </h5>
-                        </div>
-                      </div>
-
-                      <div class="carousel-item">
-                        <picture>
-                          <source
-                            srcset="../assets/images/poltronas.webp"
-                            type="image/webp"
-                          />
-                          <img
-                            src="../assets/images/poltronas.jpg"
-                            class="d-block w-100 object-fit-cover carousel-photo"
-                            data-i18n="img.bus-inclined-armchair"
-                            alt="Foto interna do ônibus mostrando poltronas inclinadas"
-                          />
-                        </picture>
-                        <div
-                          class="carousel-caption d-none d-md-block text-start"
-                        >
-                          <h5 class="fw-bold" data-i18n="caption-fifth-img">
-                            Poltronas inclinadas para descanso
-                          </h5>
-                        </div>
-                      </div>
-
-                      <div class="carousel-item">
-                        <picture>
-                          <source
-                            srcset="../assets/images/Wifi-editado.webp"
-                            type="image/webp"
-                          />
-                          <img
-                            src="../assets/images/Wifi-editado.jpg"
-                            class="d-block w-100 object-fit-cover carousel-photo"
-                            data-i18n="img.bus-wifi"
-                            alt="Imagem logo empresa Starlink indicando wifi a bordo"
-                          />
-                        </picture>
-                        <div
-                          class="carousel-caption d-none d-md-block text-start"
-                        >
-                          <h5 class="fw-bold" data-i18n="caption-sixth-img">
-                            Wifi a bordo
-                          </h5>
-                        </div>
-                      </div>
-                    </div>
-                    <button
-                      class="carousel-control-prev custom-nav btn-border"
-                      type="button"
-                      data-bs-target="#aboutCarousel"
-                      data-bs-slide="prev"
-                    >
-                      <img
-                        src="../assets/icons/arrow-left.svg"
-                        alt="Anterior"
-                        class="nav-icon"
-                      />
-                    </button>
-                    <button
-                      class="carousel-control-next custom-nav btn-border"
-                      type="button"
-                      data-bs-target="#aboutCarousel"
-                      data-bs-slide="next"
-                    >
-                      <img
-                        src="../assets/icons/arrow-right.svg"
-                        alt="Próximo"
-                        class="nav-icon"
-                      />
-                    </button>
-                  </div>
-                </div>
-              </div>
-              <div class="col-lg-6 mt-5">
-                <span
-                  class="subtitle-red fw-bold mb-4"
-                  data-i18n="infra-subtitle"
-                >
-                  Conforto, segurança e tecnologia em cada detalhe
-                </span>
-
-                <div class="about-desc fs-5 mt-3 mb-4">
-                  <p data-i18n="infra-description-fleet">
-                    Nossa frota é composta por ônibus modernos e cuidadosamente
-                    equipados para garantir uma experiência de viagem agradável
-                    do início ao fim. Cada veículo passa por manutenção
-                    preventiva rigorosa e inspeção técnica antes de cada
-                    trajeto.
-                  </p>
-
-                  <p data-i18n="infra-description-comfort">
-                    Os passageiros contam com poltronas reclináveis e
-                    ergonômicas, ar-condicionado, iluminação ambiente, banheiro
-                    a bordo, cabine equipada com tecnologia de monitoramento,
-                    bagageiros espaçosos e Wi-Fi de alta velocidade para se
-                    manterem conectados durante toda a viagem.
-                  </p>
-                  <p data-i18n="infra-description-conclusion">
-                    Tudo pensado para que você relaxe, aproveite a paisagem e
-                    chegue ao seu destino com tranquilidade.
-                  </p>
-                </div>
-                <div class="row g-3 mb-4"></div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
+  
       <section class="fleet-section text-center py-5 px-3">
         <h2
           class="call-to-action-title fw-bold mb-2"
