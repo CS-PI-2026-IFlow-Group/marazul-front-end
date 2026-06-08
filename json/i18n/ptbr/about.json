@@ -1,56 +1,73 @@
 {
-  "page-title": "Sobre Nós - Marazul",
-  "intro-title": "Nossa História",
-  "story-label": "A Empresa",
-  "intro-text": "Desde a nossa fundação a Marazul construiu sua trajetória com dedicação, segurança e compromisso com cada passageiro. Ao longo dos anos, expandimos rotas, renovamos nossa frota e fortalecemos os laços com as comunidades que atendemos — sempre guiados pelo mesmo propósito: conectar pessoas.",
-  "timeline-title": "Nossa Trajetória",
-  "mvv-title": "Nossos Valores",
-  "mission-label": "Missão",
-  "mission-title": "Nossa Missão",
-  "mission-text": "Transportar pessoas com alegria, segurança e compromisso inabalável com a qualidade. Mais do que deslocamentos, criamos conexões e experiências inesquecíveis.",
-  "vision-label": "Visão",
-  "vision-title": "Nossa Visão",
-  "vision-text": "Ser referência no transporte regional, investindo em inovação, qualificação da equipe e renovação contínua da frota para oferecer a melhor experiência.",
-  "values-label": "Valores",
-  "values-title": "Nossos Valores",
-  "value-1": "Foco no cliente",
-  "value-2": "Segurança acima de tudo",
-  "value-3": "Ética e transparência",
-  "value-4": "Comprometimento com a qualidade",
-  "value-5": "Respeito às pessoas",
-  "photo-1": "Primeiro Ônibus",
-  "photo-2": "Viagem Aparecida do Norte",
-  "photo-3": "Exposição da frota",
-  "photo-4": "Expansão da frota",
-  "photo-5": "Viagem ao Beto Carreiro",
-  "photo-6": "Novos Portos",
-  "photo-7": "Tecnologia",
-  "img-bus": "Ônibus Marazul",
-  "img-busFront": "Ônibus Marazul de frente",
-  "img-firstBus": "Foto 1 - Fundação Marazul",
-  "img-travelingToAparecidaDoNorte": "Foto 2 - Viagem Aparecida do Norte",
-  "img-driver": "Foto 3 - Motorista",
-  "img-betoCarreiro": "Foto 4 - Viagem ao Beto Carreiro",
-  "img-fleet": "Foto 5 - Expansão da frota",
-  "img-photo-6": "Foto 6 - Novos Portos",
-  "img-photo-7": "Foto 7 - Tecnologia",
-  "infra-caption": "Nossa frota",
-  "infra-title": "Conheça a estrutura dos nossos ônibus",
-  "caption-first-img": "Interior e poltronas com corredor espaçoso",
-  "caption-second-img": "Interior e poltronas com banheiro ao fundo",
-  "caption-third-img": "Escadaria do ônibus",
-  "caption-fourth-img": "Poltronas espaçosas",
-  "caption-fifth-img": "Poltronas reclináveis para descanso",
-  "caption-sixth-img": "Wi-Fi a bordo",
-  "infra-subtitle": "Conforto, segurança e tecnologia em cada detalhe",
-  "infra-description-fleet": "Nossa frota é composta por ônibus modernos e cuidadosamente equipados para garantir uma experiência de viagem agradável do início ao fim. Cada veículo passa por manutenção preventiva rigorosa e inspeção técnica antes de cada trajeto.",
-  "infra-description-comfort": "Os passageiros contam com poltronas reclináveis e ergonômicas, ar-condicionado, iluminação ambiente, banheiro a bordo, cabine equipada com tecnologia de monitoramento, bagageiros espaçosos e Wi-Fi de alta velocidade para se manterem conectados durante toda a viagem.",
-  "infra-description-conclusion": "Tudo foi pensado para que você relaxe, aproveite a paisagem e chegue ao seu destino com tranquilidade.",
-  "call-to-action-title": "Pronto para viajar conosco?",
-  "call-to-action-subtitle": "O primeiro passo para a sua próxima grande memória.",
-  "fleet-btn": "Conheça nossa frota",
-  "img-icon-arrow": "símbolo de flecha para a direita",
-  "img.bus-wifi": "Imagem logo empresa Starlink indicando wifi a bordo",
-  "img.bus-inclined-armchair": "Foto interna do ônibus mostrando poltronas inclinadas",
-  "img.bus-armchair": "Foto interna do ônibus mostrando poltronas e corredor espaçoso"
+  "about.page-title": "Sobre Nós - Marazul",
+
+  "about.intro-title": "Nossa História",
+  "about.story-label": "NOSSA HISTÓRIA",
+
+  "about.main-title": "Sua viagem dos sonhos começa aqui",
+
+  "about.intro-text": "A Marazul Turismo é referência em turismo rodoviário no Brasil. Com mais de 15 anos de experiência, oferecemos viagens seguras, confortáveis e inesquecíveis para os mais belos destinos do país.",
+
+  "about.history-text-1": "Fundada em 2010, nossa empresa nasceu do sonho de tornar o turismo acessível e prazeroso para todos. Começamos com apenas dois veículos e uma equipe apaixonada.",
+
+  "about.history-text-2": "Nossa missão é proporcionar momentos únicos para você e sua família, com uma equipe dedicada e uma frota moderna.",
+
+  "about.timeline-title": "Nossa Trajetória",
+
+  "about.mvv-title": "Nossos Valores",
+
+  "about.mission-label": "Missão",
+  "about.mission-title": "Nossa Missão",
+  "about.mission-text": "Transportar pessoas com alegria, segurança e compromisso inabalável com a qualidade. Mais do que deslocamentos, criamos conexões e experiências inesquecíveis.",
+
+  "about.vision-label": "Visão",
+  "about.vision-title": "Nossa Visão",
+  "about.vision-text": "Ser referência no transporte regional, investindo em inovação, qualificação da equipe e renovação contínua da frota para oferecer a melhor experiência.",
+
+  "about.values-label": "Valores",
+  "about.values-title": "Nossos Valores",
+
+  "about.value-1": "Foco no cliente",
+  "about.value-2": "Segurança acima de tudo",
+  "about.value-3": "Ética e transparência",
+  "about.value-4": "Comprometimento com a qualidade",
+  "about.value-5": "Respeito às pessoas",
+
+  "about.photo-1": "Primeiro Ônibus",
+  "about.photo-2": "Viagem Aparecida do Norte",
+  "about.photo-3": "Exposição da frota",
+  "about.photo-4": "Expansão da frota",
+  "about.photo-5": "Viagem ao Beto Carreiro",
+  "about.photo-6": "Viagem a Costão de Santinho",
+  "about.photo-7": "Tecnologia",
+
+  "about.img-bus": "Ônibus Marazul",
+  "about.img-firstBus": "Foto 1 - Fundação Marazul",
+  "about.img-travelingToAparecidaDoNorte": "Foto 2 - Viagem Aparecida do Norte",
+  "about.img-driver": "Foto 3 - Motorista",
+  "about.img-betoCarreiro": "Foto 4 - Viagem ao Beto Carreiro",
+  "about.img-fleet": "Foto 5 - Expansão da frota",
+  "about.img-photo-6": "Foto 6 - Novos Portos",
+  "about.img-photo-7": "Foto 7 - Tecnologia",
+
+  "about.stat-security-value": "100%",
+  "about.stat-security-label": "Segurança",
+
+  "about.stat-clients-value": "5.000+",
+  "about.stat-clients-label": "Clientes",
+
+  "about.stat-years-value": "15+",
+  "about.stat-years-label": "Anos",
+
+  "about.stat-trips-value": "2.000+",
+  "about.stat-trips-label": "Viagens",
+
+  "about.badge-number": "15+",
+  "about.badge-text": "Anos no mercado",
+
+  "about.call-to-action-title": "Pronto para viajar conosco?",
+  "about.call-to-action-subtitle": "O primeiro passo para a sua próxima grande memória.",
+
+  "about.fleet-btn": "Conheça nossa frota",
+  "about.img-icon-arrow": "símbolo de flecha para a direita"
 }
