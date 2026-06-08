@@ -322,12 +322,12 @@ html.page-about-root {
 
 .about-badge {
   position: absolute;
-  bottom: 20px;
+  bottom: -20px;
   right: -20px;
   background: var(--marazul-red);
   color: white;
   padding: 14px 18px;
-  border-radius: 14px;
+  border-radius: var(--radius-m);
   text-align: center;
 }
 
@@ -372,8 +372,8 @@ html.page-about-root {
 
 .information small {
   display: block;
-  font-size: 18px;
-  color: var(--marazul-blue-dark);
+  font-size: 0.85rem;
+  color: var(--text-muted);
 }
 
 @media (min-width: 320px) and (max-width: 767px) {
