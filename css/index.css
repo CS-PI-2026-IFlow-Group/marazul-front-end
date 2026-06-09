@@ -387,3 +387,11 @@
     color: var(--marazul-red);
     font-size: 1rem;
 }
+
+.fleet-description {
+  max-width: 750px;
+  margin: 12px auto 0 auto;
+  font-size: 1.2rem;
+  line-height: 1.6;
+  color: var(--text-muted);
+}
