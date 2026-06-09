@@ -313,3 +313,77 @@
     min-height: 100svh;
   }
 }
+
+.fleet {
+    background: var(--bg-light);
+}
+
+.fleet-title {
+    color: var(--marazul-blue-dark);
+    font-weight: 700;
+    margin-top: 8px;
+}
+
+.fleet-subtitle {
+    color: var(--marazul-red);
+    text-transform: uppercase;
+    font-weight: 700;
+    letter-spacing: 2px;
+}
+.bus-card {
+    background: white;
+    border-radius: 10px; /* antes era 20px */
+    overflow: hidden;
+    box-shadow: 0 6px 18px rgba(0,0,0,0.08);
+    height: 100%;
+    transition: .3s ease;
+}
+
+.bus-card:hover {
+    transform: translateY(-5px);
+}
+
+.bus-card-img {
+    width: 100%;
+    height: 230px;
+    object-fit: cover;
+}
+
+.bus-card-body {
+    padding: 20px;
+}
+
+.bus-type {
+    color: var(--marazul-blue-dark);
+    font-size: 1.3rem;
+    font-weight: 700;
+}
+
+.bus-seats {
+    color: var(--marazul-red);
+    font-weight: 600;
+    margin-bottom: 12px;
+}
+
+/* LISTA COM CHECKS */
+.bus-details {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+}
+
+.bus-details li {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    font-size: .95rem;
+    color: #333;
+}
+
+.bus-details i {
+    color: var(--marazul-red);
+    font-size: 1rem;
+}
