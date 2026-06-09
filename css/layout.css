@@ -414,3 +414,9 @@ body {
 .footer-admin-link {
   cursor: pointer;
 }
+
+@media (max-width:1320px){
+  .nav-links a{
+    font-size: 1.1rem;
+  }
+}
