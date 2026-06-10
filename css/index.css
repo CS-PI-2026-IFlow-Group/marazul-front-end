@@ -334,14 +334,11 @@
     background: white;
     border-radius: 10px; /* antes era 20px */
     overflow: hidden;
-    box-shadow: 0 6px 18px rgba(0,0,0,0.08);
+    box-shadow: 0 6px 18px rgba(110, 6, 6, 0.082);
     height: 100%;
     transition: .3s ease;
 }
 
-.bus-card:hover {
-    transform: translateY(-5px);
-}
 
 .bus-card-img {
     width: 100%;
@@ -394,4 +391,21 @@
   font-size: 1.2rem;
   line-height: 1.6;
   color: var(--text-muted);
+}
+
+.btn-fleet-page {
+  display: inline-block;
+  background-color: var(--marazul-red);
+  color: var(--marazul-white);
+  text-decoration: none;
+  padding: 14px 36px;
+  border-radius: 8px;
+  font-weight: 600;
+  transition: all 0.3s ease;
+}
+
+.btn-fleet-page:hover {
+  background-color: #b91f1f;
+  transform: translateY(-2px);
+  color: var(--marazul-white);
 }
