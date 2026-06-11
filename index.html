@@ -27,7 +27,6 @@
       href="https://fonts.googleapis.com/css2?family=Rajdhani:wght@500;600;700&display=swap"
       rel="stylesheet"
     />
-    
   </head>
   <body>
     <div id="header"></div>
@@ -88,12 +87,18 @@
               </div>
             </div>
           </div>
-          <img
-            src="assets/images/foto-da-home.webp"
-            class="image-background"
-            alt="foto praia de ilha paradisíaca"
-            data-i18n="img-home-beach"
-          />
+          <picture>
+            <source
+              srcset="assets/images/foto-da-home.webp"
+              type="image/webp"
+            />
+            <img
+              src="assets/images/foto-da-home.jpg"
+              class="image-background"
+              alt="Ônibus da Marazul em Aparecida do Norte"
+              data-i18n-alt="img-home-bus"
+            />
+          </picture>
         </section>
       </div>
       <section class="fleet" id="fleet-section"></section>
@@ -300,7 +305,277 @@
           </div>
         </div>
       </section>
-      <section class="fleet"></section>
+      <section class="fleet py-5" id="fleet-section">
+        <div class="container">
+          <div class="text-center mb-5">
+            <span class="fleet-subtitle" data-i18n="fleet.subtitle">
+              Nossa Frota
+            </span>
+            <h2 class="fleet-title" data-i18n="fleet.title">
+              Conheça nossos veículos
+            </h2>
+            <p class="fleet-description" data-i18n="fleet.description">
+              Sua segurança é o nosso destino principal. Nossa frota é equipada
+              com o máximo de conforto e rigorosamente revisada para que você
+              apenas relaxe, encoste a poltrona e aproveite a viagem.
+            </p>
+          </div>
+
+          <div class="row g-4">
+            <!-- CARD 1 -->
+            <div class="col-12 col-md-6 col-lg-3">
+              <div class="bus-card">
+                <picture>
+                  <source
+                    srcset="assets/images/especifica-do-13.webp"
+                    type="image/webp"
+                  />
+                  <img
+                    src="assets/images/especifica-do-13.jpg"
+                    class="bus-card-img"
+                    alt="Ônibus Marcopolo DD da frota Marazul"
+                    data-i18n-alt="fleet.bus1.alt"
+                  />
+                </picture>
+
+                <div class="bus-card-body">
+                  <h3 class="bus-type" data-i18n="fleet.bus1.title">
+                    13001 - Marcopolo DD
+                  </h3>
+
+                  <p class="bus-seats">
+                    <i class="bi bi-people-fill" aria-hidden="true"></i>
+                    <span data-i18n="fleet.bus1.seats">56 lugares</span>
+                  </p>
+
+                  <ul class="bus-details">
+                    <li>
+                      <i class="bi bi-check-circle-fill" aria-hidden="true"></i>
+                      <span data-i18n="fleet.bus1.feature1">Carregador</span>
+                    </li>
+                    <li>
+                      <i class="bi bi-check-circle-fill" aria-hidden="true"></i>
+                      <span data-i18n="fleet.bus1.feature2"
+                        >Ar-condicionado</span
+                      >
+                    </li>
+                    <li>
+                      <i class="bi bi-check-circle-fill" aria-hidden="true"></i>
+                      <span data-i18n="fleet.bus1.feature3"
+                        >USB individual</span
+                      >
+                    </li>
+                    <li>
+                      <i class="bi bi-check-circle-fill" aria-hidden="true"></i>
+                      <span data-i18n="fleet.bus1.feature4">Starlink</span>
+                    </li>
+                    <li>
+                      <i class="bi bi-check-circle-fill" aria-hidden="true"></i>
+                      <span data-i18n="fleet.bus1.feature5">Banheiro</span>
+                    </li>
+                    <li>
+                      <i class="bi bi-check-circle-fill" aria-hidden="true"></i>
+                      <span data-i18n="fleet.bus1.feature6">
+                        Cortinas individuais
+                      </span>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+
+            <!-- CARD 2 -->
+            <div class="col-12 col-md-6 col-lg-3">
+              <div class="bus-card">
+                <picture>
+                  <source
+                    srcset="assets/images/Carro-11001.webp"
+                    type="image/webp"
+                  />
+                  <img
+                    src="assets/images/Carro-11001.jpg"
+                    class="bus-card-img"
+                    alt="Ônibus Marcopolo LD da frota Marazul"
+                    data-i18n-alt="fleet.bus2.alt"
+                  />
+                </picture>
+
+                <div class="bus-card-body">
+                  <h3 class="bus-type" data-i18n="fleet.bus2.title">
+                    1101 - Marcopolo LD
+                  </h3>
+
+                  <p class="bus-seats">
+                    <i class="bi bi-people-fill" aria-hidden="true"></i>
+                    <span data-i18n="fleet.bus2.seats">42 lugares</span>
+                  </p>
+
+                  <ul class="bus-details">
+                    <li>
+                      <i class="bi bi-check-circle-fill" aria-hidden="true"></i>
+                      <span data-i18n="fleet.bus2.feature1">Carregador</span>
+                    </li>
+                    <li>
+                      <i class="bi bi-check-circle-fill" aria-hidden="true"></i>
+                      <span data-i18n="fleet.bus2.feature2"
+                        >Ar-condicionado</span
+                      >
+                    </li>
+                    <li>
+                      <i class="bi bi-check-circle-fill" aria-hidden="true"></i>
+                      <span data-i18n="fleet.bus2.feature3"
+                        >USB individual</span
+                      >
+                    </li>
+                    <li>
+                      <i class="bi bi-check-circle-fill" aria-hidden="true"></i>
+                      <span data-i18n="fleet.bus2.feature4">Starlink</span>
+                    </li>
+                    <li>
+                      <i class="bi bi-check-circle-fill" aria-hidden="true"></i>
+                      <span data-i18n="fleet.bus2.feature5">Banheiro</span>
+                    </li>
+                    <li>
+                      <i class="bi bi-check-circle-fill" aria-hidden="true"></i>
+                      <span data-i18n="fleet.bus2.feature6">
+                        Cortinas individuais
+                      </span>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+
+            <!-- CARD 3 -->
+            <div class="col-12 col-md-6 col-lg-3">
+              <div class="bus-card">
+                <picture>
+                  <source srcset="assets/images/bus18.webp" type="image/webp" />
+                  <img
+                    src="assets/images/bus18.jpeg"
+                    class="bus-card-img"
+                    alt="Ônibus da frota Marazul estacionados"
+                    data-i18n-alt="fleet.bus3.alt"
+                  />
+                </picture>
+
+                <div class="bus-card-body">
+                  <h3 class="bus-type" data-i18n="fleet.bus3.title">
+                    18001 - Marcopolo DD
+                  </h3>
+
+                  <p class="bus-seats">
+                    <i class="bi bi-people-fill" aria-hidden="true"></i>
+                    <span data-i18n="fleet.bus3.seats">53 lugares</span>
+                  </p>
+
+                  <ul class="bus-details">
+                    <li>
+                      <i class="bi bi-check-circle-fill" aria-hidden="true"></i>
+                      <span data-i18n="fleet.bus3.feature1">Carregador</span>
+                    </li>
+                    <li>
+                      <i class="bi bi-check-circle-fill" aria-hidden="true"></i>
+                      <span data-i18n="fleet.bus3.feature2"
+                        >Ar-condicionado</span
+                      >
+                    </li>
+                    <li>
+                      <i class="bi bi-check-circle-fill" aria-hidden="true"></i>
+                      <span data-i18n="fleet.bus3.feature3"
+                        >USB individual</span
+                      >
+                    </li>
+                    <li>
+                      <i class="bi bi-check-circle-fill" aria-hidden="true"></i>
+                      <span data-i18n="fleet.bus3.feature4">Starlink</span>
+                    </li>
+                    <li>
+                      <i class="bi bi-check-circle-fill" aria-hidden="true"></i>
+                      <span data-i18n="fleet.bus3.feature5">Banheiro</span>
+                    </li>
+                    <li>
+                      <i class="bi bi-check-circle-fill" aria-hidden="true"></i>
+                      <span data-i18n="fleet.bus3.feature6">
+                        Cortinas individuais
+                      </span>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+
+            <!-- CARD 4 -->
+            <div class="col-12 col-md-6 col-lg-3">
+              <div class="bus-card">
+                <picture>
+                  <source srcset="assets/images/bus20.webp" type="image/webp" />
+                  <img
+                    src="assets/images/bus20.jpg"
+                    class="bus-card-img"
+                    alt="Ônibus Marcopolo DD da frota Marazul"
+                    data-i18n-alt="fleet.bus4.alt"
+                  />
+                </picture>
+
+                <div class="bus-card-body">
+                  <h3 class="bus-type" data-i18n="fleet.bus4.title">
+                    2001 - Marcopolo DD
+                  </h3>
+
+                  <p class="bus-seats">
+                    <i class="bi bi-people-fill" aria-hidden="true"></i>
+                    <span data-i18n="fleet.bus4.seats">56 lugares</span>
+                  </p>
+
+                  <ul class="bus-details">
+                    <li>
+                      <i class="bi bi-check-circle-fill" aria-hidden="true"></i>
+                      <span data-i18n="fleet.bus4.feature1">Carregador</span>
+                    </li>
+                    <li>
+                      <i class="bi bi-check-circle-fill" aria-hidden="true"></i>
+                      <span data-i18n="fleet.bus4.feature2"
+                        >Ar-condicionado</span
+                      >
+                    </li>
+                    <li>
+                      <i class="bi bi-check-circle-fill" aria-hidden="true"></i>
+                      <span data-i18n="fleet.bus4.feature3"
+                        >USB individual</span
+                      >
+                    </li>
+                    <li>
+                      <i class="bi bi-check-circle-fill" aria-hidden="true"></i>
+                      <span data-i18n="fleet.bus4.feature4">Starlink</span>
+                    </li>
+                    <li>
+                      <i class="bi bi-check-circle-fill" aria-hidden="true"></i>
+                      <span data-i18n="fleet.bus4.feature5">Banheiro</span>
+                    </li>
+                    <li>
+                      <i class="bi bi-check-circle-fill" aria-hidden="true"></i>
+                      <span data-i18n="fleet.bus4.feature6">
+                        Cortinas individuais
+                      </span>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="text-center mt-5">
+            <a
+              href="./pages/fleet.html"
+              class="btn-fleet-page"
+              data-i18n="fleet.btn-view-fleet"
+            >
+              Conhecer frota
+            </a>
+          </div>
+        </div>
+      </section>
       <section class="travel-tips"></section>
       <section class="bras"></section>
       <section class="contact"></section>
