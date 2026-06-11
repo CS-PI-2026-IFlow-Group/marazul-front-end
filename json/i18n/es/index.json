@@ -22,12 +22,13 @@
   "btn-primary-text": "Solicitar presupuesto",
   "btn-secondary-text": "Conoce nuestra flota",
   "img-icon-gps": "icono de GPS",
-  "img-home-beach": "foto de playa de isla paradisíaca",
+  "img-home-bus": "Ônibus da Marazul em Aparecida do Norte",
   "img-icon-arrow": "símbolo de flecha hacia la derecha",
   "fleet.subtitle": "Nuestra Flota",
   "fleet.title": "Conoce nuestros vehículos",
   "fleet.description": "Su seguridad es nuestro destino principal. Nuestra flota está equipada con el máximo confort y revisada rigurosamente para que solo se relaje, recline el asiento y disfrute del viaje.",
 
+  "fleet.bus1.alt": "Autobús Marcopolo DD de la flota Marazul",
   "fleet.bus1.title": "13001 - Marcopolo DD",
   "fleet.bus1.seats": "56 plazas",
   "fleet.bus1.feature1": "Cargador",
@@ -37,6 +38,7 @@
   "fleet.bus1.feature5": "Baño",
   "fleet.bus1.feature6": "Cortinas individuales",
 
+  "fleet.bus2.alt": "Autobús Marcopolo LD de la flota Marazul",
   "fleet.bus2.title": "1101 - Marcopolo LD",
   "fleet.bus2.seats": "42 plazas",
   "fleet.bus2.feature1": "Cargador",
@@ -46,6 +48,7 @@
   "fleet.bus2.feature5": "Baño",
   "fleet.bus2.feature6": "Cortinas individuales",
 
+  "fleet.bus3.alt": "Autobús de la flota Marazul estacionado",
   "fleet.bus3.title": "18001 - Marcopolo DD",
   "fleet.bus3.seats": "53 plazas",
   "fleet.bus3.feature1": "Cargador",
@@ -55,6 +58,7 @@
   "fleet.bus3.feature5": "Baño",
   "fleet.bus3.feature6": "Cortinas individuales",
 
+  "fleet.bus4.alt": "Autobús Marcopolo DD de la flota Marazul",
   "fleet.bus4.title": "2001 - Marcopolo DD",
   "fleet.bus4.seats": "56 plazas",
   "fleet.bus4.feature1": "Cargador",
