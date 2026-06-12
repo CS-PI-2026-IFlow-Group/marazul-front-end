@@ -1,3 +1,5 @@
+
+
 .experience-badge {
   position: absolute;
   bottom: -20px;
@@ -305,7 +307,6 @@
   .carousel-photo {
     height: 300px;
   }
-
 }
 
 @media (max-width: 1024px) {
@@ -315,74 +316,75 @@
 }
 
 .fleet {
-    background: var(--bg-light);
+  background: var(--bg-light);
+  padding: 80px 0;
+  margin-bottom: 0;
 }
 
 .fleet-title {
-    color: var(--marazul-blue-dark);
-    font-weight: 700;
-    margin-top: 8px;
+  color: var(--marazul-blue-dark);
+  font-weight: 700;
+  margin-top: 8px;
 }
 
 .fleet-subtitle {
-    color: var(--marazul-red);
-    text-transform: uppercase;
-    font-weight: 700;
-    letter-spacing: 2px;
+  color: var(--marazul-red);
+  text-transform: uppercase;
+  font-weight: 700;
+  letter-spacing: 2px;
 }
 .bus-card {
-    background: white;
-    border-radius: 10px; /* antes era 20px */
-    overflow: hidden;
-    box-shadow: 0 6px 18px rgba(110, 6, 6, 0.082);
-    height: 100%;
-    transition: .3s ease;
+  background: white;
+  border-radius: 10px; /* antes era 20px */
+  overflow: hidden;
+  box-shadow: 0 6px 18px rgba(110, 6, 6, 0.082);
+  height: 100%;
+  transition: 0.3s ease;
 }
 
-
 .bus-card-img {
-    width: 100%;
-    height: 230px;
-    object-fit: cover;
+  width: 100%;
+  height: 230px;
+  object-fit: cover;
 }
 
 .bus-card-body {
-    padding: 20px;
+  padding: 20px;
 }
 
 .bus-type {
-    color: var(--marazul-blue-dark);
-    font-size: 1.3rem;
-    font-weight: 700;
+  color: var(--marazul-blue-dark);
+  font-size: 1.3rem;
+  font-weight: 700;
 }
 
 .bus-seats {
-    color: var(--marazul-red);
-    font-weight: 600;
-    margin-bottom: 12px;
+  color: var(--marazul-red);
+  font-weight: 600;
+  margin-bottom: 12px;
 }
 
 /* LISTA COM CHECKS */
 .bus-details {
-    list-style: none;
-    padding: 0;
-    margin: 0;
-    display: flex;
-    flex-direction: column;
-    gap: 6px;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
 }
 
 .bus-details li {
-    display: flex;
-    align-items: center;
-    gap: 8px;
-    font-size: .95rem;
-    color: #333;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 0.95rem;
+  color: #333;
 }
 
 .bus-details i {
-    color: var(--marazul-red);
-    font-size: 1rem;
+  color: var(--marazul-red);
+  font-size: 1rem;
 }
 
 .fleet-description {
@@ -406,6 +408,256 @@
 
 .btn-fleet-page:hover {
   background-color: #b91f1f;
-  transform: translateY(-2px);
   color: var(--marazul-white);
+}
+
+/* =========================
+   USEFUL LINKS SECTION
+========================= */
+
+.useful-links-section {
+  background: #fff;
+  padding-top: 80px;
+  padding-bottom: 80px;
+  position: relative;
+  z-index: 2;
+  position: relative;
+}
+
+/* HEADER */
+.useful-links-header {
+  text-align: center;
+  margin-bottom: 50px;
+  max-width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.useful-links-subtitle {
+  color: var(--marazul-red);
+  text-transform: uppercase;
+  font-weight: 700;
+  letter-spacing: 2px;
+  font-size: 0.9rem;
+}
+
+.useful-links-title {
+  color: var(--marazul-blue-dark);
+  font-weight: 700;
+  margin: 10px 0;
+}
+
+.useful-links-description {
+  color: var(--text-muted);
+  font-size: 1.1rem;
+  line-height: 1.6;
+}
+
+/* LISTA */
+.useful-links-list {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 25px;
+  margin-top: 30px;
+}
+
+/* CARD */
+.useful-link-card {
+  background: white;
+  border-radius: 10px;
+  padding: 25px;
+  text-decoration: none;
+  box-shadow: 0 6px 18px rgba(85, 4, 4, 0.233);
+  transition: all 0.3s ease;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  min-height: 180px;
+}
+
+.useful-link-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 25px rgba(110, 6, 6, 0.253);
+}
+
+/* TEXTO DO CARD */
+.link-card-title {
+  color: var(--marazul-blue-dark);
+  font-size: 1.3rem;
+  font-weight: 700;
+  margin-bottom: 8px;
+}
+
+.link-card-description {
+  color: var(--text-muted);
+  font-size: 0.95rem;
+  line-height: 1.5;
+  margin-bottom: 15px;
+}
+
+/* CTA */
+.link-card-action {
+  color: var(--marazul-red);
+  font-weight: 600;
+  font-size: 0.95rem;
+  margin-top: auto;
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.link-card-action::after {
+  content: "→";
+  transition: transform 0.2s ease;
+}
+
+.useful-link-card:hover .link-card-action::after {
+  transform: translateX(4px);
+}
+
+/* RESPONSIVO */
+@media (max-width: 1024px) {
+  .useful-links-list {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 600px) {
+  .useful-links-list {
+    grid-template-columns: 1fr;
+  }
+
+  .useful-links-section {
+    padding: 60px 20px;
+  }
+}
+
+.faq-section {
+  background-color: var(--bg-light);
+  padding-bottom: 80px;
+  padding-top: 80px;
+}
+
+/* HEADER */
+.faq-header {
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.faq-subtitle {
+  color: var(--marazul-red);
+  text-transform: uppercase;
+  font-weight: 700;
+  letter-spacing: 2px;
+  font-size: 0.9rem;
+  display: block;
+  margin-bottom: 10px;
+}
+
+.faq-title {
+  color: var(--marazul-blue-dark);
+  font-weight: 700;
+  margin: 0;
+}
+
+/* ACCORDION */
+.faq-accordion {
+  max-width: 850px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+/* ITEM */
+.faq-item {
+  background: white;
+  border-radius: 10px;
+  box-shadow: 0 6px 18px rgba(110, 6, 6, 0.08);
+  overflow: hidden;
+  transition: all 0.3s ease;
+}
+
+/* SUMMARY (clicável) */
+.faq-item summary {
+  list-style: none;
+  cursor: pointer;
+  padding: 18px 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-weight: 600;
+  color: var(--marazul-blue-dark);
+  font-size: 1rem;
+}
+
+/* remove seta padrão do details */
+.faq-item summary::-webkit-details-marker {
+  display: none;
+}
+
+/* ICON */
+.faq-icon {
+  width: 20px;
+  height: 20px;
+  position: relative;
+}
+
+.faq-icon::before,
+.faq-icon::after {
+  content: "";
+  position: absolute;
+  background-color: var(--marazul-red);
+  transition: 0.3s ease;
+}
+
+/* + icon */
+.faq-icon::before {
+  width: 100%;
+  height: 2px;
+  top: 50%;
+  left: 0;
+  transform: translateY(-50%);
+}
+
+.faq-icon::after {
+  width: 2px;
+  height: 100%;
+  left: 50%;
+  top: 0;
+  transform: translateX(-50%);
+}
+
+/* CONTENT */
+.faq-content {
+  padding: 0 20px 18px 20px;
+  color: var(--text-muted);
+  font-size: 0.95rem;
+  line-height: 1.6;
+}
+
+/* ANIMAÇÃO ABRIR */
+.faq-item[open] {
+  box-shadow: 0 10px 25px rgba(110, 6, 6, 0.15);
+}
+
+.faq-item[open] .faq-icon::after {
+  transform: translateX(-50%) rotate(90deg);
+  opacity: 0;
+}
+
+/* hover leve */
+.faq-item:hover {
+  transform: translateY(-2px);
+}
+
+/* RESPONSIVO */
+@media (max-width: 768px) {
+  .faq-section {
+    padding: 60px 20px;
+  }
+
+  .faq-item summary {
+    font-size: 0.95rem;
+  }
 }
