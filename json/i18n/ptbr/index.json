@@ -69,5 +69,33 @@
   "fleet.bus4.feature5": "Banheiro",
   "fleet.bus4.feature6": "Cortinas individuais",
 
-  "fleet.btn-view-fleet": "Conhecer frota"
+  "fleet.btn-view-fleet": "Conhecer frota",
+
+  "useful-links.subtitle": "Informações importantes",
+  "useful-links.title": "Acesso rápido a órgãos oficiais",
+  "useful-links.description": "Acesso rápido a órgãos reguladores, parceiros e informações importantes para a sua viagem.",
+
+  "useful-links.antt.title": "ANTT",
+  "useful-links.antt.desc": "Agência Nacional de Transportes Terrestres",
+
+  "useful-links.der.title": "DER-PR",
+  "useful-links.der.desc": "Departamento de Edificações e Rodovias do Paraná",
+
+  "useful-links.cadastur.title": "CADASTUR",
+  "useful-links.cadastur.desc": "Ministério do Turismo - Cadastro de prestadores",
+
+  "useful-links.cta": "Acessar site",
+
+  "faq.subtitle": "FAQ",
+  "faq.title": "Ainda tem dúvidas?",
+
+  "faq.question1": "Quais as regras para cancelamento?",
+  "faq.answer1": "Consulte nossa política de cancelamento...",
+
+  "faq.question2": "Qual o limite de bagagem no bagageiro?",
+  "faq.answer2": "O limite de bagagem varia conforme o tipo de viagem...",
+
+  "faq.question3": "Animais de estimação podem viajar?",
+  "faq.answer3": "Sim, desde que sejam observadas as normas vigentes..."
 }
+

@@ -3,11 +3,13 @@ import { loadHeader } from "./components/header.js";
 import { initAboutCarousel } from "./index/carousel.js";
 import { loadFooter } from "./components/footer.js";
 import { initActiveNav } from "./modules/activeNav.js";
+import { initFAQ } from "./modules/faq.js";
 
 document.addEventListener("DOMContentLoaded", async () => {
   await loadHeader(); 
 
   initAboutCarousel();
+  initFAQ();
   loadFooter();
   initActiveNav(); 
 });

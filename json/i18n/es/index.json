@@ -68,5 +68,34 @@
   "fleet.bus4.feature5": "Baño",
   "fleet.bus4.feature6": "Cortinas individuales",
 
-  "fleet.btn-view-fleet": "Conozca la flota"
+  "fleet.btn-view-fleet": "Conozca la flota",
+
+  "useful-links.subtitle": "Información importante",
+  "useful-links.title": "Acceso rápido a organismos oficiales",
+  "useful-links.description": "Acceso rápido a organismos reguladores, socios e información importante para tu viaje.",
+
+  "useful-links.antt.title": "ANTT",
+  "useful-links.antt.desc": "Agencia Nacional de Transporte Terrestre",
+
+  "useful-links.der.title": "DER-PR",
+  "useful-links.der.desc": "Departamento de Edificaciones y Carreteras de Paraná",
+
+  "useful-links.cadastur.title": "CADASTUR",
+  "useful-links.cadastur.desc": "Ministerio de Turismo - Registro de prestadores",
+
+  "useful-links.cta": "Acceder al sitio",
+
+
+  "faq.subtitle": "FAQ",
+  "faq.title": "¿Todavía tienes dudas?",
+
+  "faq.question1": "¿Cuáles son las reglas de cancelación?",
+  "faq.answer1": "Consulta nuestra política de cancelación...",
+
+  "faq.question2": "¿Cuál es el límite de equipaje en el maletero?",
+  "faq.answer2": "El límite de equipaje varía según el tipo de viaje...",
+
+  "faq.question3": "¿Se permiten mascotas a bordo?",
+  "faq.answer3": "Sí, siempre que se respeten las normas vigentes..."
 }
+
