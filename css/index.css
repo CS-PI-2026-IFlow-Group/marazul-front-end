@@ -408,9 +408,7 @@
 
 .btn-fleet-page:hover {
   background-color: #b91f1f;
-  transform: translateY(-2px);
   color: var(--marazul-white);
-  padding-bottom: 100px;
 }
 
 /* =========================
