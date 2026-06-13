@@ -1,0 +1,205 @@
+/* =========================
+   HERO BANNER
+========================= */
+.about-banner {
+  height: 420px;
+  overflow: hidden;
+}
+
+.about-banner-img {
+  height: 100%;
+  object-fit: cover;
+}
+
+.about-banner-overlay {
+  background: linear-gradient(
+    to top,
+    rgba(6, 42, 69, 0.85),
+    rgba(6, 42, 69, 0.3)
+  );
+}
+
+.about-intro-title {
+  color: var(--marazul-white);
+  font-size: 60px;
+  font-weight: 700;
+}
+
+/* =========================
+   INFO CARDS
+========================= */
+.contact-info-section {
+  margin-top: -60px;
+  position: relative;
+  z-index: 5;
+}
+
+.contact-info-section .container {
+  max-width: 1100px;
+}
+
+.contact-info-section .row > div {
+  display: flex;
+}
+
+.contact-info-section .bg-white {
+  width: 100%;
+  border-radius: var(--radius-g);
+  box-shadow: var(--shadow-soft);
+  transition: var(--transition-default);
+}
+
+.contact-info-section .bg-white:hover {
+  transform: translateY(-5px);
+}
+
+/* =========================
+   TITULOS DA COTAÇÃO
+========================= */
+.quotation-section {
+  background: var(--bg-light);
+}
+
+.quotation-section h2 {
+  font-size: var(--title);
+  font-weight: 700;
+  color: var(--text-main);
+}
+
+.quotation-section p {
+  color: var(--text-muted);
+}
+
+/* subtitle */
+.quotation-section span {
+  color: var(--marazul-red);
+  letter-spacing: 2px;
+}
+
+/* =========================
+   FORMULÁRIO
+========================= */
+#quotationForm {
+  background: var(--marazul-white);
+  padding: var(--spacing-lg);
+  border-radius: var(--radius-g);
+  box-shadow: var(--shadow-soft);
+}
+
+/* inputs */
+.form-control,
+.form-select {
+  border-radius: var(--radius-m);
+  padding: 10px 12px;
+  border: 1px solid #ddd;
+  transition: var(--transition-default);
+}
+
+.form-control:focus,
+.form-select:focus {
+  border-color: var(--marazul-blue-royal);
+  box-shadow: 0 0 0 0.2rem rgba(0, 86, 179, 0.15);
+}
+
+/* labels */
+.form-label {
+  font-weight: 600;
+  color: var(--text-main);
+}
+
+/* =========================
+   TOOLTIP ICON
+========================= */
+.bi-info-circle-fill {
+  cursor: pointer;
+  color: var(--marazul-blue-royal);
+  transition: var(--transition-default);
+}
+
+.bi-info-circle-fill:hover {
+  color: var(--marazul-red);
+}
+
+/* =========================
+   ALERTA
+========================= */
+.alert-warning {
+  background: #fff3cd;
+  border: none;
+  color: #7a5d00;
+  font-weight: 700;
+  letter-spacing: 1px;
+  border-radius: var(--radius-m);
+}
+
+/* =========================
+   BOTÃO
+========================= */
+.btn-danger {
+  background: var(--marazul-red);
+  border: none;
+  padding: 12px 32px;
+  font-weight: 700;
+  border-radius: var(--radius-m);
+  transition: var(--transition-default);
+}
+
+.btn-danger:hover {
+  background: var(--hover-red);
+  transform: translateY(-2px);
+}
+
+/* =========================
+   MAPA
+========================= */
+.location-section {
+  background: var(--marazul-white);
+  padding-bottom: var(--spacing-xl);
+}
+
+.location-section h2 {
+  font-size: var(--title);
+  font-weight: 700;
+  color: var(--text-main);
+}
+
+.location-section p {
+  color: var(--text-muted);
+}
+
+/* iframe */
+.ratio iframe {
+  border-radius: var(--radius-g);
+  box-shadow: var(--shadow-soft);
+}
+
+/* =========================
+   RESPONSIVO
+========================= */
+@media (max-width: 768px) {
+  .about-banner {
+    height: 300px;
+  }
+
+  .about-intro-title {
+    font-size: var(--subtitle);
+  }
+
+  #quotationForm {
+    padding: var(--spacing-md);
+  }
+
+  .contact-info-section {
+    margin-top: -30px;
+  }
+}
+
+@media (max-width: 480px) {
+  .about-banner {
+    height: 240px;
+  }
+
+  .quotation-section h2 {
+    font-size: 20px;
+  }
+}
