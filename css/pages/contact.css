@@ -182,8 +182,8 @@
   }
 
   .about-intro-title {
-    font-size: var(--subtitle);
-  }
+    font-size: 40px;
+}
 
   #quotationForm {
     padding: var(--spacing-md);
@@ -202,4 +202,36 @@
   .quotation-section h2 {
     font-size: 20px;
   }
+}
+.contact-card-icon {
+  width: 70px;
+  height: 70px;
+  margin: 0 auto;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  position: relative;
+  border-radius: 50%;
+}
+
+/* círculo SEM hover (sempre visível) */
+.contact-card-icon::before {
+  content: "";
+  position: absolute;
+
+  width: 70px;
+  height: 70px;
+
+  background: rgba(227, 30, 36, 0.15);
+  border-radius: 50%;
+}
+
+/* ícone sempre visível */
+.contact-card-icon i {
+  font-size: 30px;
+  color: var(--marazul-red);
+  position: relative;
+  z-index: 2;
 }

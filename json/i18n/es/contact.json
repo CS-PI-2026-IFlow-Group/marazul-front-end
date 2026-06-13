@@ -1,0 +1,33 @@
+{
+  "contact.hero-title": "Contáctanos",
+
+  "contact.card1.title": "Atención",
+  "contact.card1.text": "Lunes a Sábado 08h00 a 18h00",
+
+  "contact.card2.title": "WhatsApp",
+  "contact.card2.text": "(44) 99999-9999",
+
+  "contact.card3.title": "Dirección",
+  "contact.card3.text": "R. José Brazilino da Silva, 420 Zona 4 - Paranavaí/PR",
+
+  "contact.form.subtitle": "Hable con nosotros",
+  "contact.form.title": "Solicite su cotización",
+  "contact.form.description": "Complete el formulario a continuación y nuestro equipo se pondrá en contacto con usted.",
+
+  "contact.form.name": "Nombre",
+  "contact.form.departureDate": "Fecha de salida",
+  "contact.form.arrivalDate": "Fecha de llegada",
+  "contact.form.originCity": "Ciudad de origen",
+  "contact.form.destinationCity": "Ciudad de destino",
+  "contact.form.departureTime": "Hora de salida",
+  "contact.form.bus": "Seleccione el autobús",
+  "contact.form.transfer": "Desplazamiento en la ciudad",
+  "contact.form.transferDetails": "Ingrese el desplazamiento",
+
+  "contact.form.warning": "FLETAMENTO SUJETO A CONSULTA DE DISPONIBILIDAD",
+
+  "contact.form.button": "Enviar por WhatsApp",
+
+  "contact.map.title": "Dónde estamos",
+  "contact.map.address": "R. José Brazilino da Silva, 420 - Zona 4, Paranavaí - PR"
+}
