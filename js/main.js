@@ -1,19 +1,19 @@
-import { initHorizontalScroll } from "./modules/scroll-gallery.js";
+import { initHorizontalScroll } from './modules/scroll-gallery.js';
 import { loadHeader } from "./components/header.js";
 import { initAboutCarousel } from "./index/carousel.js";
 import { loadFooter } from "./components/footer.js";
-import { initActiveNav } from "./modules/activeNav.js";
-import { initFAQ } from "./modules/faq.js";
+import { initFAQ } from './modules/faq.js';
+import { initModal } from './modules/modal.js';
 
-document.addEventListener("DOMContentLoaded", async () => {
-  await loadHeader(); 
 
+document.addEventListener("DOMContentLoaded", () => {
+  loadHeader();
   initAboutCarousel();
   initFAQ();
+  initModal();
   loadFooter();
-  initActiveNav(); 
 });
 
-window.addEventListener("load", () => {
-  initHorizontalScroll();
+window.addEventListener('load', () => {
+    initHorizontalScroll();
 });

@@ -25,8 +25,207 @@
   </head>
   <body>
     <div id="header"></div>
-    <main></main>
     <div id="footer"></div>
+    <main>
+      <div class="card" style="width: 18rem">
+        <div class="card-body">
+          <h5 class="card-title">Card title</h5>
+          <img class="card-img-top" src="..." alt="Card image cap" />
+
+          <p class="card-text">
+            Some quick example text to build on the card title and make up the
+            bulk of the card's content.
+          </p>
+          <button
+            type="button"
+            class="btn btn-primary"
+            data-bus="13001"
+            data-bs-toggle="modal"
+            data-bs-target="#busModal"
+          >
+            Ver detalhes
+          </button>
+        </div>
+      </div>
+
+      <div class="card" style="width: 18rem">
+        <div class="card-body">
+          <h5 class="card-title">Card title</h5>
+          <img class="card-img-top" src="..." alt="Card image cap" />
+
+          <p class="card-text">
+            Some quick example text to build on the card title and make up the
+            bulk of the card's content.
+          </p>
+          <button
+            type="button"
+            class="btn btn-primary"
+            data-bus="1101"
+            data-bs-toggle="modal"
+            data-bs-target="#busModal"
+          >
+            Ver detalhes
+          </button>
+        </div>
+      </div>
+
+      <div class="card" style="width: 18rem">
+        <div class="card-body">
+          <h5 class="card-title">Card title</h5>
+          <img class="card-img-top" src="..." alt="Card image cap" />
+
+          <p class="card-text">
+            Some quick example text to build on the card title and make up the
+            bulk of the card's content.
+          </p>
+          <button
+            type="button"
+            class="btn btn-primary"
+            data-bus="18001"
+            data-bs-toggle="modal"
+            data-bs-target="#busModal"
+          >
+            Ver detalhes
+          </button>
+        </div>
+      </div>
+
+      <div class="card" style="width: 18rem">
+        <div class="card-body">
+          <h5 class="card-title">Card title</h5>
+          <img class="card-img-top" src="..." alt="Card image cap" />
+          <p class="card-text">
+            Some quick example text to build on the card title and make up the
+            bulk of the card's content.
+          </p>
+          <button
+            type="button"
+            class="btn btn-primary"
+            data-bus="20001"
+            data-bs-toggle="modal"
+            data-bs-target="#busModal"
+          >
+            Ver detalhes
+          </button>
+        </div>
+      </div>
+    </main>
+
+    <div class="modal fade" id="busModal" tabindex="-1" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 id="modal-title" class="modal-title">Título</h5>
+
+            <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="modal"
+            ></button>
+          </div>
+
+          <div class="modal-body">
+            <div id="carousel">
+              <div class="container py-lg-4">
+                <div class="row align-items-center gy-5 gx-lg-5">
+                  <div class="">
+                    <div class="position-relative d-inline-block w-100">
+                      <div
+                        id="aboutCarousel"
+                        class="carousel slide carousel-fade"
+                      >
+                        <div class="carousel-indicators">
+                          <button
+                            type="button"
+                            data-bs-target="#aboutCarousel"
+                            data-bs-slide-to="0"
+                            class="active"
+                            aria-current="true"
+                            aria-label="Ir para a primeira foto"
+                          ></button>
+
+                          <button
+                            type="button"
+                            data-bs-target="#aboutCarousel"
+                            data-bs-slide-to="1"
+                            aria-label="Ir para a segunda foto"
+                          ></button>
+
+                          <button
+                            type="button"
+                            data-bs-target="#aboutCarousel"
+                            data-bs-slide-to="2"
+                            aria-label="Ir para a terceira foto"
+                          ></button>
+
+                          <button
+                            type="button"
+                            data-bs-target="#aboutCarousel"
+                            data-bs-slide-to="3"
+                            aria-label="Ir para a quarta foto"
+                          ></button>
+                        </div>
+
+                        <div class="carousel-inner about-img">
+                          <div class="carousel-item active">
+                            <picture>
+                              <source srcset="" type="image/webp" />
+                              <img
+                                src=""
+                                class="d-block w-100 object-fit-cover carousel-photo"
+                                data-i18n="img.bus5"
+                                alt="Ônibus da Marazul na estrada de lado"
+                              />
+                            </picture>
+                          </div>
+
+                          <div class="carousel-item">
+                            <picture>
+                              <source srcset="" type="image/webp" />
+                              <img
+                                src=""
+                                class="d-block w-100 object-fit-cover carousel-photo"
+                                data-i18n="img.bus-inside"
+                                alt="Foto do interno do ônibus com assentos"
+                              />
+                            </picture>
+                          </div>
+
+                          <div class="carousel-item">
+                            <picture>
+                              <source srcset="" type="image/webp" />
+                              <img
+                                src=""
+                                class="d-block w-100 object-fit-cover carousel-photo"
+                                data-i18n="img.our-fleet"
+                                alt="Foto dos ônibus da Marazul alinhados lado a lado"
+                              />
+                            </picture>
+                          </div>
+
+                          <div class="carousel-item">
+                            <picture>
+                              <source srcset="" type="image/webp" />
+                              <img
+                                src=""
+                                class="d-block w-100 object-fit-cover carousel-photo"
+                                data-i18n="img.bus-sunset"
+                                alt="Foto do ônibus na estrada ao pôr do sol"
+                              />
+                            </picture>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <p id="modal-description">Hello World</p>
+          </div>
+        </div>
+      </div>
+    </div>
     <script src="/assets/popper2.11.8/popper.min.js"></script>
     <script src="/assets/bootstrap-5.3.8-dist/js/bootstrap.bundle.min.js"></script>
     <script type="module" src="../js/main.js"></script>
