@@ -25,91 +25,145 @@
   </head>
   <body>
     <div id="header"></div>
-    <div id="footer"></div>
-    <main>
-      <div class="card" style="width: 18rem">
-        <div class="card-body">
-          <h5 class="card-title">Card title</h5>
-          <img class="card-img-top" src="..." alt="Card image cap" />
-
-          <p class="card-text">
-            Some quick example text to build on the card title and make up the
-            bulk of the card's content.
-          </p>
-          <button
-            type="button"
-            class="btn btn-primary"
-            data-bus="13001"
-            data-bs-toggle="modal"
-            data-bs-target="#busModal"
+    <section class="about-banner position-relative">
+      <picture>
+        <source srcset="../assets/images/Nossa-frota.webp" type="image/webp" />
+        <img
+          src="../assets/images/Nossa-frota.jpg"
+          alt="Ônibus enfileirados"
+          data-i18n-alt="about.img-bus"
+          class="about-banner-img img-fluid w-100"
+        />
+      </picture>
+      <div
+        class="about-banner-overlay position-absolute top-0 start-0 w-100 h-100 d-flex align-items-end justify-content-end"
+      >
+        <div class="container pb-5 text-end" style="max-width: 600px">
+          <h2
+            class="main-title text-center"
+            data-i18n="about.intro-title"
           >
-            Ver detalhes
-          </button>
+            Nossa frota
+          </h2>
+          <p class="text-center">
+            Conheça nossos veículos e encontre a opção perfeita para a sua
+            viagem, com o máximo de conforto e segurança.
+          </p>
         </div>
       </div>
+    </section>
+    <main class="mb-5">
+      <div class="row justify-content-center gap-costum">
+        <div class="col-12 col-sm-6 col-lg-3">
+          <div class="card h-50 mb-2" style="width: 18rem">
+            <div class="card-body">
+              <h5 class="card-title">Ônibus semi-leito - 56 Lugares</h5>
+              <picture>
+                <source
+                  srcset="../assets/images/modal/13001/webp/parked_bus.webp"
+                  type="image/webp"
+                />
+                <img
+                  class="card-img-top"
+                  src="../assets/images/modal/13001/jpeg/parked_bus.jpeg"
+                  alt="Imagem ônibus estacionado"
+                />
+              </picture>
+              <button
+                type="button"
+                class="btn btn-primary"
+                data-bus="13001"
+                data-bs-toggle="modal"
+                data-bs-target="#busModal"
+              >
+                Ver detalhes
+              </button>
+            </div>
+          </div>
 
-      <div class="card" style="width: 18rem">
-        <div class="card-body">
-          <h5 class="card-title">Card title</h5>
-          <img class="card-img-top" src="..." alt="Card image cap" />
-
-          <p class="card-text">
-            Some quick example text to build on the card title and make up the
-            bulk of the card's content.
-          </p>
-          <button
-            type="button"
-            class="btn btn-primary"
-            data-bus="1101"
-            data-bs-toggle="modal"
-            data-bs-target="#busModal"
-          >
-            Ver detalhes
-          </button>
+          <div class="card h-50" style="width: 18rem">
+            <div class="card-body">
+              <h5 class="card-title">Ônibus semi-leito - 42 Lugares</h5>
+              <picture>
+                <source
+                  srcset="../assets/images/modal/11001/webp/front_bus11001.webp"
+                  type="image/webp"
+                />
+                <img
+                  class="card-img-top"
+                  src="../assets/images/modal/11001/jpeg/front_bus11001.jpeg"
+                  alt="Imagem ônibus estacionado"
+                />
+              </picture>
+              <button
+                type="button"
+                class="btn btn-primary"
+                data-bus="1101"
+                data-bs-toggle="modal"
+                data-bs-target="#busModal"
+              >
+                Ver detalhes
+              </button>
+            </div>
+          </div>
         </div>
-      </div>
-
-      <div class="card" style="width: 18rem">
-        <div class="card-body">
-          <h5 class="card-title">Card title</h5>
-          <img class="card-img-top" src="..." alt="Card image cap" />
-
-          <p class="card-text">
-            Some quick example text to build on the card title and make up the
-            bulk of the card's content.
-          </p>
-          <button
-            type="button"
-            class="btn btn-primary"
-            data-bus="18001"
-            data-bs-toggle="modal"
-            data-bs-target="#busModal"
-          >
-            Ver detalhes
-          </button>
-        </div>
-      </div>
-
-      <div class="card" style="width: 18rem">
-        <div class="card-body">
-          <h5 class="card-title">Card title</h5>
-          <img class="card-img-top" src="..." alt="Card image cap" />
-          <p class="card-text">
-            Some quick example text to build on the card title and make up the
-            bulk of the card's content.
-          </p>
-          <button
-            type="button"
-            class="btn btn-primary"
-            data-bus="20001"
-            data-bs-toggle="modal"
-            data-bs-target="#busModal"
-          >
-            Ver detalhes
-          </button>
+        <div class="col-12 col-sm-6 col-lg-3">
+          <div class="card h-50 mb-2" style="width: 18rem">
+            <div class="card-body">
+              <h5 class="card-title">Ônibus leito - 53 Lugares</h5>
+              <picture>
+                <source
+                  srcset="../assets/images/modal/18001/webp/18001-Garagem.webp"
+                  type="image/webp"
+                />
+                <img
+                  class="card-img-top"
+                  src="../assets/images/modal/18001/jpeg/18001-Garagem.jpeg"
+                  alt="Imagem ônibus estacionado"
+                />
+              </picture>
+              <button
+                type="button"
+                class="btn btn-primary"
+                data-bus="18001"
+                data-bs-toggle="modal"
+                data-bs-target="#busModal"
+              >
+                Ver detalhes
+              </button>
+            </div>
+          </div>
+          <div class="card h-50" style="width: 18rem">
+            <div class="card-body">
+              <h5 class="card-title">Ônibus semi-leito - 56 Lugares</h5>
+              <picture>
+                <source
+                  srcset="
+                    ../assets/images/modal/20001/webp/interna-do-20001.webp
+                  "
+                  type="image/webp"
+                />
+                <img
+                  class="card-img-top"
+                  src="../assets/images/modal/20001/jpeg/interna-do-20001.jpeg"
+                  alt="Imagem ônibus estacionado"
+                />
+              </picture>
+              <button
+                type="button"
+                class="btn btn-primary"
+                data-bus="20001"
+                data-bs-toggle="modal"
+                data-bs-target="#busModal"
+              >
+                Ver detalhes
+              </button>
+            </div>
+          </div>
         </div>
       </div>
     </main>
+    <div id="footer"></div>
 
     <div class="modal fade" id="busModal" tabindex="-1" aria-hidden="true">
       <div class="modal-dialog">

@@ -1,0 +1,13 @@
+.gap-costum{
+    gap: 20rem;
+    row-gap: 2rem;
+}
+
+
+.main-title {
+    font-family: "Playfair Display", serif;
+    font-size: 96px;
+    color: var(--marazul-white);
+    line-height: 1.1;
+    text-align: center;
+}
