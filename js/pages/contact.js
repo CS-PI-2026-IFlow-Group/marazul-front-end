@@ -1,7 +1,7 @@
 import { sendWhatsAppMessage } from "../utils/whatsapp.js";
 
 export function initContactPage() {
-  const form = document.getElementById("contactForm");
+  const form = document.getElementById("quotationForm");
 
   if (!form) return;
 

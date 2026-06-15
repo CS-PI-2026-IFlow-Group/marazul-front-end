@@ -1,4 +1,5 @@
 {
+  "contact.hero-image": "Autobús Marazul",
   "contact.hero-title": "Contáctanos",
 
   "contact.card1.title": "Atención",
@@ -29,5 +30,7 @@
   "contact.form.button": "Enviar por WhatsApp",
 
   "contact.map.title": "Dónde estamos",
-  "contact.map.address": "R. José Brazilino da Silva, 420 - Zona 4, Paranavaí - PR"
+  "contact.map.address": "R. José Brazilino da Silva, 420 - Zona 4, Paranavaí - PR",
+  "contact.form.transfer.no": "No",
+  "contact.form.transfer.yes": "Sí"
 }

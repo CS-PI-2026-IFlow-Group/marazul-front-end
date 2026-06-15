@@ -4,14 +4,16 @@ import { initAboutCarousel } from "./index/carousel.js";
 import { loadFooter } from "./components/footer.js";
 import { initActiveNav } from "./modules/activeNav.js";
 import { initFAQ } from "./modules/faq.js";
+import { initContactPage } from "./pages/contact.js";
 
 document.addEventListener("DOMContentLoaded", async () => {
-  await loadHeader(); 
+  await loadHeader();
 
   initAboutCarousel();
   initFAQ();
   loadFooter();
-  initActiveNav(); 
+  initActiveNav();
+  initContactPage();
 });
 
 window.addEventListener("load", () => {
