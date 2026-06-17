@@ -4,6 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Marazul</title>
+
     <link
       href="/assets/bootstrap-5.3.8-dist/css/bootstrap.min.css"
       rel="stylesheet"
@@ -18,16 +19,270 @@
       href="https://fonts.googleapis.com/css2?family=Rajdhani:wght@500;600;700&display=swap"
       rel="stylesheet"
     />
-
     <link
       href="https://fonts.googleapis.com/css2?family=Exo+2:wght@500;600;700&display=swap"
       rel="stylesheet"
     />
   </head>
+
   <body>
     <div id="header"></div>
-    <main></main>
+
+    <main>
+      <!-- BANNER -->
+      <section class="about-banner position-relative">
+        <picture>
+          <source srcset="../assets/images/our_fleet.webp" type="image/webp" />
+          <img
+            src="../assets/images/our_fleet.jpg"
+            alt="Ônibus Marazul"
+            data-i18n-alt="contact.hero-image"
+            class="about-banner-img img-fluid w-100"
+          />
+        </picture>
+
+        <div
+          class="about-banner-overlay position-absolute top-0 start-0 w-100 h-100 d-flex align-items-end justify-content-end"
+        >
+          <div class="container pb-5 text-end" style="max-width: 600px">
+            <h2
+              class="about-intro-title text-center"
+              data-i18n="contact.hero-title"
+            >
+              Entre em Contato
+            </h2>
+          </div>
+        </div>
+      </section>
+
+      <!-- INFO CARDS -->
+      <section class="contact-info-section py-5">
+        <div class="container">
+          <div class="row g-4">
+            <div class="col-md-4">
+              <div
+                class="contact-card text-center p-4 shadow-sm rounded bg-white"
+              >
+                <div class="contact-card-icon">
+                  <i class="bi bi-clock"></i>
+                </div>
+
+                <h3 class="mt-3" data-i18n="contact.card1.title">
+                  Atendimento
+                </h3>
+                <p data-i18n="contact.card1.text">
+                  Segunda a Sábado<br />08h00 às 18h00
+                </p>
+              </div>
+            </div>
+
+            <div class="col-md-4">
+              <div
+                class="contact-card text-center p-4 shadow-sm rounded bg-white"
+
+              >
+                <div class="contact-card-icon">
+                  <i class="bi bi-telephone"></i>
+                </div>
+
+                <h3 class="mt-3" data-i18n="contact.card2.title">WhatsApp</h3>
+                <p data-i18n="contact.card2.text">(44) 99739-2626</p>
+              </div>
+            </div>
+
+            <div class="col-md-4">
+              <div
+                class="contact-card text-center p-4 shadow-sm rounded bg-white"
+              >
+                <div class="contact-card-icon">
+                  <i class="bi bi-geo-alt"></i>
+                </div>
+
+                <h3 class="mt-3" data-i18n="contact.card3.title">Endereço</h3>
+                <p data-i18n="contact.card3.text">
+                  R. José Brazilino da Silva, 420<br />
+                  Zona 4 - Paranavaí/PR
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- COTAÇÃO -->
+      <section class="quotation-section py-5">
+        <div class="container">
+          <div class="text-center mb-5">
+            <span
+              class="text-uppercase fw-bold text-danger"
+              data-i18n="contact.form.subtitle"
+              >Fale Conosco</span
+            >
+            <h2 data-i18n="contact.form.title">Solicite sua Cotação</h2>
+            <p data-i18n="contact.form.description">
+              Preencha o formulário abaixo e nossa equipe entrará em contato com
+              você.
+            </p>
+          </div>
+
+          <form id="quotationForm" class="row g-4">
+            <div class="col-md-6">
+              <label class="form-label" data-i18n="contact.form.name"
+                >Nome</label
+              >
+              <input
+                type="text"
+                class="form-control"
+                id="customerName"
+                required
+              />
+            </div>
+
+            <div class="col-md-3">
+              <label class="form-label" data-i18n="contact.form.departureDate"
+                >Data de saída</label
+              >
+              <input
+                type="date"
+                class="form-control"
+                id="departureDate"
+                required
+              />
+            </div>
+
+            <div class="col-md-3">
+              <label class="form-label" data-i18n="contact.form.arrivalDate"
+                >Data de chegada</label
+              >
+              <input
+                type="date"
+                class="form-control"
+                id="arrivalDate"
+                required
+              />
+            </div>
+
+            <div class="col-md-6">
+              <label class="form-label" data-i18n="contact.form.originCity"
+                >Cidade origem</label
+              >
+              <input
+                type="text"
+                class="form-control"
+                id="originCity"
+                required
+              />
+            </div>
+
+            <div class="col-md-6">
+              <label class="form-label" data-i18n="contact.form.destinationCity"
+                >Cidade destino</label
+              >
+              <input
+                type="text"
+                class="form-control"
+                id="destinationCity"
+                required
+              />
+            </div>
+
+            <div class="col-md-6">
+              <label class="form-label" data-i18n="contact.form.departureTime"
+                >Horário de saída</label
+              >
+              <input
+                type="time"
+                class="form-control"
+                id="departureTime"
+                required
+              />
+            </div>
+
+            <div class="col-md-6">
+              <label class="form-label" data-i18n="contact.form.bus"
+                >Selecione o ônibus</label
+              >
+              <select class="form-select" id="selectedBus" required>
+                <option value="">Selecione</option>
+                <option>13001 - Marcopolo DD</option>
+                <option>1101 - Marcopolo LD</option>
+                <option>18001 - Marcopolo DD</option>
+                <option>2001 - Marcopolo DD</option>
+              </select>
+            </div>
+
+            <div class="col-md-4">
+              <label class="form-label" data-i18n="contact.form.transfer">
+                Deslocamento na cidade
+                <i
+                  class="bi bi-info-circle-fill text-primary ms-1"
+                  data-bs-toggle="tooltip"
+                  data-i18n-title="contact.form.transfer.tooltip"
+                ></i>
+              </label>
+
+              <select class="form-select" id="hasTransfer">
+                <option data-i18n="contact.form.transfer.no" value="nao">
+                  Não
+                </option>
+                <option data-i18n="contact.form.transfer.yes" value="sim">
+                  Sim
+                </option>
+              </select>
+            </div>
+
+            <div class="col-md-8 d-none" id="transferField">
+              <label class="form-label" data-i18n="contact.form.transferDetails"
+                >Digite o deslocamento</label
+              >
+              <input type="text" class="form-control" id="transferDetails" />
+            </div>
+
+            <div class="col-12">
+              <div
+                class="alert alert-warning text-center fw-bold"
+                data-i18n="contact.form.warning"
+              >
+                FRETAMENTO SOB CONSULTA DE DISPONIBILIDADE
+              </div>
+            </div>
+
+            <div class="col-12 text-center">
+              <button
+                type="submit"
+                class="btn btn-danger btn-lg"
+                data-i18n="contact.form.button"
+              >
+                Enviar pelo WhatsApp
+              </button>
+            </div>
+          </form>
+        </div>
+      </section>
+
+      <!-- MAPA -->
+      <section class="location-section">
+        <div class="container">
+          <div class="text-center mb-4">
+            <h2 data-i18n="contact.map.title">Onde Estamos</h2>
+            <p data-i18n="contact.map.address">
+              R. José Brazilino da Silva, 420 - Zona 4, Paranavaí - PR
+            </p>
+          </div>
+
+          <div class="ratio ratio-21x9">
+            <iframe
+              src="https://www.google.com/maps?q=R.+José+Brazilino+da+Silva,+420,+Paranavaí,+PR&output=embed"
+              loading="lazy"
+              allowfullscreen
+            ></iframe>
+          </div>
+        </div>
+      </section>
+    </main>
+
     <div id="footer"></div>
+
     <script src="/assets/popper2.11.8/popper.min.js"></script>
     <script src="/assets/bootstrap-5.3.8-dist/js/bootstrap.bundle.min.js"></script>
     <script type="module" src="../js/main.js"></script>
