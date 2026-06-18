@@ -11,22 +11,31 @@ function getCurrentPage() {
   return segment.replace(/\.html$/, '');
 }
 
+async function fetchJson(url) {
+  try {
+    const res = await fetch(url);
+    if (!res.ok) return {};
+    return await res.json();
+  } catch {
+    return {};
+  }
+}
+
 async function loadTranslations(lang) {
   const folder = LANG_FOLDER[lang] ?? lang;
   const pageKey = PAGE_JSON_MAP[getCurrentPage()] ?? null;
 
-  const fetches = [fetch(`/json/i18n/${folder}/global.json`)];
-  if (pageKey) fetches.push(fetch(`/json/i18n/${folder}/${pageKey}.json`));
-
-  const responses = await Promise.all(fetches);
-  const [globalRaw, pageRaw] = await Promise.all(responses.map(r => r.json()));
+  const [globalRaw, pageRaw] = await Promise.all([
+    fetchJson(`/json/i18n/${folder}/global.json`),
+    pageKey ? fetchJson(`/json/i18n/${folder}/${pageKey}.json`) : Promise.resolve({}),
+  ]);
 
   const globalNamespaced = {};
   for (const [k, v] of Object.entries(globalRaw)) {
     globalNamespaced[`global.${k}`] = v;
   }
 
-  return Object.assign({}, globalNamespaced, pageRaw ?? {});
+  return Object.assign({}, globalNamespaced, pageRaw);
 }
 
 function applyTranslations(translations) {
