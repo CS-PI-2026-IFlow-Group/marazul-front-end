@@ -1,7 +1,7 @@
 import { fleet } from "../data/fleet.js";
 
 export function initModal() {
-    console.log("AAAAAAAA")
+  console.log("AAAAAAAA")
   const modal = document.getElementById("busModal");
 
   const titleEl = document.getElementById("modal-title");
