@@ -3,6 +3,10 @@
     row-gap: 2rem;
 }
 
+.gap-card{
+    gap: 5rem;
+}
+
 
 .main-title {
     font-family: "Playfair Display", serif;
@@ -10,4 +14,10 @@
     color: var(--marazul-white);
     line-height: 1.1;
     text-align: center;
+}
+
+
+.text-color{
+  color: var(--marazul-white);
+
 }

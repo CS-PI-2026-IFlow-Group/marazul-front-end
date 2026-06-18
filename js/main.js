@@ -20,8 +20,6 @@ document.addEventListener("DOMContentLoaded", () => {
   initContactPage();
   loadFooter();
   initModal();
-
-
 });
 
 window.addEventListener('load', () => {
