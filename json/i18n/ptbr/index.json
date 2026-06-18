@@ -89,13 +89,44 @@
   "faq.subtitle": "FAQ",
   "faq.title": "Ainda tem dúvidas?",
 
-  "faq.question1": "Quais as regras para cancelamento?",
-  "faq.answer1": "Consulte nossa política de cancelamento...",
+  "faq.q1": "Quais são as opções de ônibus disponíveis para locação?",
+  "faq.a1": "Nossa frota atende a diferentes necessidades, contando com ônibus convencionais, executivos e leito. Todos os veículos passam por rigorosas revisões periódicas para garantir a sua segurança.",
 
-  "faq.question2": "Qual o limite de bagagem no bagageiro?",
-  "faq.answer2": "O limite de bagagem varia conforme o tipo de viagem...",
+  "faq.q2": "Os ônibus possuem Wi-Fi, ar-condicionado e tomadas?",
+  "faq.a2": "Sim! Nossos veículos da categoria Executivo e Leito são equipados com Wi-Fi, ar-condicionado com controle individual, tomadas para carregamento de eletrônicos e frigobar. A disponibilidade pode variar conforme o veículo.",
 
-  "faq.question3": "Animais de estimação podem viajar?",
-  "faq.answer3": "Sim, desde que sejam observadas as normas vigentes..."
+  "faq.q3": "Como faço para solicitar um orçamento de viagem?",
+  "faq.a3": "Basta acessar a seção “Contato” do site e preencher o formulário com origem, destino, datas e número de passageiros. Retornaremos com a proposta ideal.",
+
+  "faq.q4": "Como funciona a política de cancelamento ou alteração de datas?",
+  "faq.a4": "Cancelamentos ou alterações podem ser feitos conforme contrato, geralmente sem multa quando realizados com antecedência mínima definida.",
+
+  "faq.q5": "É permitido levar bebidas ou alimentos no ônibus?",
+  "faq.a5": "Sim, é permitido o consumo de alimentos leves e bebidas não alcoólicas durante a viagem. Solicitamos apenas o cuidado com a limpeza do ambiente.",
+
+  "faq.q6": "Há limite para o tamanho ou peso das bagagens?",
+  "faq.a6": "Nossos ônibus possuem bagageiros amplos e compartimentos internos para bagagens de mão. Equipamentos maiores devem ser informados no orçamento.",
+
+  "testimonials.subtitle": "EXPERIÊNCIAS",
+  "testimonials.title": "O que dizem nossos passageiros",
+
+  "testimonials.card1.name": "João Pereira",
+  "testimonials.card1.text": "Viagem excelente, ônibus confortável e equipe extremamente atenciosa durante todo o percurso.",
+  "testimonials.card1.guide": "Guia: Curitiba/PR",
+  "testimonials.card1.route": "Paranavaí → Foz do Iguaçu",
+
+  "testimonials.card2.name": "Maria Silva",
+  "testimonials.card2.text": "A Marazul superou minhas expectativas! O ônibus era moderno e confortável, e a equipe foi extremamente atenciosa durante toda a viagem.",
+  "testimonials.card2.guide": "Guia: São Paulo/SP",
+  "testimonials.card2.route": "Paranavaí → Maringá/PR",
+
+  "testimonials.card3.name": "Carlos Oliveira",
+  "testimonials.card3.text": "Viagem excelente, ônibus confortável e equipe extremamente atenciosa durante todo o percurso.",
+  "testimonials.card3.guide": "Guia: Curitiba/PR",
+  "testimonials.card3.route": "Paranavaí → Aparecida do Norte/SP",
+
+  "testimonials.card4.name": "Claudia Santos",
+  "testimonials.card4.text": "Empresa séria e comprometida com a satisfação do cliente. A equipe foi atenciosa, ônibus limpos e confortáveis, e a viagem foi tranquila do início ao fim. Recomendo a Marazul para quem busca uma experiência de viagem rodoviária de qualidade.",
+  "testimonials.card4.guide": "Guia: Rio de Janeiro/RJ",
+  "testimonials.card4.route": "Paranavaí → Rio de Janeiro/RJ"
 }
-
