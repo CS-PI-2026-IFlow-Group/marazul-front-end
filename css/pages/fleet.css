@@ -10,14 +10,54 @@
 
 .main-title {
     font-family: "Playfair Display", serif;
-    font-size: 96px;
-    color: var(--marazul-white);
     line-height: 1.1;
     text-align: center;
 }
 
+.main-layout{
+    color: var(--marazul-white);
+    font-size: 96px;
+}
+
+.caption{
+    color: #6C8093;
+}
+
+
+
+
 
 .text-color{
   color: var(--marazul-white);
+}
 
+
+.basic-infra-information{
+    background-color: var(--bg-light);
+}
+
+
+.icon-box {
+    width: 50px;
+    height: 50px;
+    background: #062A45;
+    border-radius: 12px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.icon-box img{
+    width: 30px;
+    height: 30px;
+}
+
+
+.card-comodidade {
+    transition: all 0.3s ease;
+}
+
+.card-comodidade:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
 }
