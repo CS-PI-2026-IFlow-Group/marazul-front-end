@@ -5,6 +5,7 @@ import { loadFooter } from "./components/footer.js";
 import { initActiveNav } from "./modules/activeNav.js";
 import { initFAQ } from "./modules/faq.js";
 import { initI18n, initLangSwitcher } from "./modules/i18n.js";
+import { initContactPage } from "./pages/contact.js";
 
 document.addEventListener("DOMContentLoaded", async () => {
   await loadHeader();
@@ -15,6 +16,7 @@ document.addEventListener("DOMContentLoaded", async () => {
   initActiveNav();
   initLangSwitcher();
   await initI18n();
+  initContactPage();
 });
 
 window.addEventListener("load", () => {
