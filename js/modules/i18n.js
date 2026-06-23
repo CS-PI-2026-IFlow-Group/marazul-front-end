@@ -2,6 +2,9 @@ const PAGE_JSON_MAP = {
   'index': 'index',
   'about': 'about',
   'travel-tips': 'travel-tips',
+  'contact': 'contact',
+  'fleet': 'fleet',
+  'service': 'service'
 };
 
 const LANG_FOLDER = { pt: 'ptbr', es: 'es' };
