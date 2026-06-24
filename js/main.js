@@ -5,7 +5,6 @@ import { loadFooter } from "./components/footer.js";
 import { initActiveNav } from "./modules/activeNav.js";
 import { initFAQ } from "./modules/faq.js";
 import { initContactPage } from "./pages/contact.js";
-import { initFeedbackCarousel } from "./index/testimonials-carousel.js"
 
 document.addEventListener("DOMContentLoaded", async () => {
   await loadHeader();
@@ -15,7 +14,6 @@ document.addEventListener("DOMContentLoaded", async () => {
   loadFooter();
   initActiveNav();
   initContactPage();
-  initFeedbackCarousel();
 });
 
 window.addEventListener("load", () => {
