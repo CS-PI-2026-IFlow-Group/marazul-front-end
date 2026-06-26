@@ -771,6 +771,17 @@
   right: 10px;
 }
 
+.section-subtitle {
+  color: var(--marazul-red);
+  font-weight: 700;
+  letter-spacing: 2px;
+}
+
+.section-title {
+  color: var(--marazul-blue-dark);
+  font-weight: 700;
+  margin-top: 8px;
+}
 /* ==========================================================================
    RESPONSIVIDADE DEPOIMENTOS
    ========================================================================== */
