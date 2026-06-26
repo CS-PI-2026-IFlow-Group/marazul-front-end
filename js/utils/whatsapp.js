@@ -35,7 +35,7 @@ Detalhes: ${detalhes}
 `;
 
   window.open(
-    `https://wa.me/5544999999999?text=${encodeURIComponent(mensagem)}`,
+    `https://wa.me/5544997392626?text=${encodeURIComponent(mensagem)}`,
     "_blank",
   );
 }
