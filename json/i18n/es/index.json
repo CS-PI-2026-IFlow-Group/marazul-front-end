@@ -86,17 +86,47 @@
 
   "useful-links.cta": "Acceder al sitio",
 
+  "faq.subtitle": "Preguntas Frecuentes",
+  "faq.title": "¿Aún tienes dudas?",
 
-  "faq.subtitle": "FAQ",
-  "faq.title": "¿Todavía tienes dudas?",
+  "faq.q1": "¿Cuáles son las opciones de autobuses disponibles para alquiler?",
+  "faq.a1": "Nuestra flota atiende diferentes necesidades, contando con autobuses convencionales, ejecutivos y cama. Todos los vehículos pasan por rigurosas revisiones periódicas para garantizar su seguridad.",
 
-  "faq.question1": "¿Cuáles son las reglas de cancelación?",
-  "faq.answer1": "Consulta nuestra política de cancelación...",
+  "faq.q2": "¿Los autobuses tienen Wi-Fi, aire acondicionado y enchufes?",
+  "faq.a2": "¡Sí! Nuestros vehículos de la categoría Ejecutivo y Cama están equipados con Wi-Fi, aire acondicionado con control individual, enchufes para carga de dispositivos electrónicos y minibar. La disponibilidad puede variar según el vehículo.",
 
-  "faq.question2": "¿Cuál es el límite de equipaje en el maletero?",
-  "faq.answer2": "El límite de equipaje varía según el tipo de viaje...",
+  "faq.q3": "¿Cómo solicito un presupuesto de viaje?",
+  "faq.a3": "Es muy simple: solo debes ingresar a la sección de Contacto del sitio, completar el formulario con origen, destino, fechas y número de pasajeros. Te responderemos con la mejor propuesta.",
 
-  "faq.question3": "¿Se permiten mascotas a bordo?",
-  "faq.answer3": "Sí, siempre que se respeten las normas vigentes..."
+  "faq.q4": "¿Cómo funciona la política de cancelación o cambio de fechas?",
+  "faq.a4": "Los cambios o cancelaciones pueden realizarse según el contrato, generalmente sin multas cuando se realizan con la anticipación mínima establecida.",
+
+  "faq.q5": "¿Se permite llevar bebidas o alimentos en el autobús?",
+  "faq.a5": "Sí, se permite el consumo de alimentos ligeros y bebidas no alcohólicas durante el viaje. Solo pedimos cuidado con la limpieza del entorno.",
+
+  "faq.q6": "¿Hay límite de tamaño o peso para el equipaje?",
+  "faq.a6": "Nuestros autobuses cuentan con amplios compartimentos para equipaje y espacios internos para equipaje de mano. Equipos grandes deben ser informados al solicitar el presupuesto.",
+
+  "testimonials.subtitle": "EXPERIENCIAS",
+  "testimonials.title": "Lo que dicen nuestros pasajeros",
+
+  "testimonials.card1.name": "João Pereira",
+  "testimonials.card1.text": "Viaje excelente, autobús cómodo y equipo extremadamente atento durante todo el recorrido.",
+  "testimonials.card1.guide": "Guía: Curitiba/PR",
+  "testimonials.card1.route": "Paranavaí → Foz do Iguaçu",
+
+  "testimonials.card2.name": "Maria Silva",
+  "testimonials.card2.text": "¡Marazul superó mis expectativas! El autobús era moderno y cómodo durante todo el viaje.",
+  "testimonials.card2.guide": "Guía: São Paulo/SP",
+  "testimonials.card2.route": "Paranavaí → Maringá/PR",
+
+  "testimonials.card3.name": "Carlos Oliveira",
+  "testimonials.card3.text": "Viaje excelente, autobús cómodo y equipo extremadamente atento durante todo el recorrido.",
+  "testimonials.card3.guide": "Guía: Curitiba/PR",
+  "testimonials.card3.route": "Paranavaí → Aparecida do Norte/SP",
+
+  "testimonials.card4.name": "Claudia Santos",
+  "testimonials.card4.text": "Empresa seria y comprometida con la satisfacción del cliente, con autobuses modernos y limpios.",
+  "testimonials.card4.guide": "Guía: Rio de Janeiro/RJ",
+  "testimonials.card4.route": "Paranavaí → Rio de Janeiro/RJ"
 }
-

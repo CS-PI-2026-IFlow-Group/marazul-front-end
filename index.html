@@ -219,15 +219,12 @@
               </div>
             </div>
             <div class="col-lg-6">
-              <h2 class="about-title text-uppercase" data-i18n="about-title">
+              <span class="about-title text-uppercase" data-i18n="about-title">
                 Sobre Nós
-              </h2>
-              <span
-                class="subtitle-red fw-bold mb-4"
-                data-i18n="about-subtitle"
-              >
-                Sua viagem dos sonhos começa aqui
               </span>
+              <h2 class="subtitle-red fw-bold mb-4" data-i18n="about-subtitle">
+                Sua viagem dos sonhos começa aqui
+              </h2>
 
               <p class="about-desc fs-5 mt-3 mb-4" data-i18n="about-desc">
                 Com 70 anos de tradição, a Marazul Turismo conecta destinos e
@@ -315,7 +312,10 @@
       <section class="fleet py-5" id="fleet-section">
         <div class="container">
           <div class="text-center mb-5">
-            <span class="fleet-subtitle" data-i18n="fleet.subtitle">
+            <span
+              class="fleet-subtitle text-uppercase"
+              data-i18n="fleet.subtitle"
+            >
               Nossa Frota
             </span>
             <h2 class="fleet-title" data-i18n="fleet.title">
@@ -583,14 +583,433 @@
           </div>
         </div>
       </section>
-      <section class="travel-tips"></section>
+      <section class="testimonials-section py-5">
+        <div class="container">
+          <div class="text-center mb-5">
+            <span
+              class="section-subtitle text-uppercase"
+              data-i18n="testimonials.subtitle"
+            >
+              Experiências
+            </span>
+
+            <h2 class="section-title" data-i18n="testimonials.title">
+              O que dizem nossos passageiros
+            </h2>
+          </div>
+
+          <!-- CARROSSEL DESKTOP (telas >= 768px) -->
+          <div
+            id="testimonialsCarouselDesktop"
+            class="carousel slide d-none d-md-block"
+            data-bs-ride="carousel"
+            data-bs-interval="8000"
+          >
+            <div class="carousel-inner">
+              <!-- Slide 1: Cards 1, 2 e 3 -->
+              <div class="carousel-item active">
+                <div class="row justify-content-center g-4 px-5">
+                  <div class="col-md-6 col-lg-4">
+                    <article class="testimonial-card card border-0 h-100">
+                      <div class="card-body d-flex flex-column h-100">
+                        <h3
+                          class="testimonial-name"
+                          data-i18n="testimonials.card1.name"
+                        >
+                          João Pereira
+                        </h3>
+                        <div class="testimonial-stars">★★★★★</div>
+                        <p
+                          class="testimonial-text flex-grow-1"
+                          data-i18n="testimonials.card1.text"
+                        >
+                          Viagem excelente, ônibus confortável e equipe
+                          extremamente atenciosa durante todo o percurso.
+                        </p>
+                        <p
+                          class="testimonial-guide"
+                          data-i18n="testimonials.card1.guide"
+                        >
+                          Guia: Curitiba/PR
+                        </p>
+                        <p
+                          class="testimonial-route"
+                          data-i18n="testimonials.card1.route"
+                        >
+                          Paranavaí → Foz do Iguaçu
+                        </p>
+                      </div>
+                    </article>
+                  </div>
+                  <div class="col-md-6 col-lg-4">
+                    <article class="testimonial-card card border-0 h-100">
+                      <div class="card-body d-flex flex-column h-100">
+                        <h3
+                          class="testimonial-name"
+                          data-i18n="testimonials.card2.name"
+                        >
+                          Maria Silva
+                        </h3>
+                        <div class="testimonial-stars">★★★★★</div>
+                        <p
+                          class="testimonial-text flex-grow-1"
+                          data-i18n="testimonials.card2.text"
+                        >
+                          A Marazul superou minhas expectativas! O ônibus era
+                          moderno e confortável.
+                        </p>
+                        <p
+                          class="testimonial-guide"
+                          data-i18n="testimonials.card2.guide"
+                        >
+                          Guia: São Paulo/SP
+                        </p>
+                        <p
+                          class="testimonial-route"
+                          data-i18n="testimonials.card2.route"
+                        >
+                          Paranavaí → Maringá/PR
+                        </p>
+                      </div>
+                    </article>
+                  </div>
+                  <div class="col-md-6 col-lg-4 d-none d-lg-block">
+                    <article class="testimonial-card card border-0 h-100">
+                      <div class="card-body d-flex flex-column h-100">
+                        <h3
+                          class="testimonial-name"
+                          data-i18n="testimonials.card3.name"
+                        >
+                          Carlos Oliveira
+                        </h3>
+                        <div class="testimonial-stars">★★★★★</div>
+                        <p
+                          class="testimonial-text flex-grow-1"
+                          data-i18n="testimonials.card3.text"
+                        >
+                          Viagem excelente, ônibus confortável e equipe
+                          extremamente atenciosa durante todo o percurso.
+                        </p>
+                        <p
+                          class="testimonial-guide"
+                          data-i18n="testimonials.card3.guide"
+                        >
+                          Guia: Curitiba/PR
+                        </p>
+                        <p
+                          class="testimonial-route"
+                          data-i18n="testimonials.card3.route"
+                        >
+                          Paranavaí → Aparecida do Norte/SP
+                        </p>
+                      </div>
+                    </article>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Slide 2: Cards 4, 1 e 2 -->
+              <div class="carousel-item">
+                <div class="row justify-content-center g-4 px-5">
+                  <div class="col-md-6 col-lg-4">
+                    <article class="testimonial-card card border-0 h-100">
+                      <div class="card-body d-flex flex-column h-100">
+                        <h3
+                          class="testimonial-name"
+                          data-i18n="testimonials.card4.name"
+                        >
+                          Claudia Santos
+                        </h3>
+                        <div class="testimonial-stars">★★★★★</div>
+                        <p
+                          class="testimonial-text flex-grow-1"
+                          data-i18n="testimonials.card4.text"
+                        >
+                          Empresa séria e comprometida com a satisfação do
+                          cliente.
+                        </p>
+                        <p
+                          class="testimonial-guide"
+                          data-i18n="testimonials.card4.guide"
+                        >
+                          Guia: Rio de Janeiro/RJ
+                        </p>
+                        <p
+                          class="testimonial-route"
+                          data-i18n="testimonials.card4.route"
+                        >
+                          Paranavaí → Rio de Janeiro/RJ
+                        </p>
+                      </div>
+                    </article>
+                  </div>
+                  <div class="col-md-6 col-lg-4">
+                    <article class="testimonial-card card border-0 h-100">
+                      <div class="card-body d-flex flex-column h-100">
+                        <h3
+                          class="testimonial-name"
+                          data-i18n="testimonials.card1.name"
+                        >
+                          João Pereira
+                        </h3>
+                        <div class="testimonial-stars">★★★★★</div>
+                        <p
+                          class="testimonial-text flex-grow-1"
+                          data-i18n="testimonials.card1.text"
+                        >
+                          Viagem excelente, ônibus confortável e equipe
+                          extremamente atenciosa durante todo o percurso.
+                        </p>
+                        <p
+                          class="testimonial-guide"
+                          data-i18n="testimonials.card1.guide"
+                        >
+                          Guia: Curitiba/PR
+                        </p>
+                        <p
+                          class="testimonial-route"
+                          data-i18n="testimonials.card1.route"
+                        >
+                          Paranavaí → Foz do Iguaçu
+                        </p>
+                      </div>
+                    </article>
+                  </div>
+                  <div class="col-md-6 col-lg-4 d-none d-lg-block">
+                    <article class="testimonial-card card border-0 h-100">
+                      <div class="card-body d-flex flex-column h-100">
+                        <h3
+                          class="testimonial-name"
+                          data-i18n="testimonials.card2.name"
+                        >
+                          Maria Silva
+                        </h3>
+                        <div class="testimonial-stars">★★★★★</div>
+                        <p
+                          class="testimonial-text flex-grow-1"
+                          data-i18n="testimonials.card2.text"
+                        >
+                          A Marazul superou minhas expectativas! O ônibus era
+                          moderno e confortável.
+                        </p>
+                        <p
+                          class="testimonial-guide"
+                          data-i18n="testimonials.card2.guide"
+                        >
+                          Guia: São Paulo/SP
+                        </p>
+                        <p
+                          class="testimonial-route"
+                          data-i18n="testimonials.card2.route"
+                        >
+                          Paranavaí → Maringá/PR
+                        </p>
+                      </div>
+                    </article>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Controles Desktop -->
+            <button
+              class="carousel-control-prev custom-carousel-btn"
+              type="button"
+              data-bs-target="#testimonialsCarouselDesktop"
+              data-bs-slide="prev"
+            >
+              <i class="bi bi-chevron-left"></i>
+            </button>
+            <button
+              class="carousel-control-next custom-carousel-btn"
+              type="button"
+              data-bs-target="#testimonialsCarouselDesktop"
+              data-bs-slide="next"
+            >
+              <i class="bi bi-chevron-right"></i>
+            </button>
+          </div>
+
+          <!-- CARROSSEL MOBILE (telas < 768px) -->
+          <div
+            id="testimonialsCarouselMobile"
+            class="carousel slide d-md-none"
+            data-bs-ride="carousel"
+            data-bs-interval="8000"
+          >
+            <div class="carousel-inner">
+              <!-- Slide 1 -->
+              <div class="carousel-item active">
+                <div class="px-5">
+                  <article class="testimonial-card card border-0 h-100">
+                    <div class="card-body">
+                      <h3
+                        class="testimonial-name"
+                        data-i18n="testimonials.card1.name"
+                      >
+                        João Pereira
+                      </h3>
+                      <div class="testimonial-stars">★★★★★</div>
+                      <p
+                        class="testimonial-text"
+                        data-i18n="testimonials.card1.text"
+                      >
+                        Viagem excelente, ônibus confortável e equipe
+                        extremamente atenciosa durante todo o percurso.
+                      </p>
+                      <p
+                        class="testimonial-guide"
+                        data-i18n="testimonials.card1.guide"
+                      >
+                        Guia: Curitiba/PR
+                      </p>
+                      <p
+                        class="testimonial-route"
+                        data-i18n="testimonials.card1.route"
+                      >
+                        Paranavaí → Foz do Iguaçu
+                      </p>
+                    </div>
+                  </article>
+                </div>
+              </div>
+
+              <!-- Slide 2 -->
+              <div class="carousel-item">
+                <div class="px-5">
+                  <article class="testimonial-card card border-0 h-100">
+                    <div class="card-body">
+                      <h3
+                        class="testimonial-name"
+                        data-i18n="testimonials.card2.name"
+                      >
+                        Maria Silva
+                      </h3>
+                      <div class="testimonial-stars">★★★★★</div>
+                      <p
+                        class="testimonial-text"
+                        data-i18n="testimonials.card2.text"
+                      >
+                        A Marazul superou minhas expectativas! O ônibus era
+                        moderno e confortável.
+                      </p>
+                      <p
+                        class="testimonial-guide"
+                        data-i18n="testimonials.card2.guide"
+                      >
+                        Guia: São Paulo/SP
+                      </p>
+                      <p
+                        class="testimonial-route"
+                        data-i18n="testimonials.card2.route"
+                      >
+                        Paranavaí → Maringá/PR
+                      </p>
+                    </div>
+                  </article>
+                </div>
+              </div>
+
+              <!-- Slide 3 -->
+              <div class="carousel-item">
+                <div class="px-5">
+                  <article class="testimonial-card card border-0 h-100">
+                    <div class="card-body">
+                      <h3
+                        class="testimonial-name"
+                        data-i18n="testimonials.card3.name"
+                      >
+                        Carlos Oliveira
+                      </h3>
+                      <div class="testimonial-stars">★★★★★</div>
+                      <p
+                        class="testimonial-text"
+                        data-i18n="testimonials.card3.text"
+                      >
+                        Viagem excelente, ônibus confortável e equipe
+                        extremamente atenciosa durante todo o percurso.
+                      </p>
+                      <p
+                        class="testimonial-guide"
+                        data-i18n="testimonials.card3.guide"
+                      >
+                        Guia: Curitiba/PR
+                      </p>
+                      <p
+                        class="testimonial-route"
+                        data-i18n="testimonials.card3.route"
+                      >
+                        Paranavaí → Aparecida do Norte/SP
+                      </p>
+                    </div>
+                  </article>
+                </div>
+              </div>
+
+              <!-- Slide 4 -->
+              <div class="carousel-item">
+                <div class="px-5">
+                  <article class="testimonial-card card border-0 h-100">
+                    <div class="card-body">
+                      <h3
+                        class="testimonial-name"
+                        data-i18n="testimonials.card4.name"
+                      >
+                        Claudia Santos
+                      </h3>
+                      <div class="testimonial-stars">★★★★★</div>
+                      <p
+                        class="testimonial-text"
+                        data-i18n="testimonials.card4.text"
+                      >
+                        Empresa séria e comprometida com a satisfação do
+                        cliente.
+                      </p>
+                      <p
+                        class="testimonial-guide"
+                        data-i18n="testimonials.card4.guide"
+                      >
+                        Guia: Rio de Janeiro/RJ
+                      </p>
+                      <p
+                        class="testimonial-route"
+                        data-i18n="testimonials.card4.route"
+                      >
+                        Paranavaí → Rio de Janeiro/RJ
+                      </p>
+                    </div>
+                  </article>
+                </div>
+              </div>
+            </div>
+
+            <!-- Controles Mobile -->
+            <button
+              class="carousel-control-prev custom-carousel-btn"
+              type="button"
+              data-bs-target="#testimonialsCarouselMobile"
+              data-bs-slide="prev"
+            >
+              <i class="bi bi-chevron-left"></i>
+            </button>
+            <button
+              class="carousel-control-next custom-carousel-btn"
+              type="button"
+              data-bs-target="#testimonialsCarouselMobile"
+              data-bs-slide="next"
+            >
+              <i class="bi bi-chevron-right"></i>
+            </button>
+          </div>
+        </div>
+      </section>
       <section class="bras"></section>
       <section class="contact"></section>
       <section class="useful-links-section" id="useful-links">
         <div class="container">
           <div class="useful-links-header">
             <span
-              class="useful-links-subtitle"
+              class="useful-links-subtitle text-uppercase"
               data-i18n="useful-links.subtitle"
             >
               Informações importantes
@@ -678,50 +1097,114 @@
       <section class="faq-section">
         <div class="container">
           <div class="faq-header">
-            <span class="faq-subtitle" data-i18n="faq.subtitle"> FAQ </span>
-
+            <span class="faq-subtitle text-uppercase" data-i18n="faq.subtitle"
+              >FAQ</span
+            >
             <h2 class="faq-title" data-i18n="faq.title">Ainda tem dúvidas?</h2>
           </div>
 
           <div class="faq-accordion">
+            <!-- 1 -->
             <details class="faq-item">
               <summary>
-                <span data-i18n="faq.question1">
-                  Quais as regras para cancelamento?
+                <span data-i18n="faq.q1">
+                  Quais são as opções de ônibus disponíveis para locação?
                 </span>
                 <span class="faq-icon"></span>
               </summary>
               <div class="faq-content">
-                <p data-i18n="faq.answer1">
-                  Consulte nossa política de cancelamento...
+                <p data-i18n="faq.a1">
+                  Nossa frota atende a diferentes necessidades, contando com
+                  ônibus convencionais, executivos e leito. Todos os veículos
+                  passam por rigorosas revisões periódicas para garantir a sua
+                  segurança.
                 </p>
               </div>
             </details>
 
+            <!-- 2 -->
             <details class="faq-item">
               <summary>
-                <span data-i18n="faq.question2">
-                  Qual o limite de bagagem no bagageiro?
+                <span data-i18n="faq.q2">
+                  Os ônibus possuem Wi-Fi, ar-condicionado e tomadas?
                 </span>
                 <span class="faq-icon"></span>
               </summary>
               <div class="faq-content">
-                <p data-i18n="faq.answer2">
-                  O limite de bagagem varia conforme o tipo de viagem...
+                <p data-i18n="faq.a2">
+                  Sim! Nossos veículos da categoria Executivo e Leito são
+                  equipados com Wi-Fi, ar-condicionado com controle individual,
+                  tomadas para carregamento de eletrônicos e frigobar. A
+                  disponibilidade pode variar conforme o veículo.
                 </p>
               </div>
             </details>
 
+            <!-- 3 -->
             <details class="faq-item">
               <summary>
-                <span data-i18n="faq.question3">
-                  Animais de estimação podem viajar?
+                <span data-i18n="faq.q3">
+                  Como faço para solicitar um orçamento de viagem?
                 </span>
                 <span class="faq-icon"></span>
               </summary>
               <div class="faq-content">
-                <p data-i18n="faq.answer3">
-                  Sim, desde que sejam observadas as normas vigentes...
+                <p data-i18n="faq.a3">
+                  Basta acessar a seção “Contato” do site e preencher o
+                  formulário com origem, destino, datas e número de passageiros.
+                  Retornaremos com a proposta ideal.
+                </p>
+              </div>
+            </details>
+
+            <!-- 4 -->
+            <details class="faq-item">
+              <summary>
+                <span data-i18n="faq.q4">
+                  Como funciona a política de cancelamento ou alteração de
+                  datas?
+                </span>
+                <span class="faq-icon"></span>
+              </summary>
+              <div class="faq-content">
+                <p data-i18n="faq.a4">
+                  Cancelamentos ou alterações podem ser feitos conforme
+                  contrato, geralmente sem multa quando realizados com
+                  antecedência mínima definida.
+                </p>
+              </div>
+            </details>
+
+            <!-- 5 -->
+            <details class="faq-item">
+              <summary>
+                <span data-i18n="faq.q5">
+                  É permitido levar bebidas ou alimentos no ônibus?
+                </span>
+                <span class="faq-icon"></span>
+              </summary>
+              <div class="faq-content">
+                <p data-i18n="faq.a5">
+                  Sim, é permitido o consumo de alimentos leves e bebidas não
+                  alcoólicas durante a viagem. Solicitamos apenas o cuidado com
+                  a limpeza do ambiente.
+                </p>
+              </div>
+            </details>
+
+            <!-- 6 -->
+            <details class="faq-item">
+              <summary>
+                <span data-i18n="faq.q6">
+                  Há limite para o tamanho ou peso das bagagens?
+                </span>
+                <span class="faq-icon"></span>
+              </summary>
+              <div class="faq-content">
+                <p data-i18n="faq.a6">
+                  Nossos ônibus possuem bagageiros amplos e compartimentos
+                  internos para bagagens de mão. Equipamentos maiores devem ser
+                  informados no orçamento.
                 </p>
               </div>
             </details>
