@@ -86,3 +86,24 @@
     transform: translateY(-8px);
     box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
 }
+
+#modal-description {
+    margin-top: 1rem;
+}
+
+.modal-description-list {
+    padding: 1rem 1rem 1rem 2rem;
+    border-radius: 10px;
+    background-color: var(--bg-light);
+    color: var(--marazul-blue-dark);
+}
+
+.modal-description-list li + li {
+    margin-top: 0.5rem;
+}
+
+@media (min-width: 992px) {
+    #busModal .carousel-photo {
+        height: clamp(280px, 42vh, 340px);
+    }
+}

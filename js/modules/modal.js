@@ -18,7 +18,14 @@ async function loadFleetTranslations() {
 function applyModalTranslations(modal, translations) {
   modal.querySelectorAll("[data-i18n]").forEach((element) => {
     const key = element.dataset.i18n;
-    if (key in translations) element.textContent = translations[key];
+    if (!(key in translations)) return;
+
+    if (element.id === "modal-description") {
+      renderDescription(element, translations[key]);
+      return;
+    }
+
+    element.textContent = translations[key];
   });
 
   modal.querySelectorAll("[data-i18n-alt]").forEach((element) => {
@@ -30,6 +37,35 @@ function applyModalTranslations(modal, translations) {
     const key = element.dataset.i18nAriaLabel;
     if (key in translations) element.setAttribute("aria-label", translations[key]);
   });
+}
+
+function parseDescription(description) {
+  return description
+    .split(/[.,]/)
+    .flatMap((part) => {
+      const item = part.trim();
+      if (!item) return [];
+
+      const isSeatCombination = /\d.*\s(?:e|y)\s\d/i.test(item);
+      return isSeatCombination ? [item] : item.split(/\s+(?:e|y)\s+/i);
+    })
+    .map((item) => item.trim())
+    .filter(Boolean);
+}
+
+function renderDescription(container, description) {
+  const items = parseDescription(description);
+  const list = document.createElement("ul");
+
+  list.className = "modal-description-list mb-0";
+
+  items.forEach((item) => {
+    const listItem = document.createElement("li");
+    listItem.textContent = item;
+    list.appendChild(listItem);
+  });
+
+  container.replaceChildren(list);
 }
 
 export function initModal() {
@@ -57,7 +93,6 @@ export function initModal() {
     if (!button) return;
 
     const busId = button.dataset.bus;
-    console.log(busId)
     const bus = fleet[busId];
 
     if (!bus) return;
@@ -65,7 +100,7 @@ export function initModal() {
     titleEl.dataset.i18n = bus.title.i18n;
     descEl.dataset.i18n = bus.description.i18n;
     titleEl.textContent = bus.title.fallback;
-    descEl.textContent = bus.description.fallback;
+    renderDescription(descEl, bus.description.fallback);
 
     updateCarousel(bus.images);
 
