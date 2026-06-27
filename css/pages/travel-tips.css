@@ -1,10 +1,21 @@
 .tips-hero {
-  background: var(--bg-light);
-  color: var(--text-main);
-  padding: 150px 0 80px;
-  min-height: 520px;
-  display: flex;
-  align-items: center;
+  padding: 0;
+  min-height: auto;
+  display: block;
+}
+
+.tips-hero-img {
+  height: 500px;
+  object-fit: cover;
+}
+
+.tips-hero-overlay {
+  background: linear-gradient(
+    110deg,
+    rgba(5, 30, 60, 0.78) 10%,
+    rgba(5, 30, 60, 0.45) 70%,
+    rgba(5, 30, 60, 0.25) 100%
+  );
 }
 
 .tips-section-label {
@@ -13,7 +24,7 @@
   gap: 10px;
   color: var(--marazul-red);
   font-size: var(--btn-text);
-  font-weight: 800;
+  font-weight: 700;
   letter-spacing: 2px;
   text-transform: uppercase;
   margin-bottom: var(--spacing-sm);
@@ -27,16 +38,20 @@
 }
 
 .tips-title {
-  font-size: 2.8rem;
+  font-family: "Playfair Display", serif;
+  font-size: 4rem;
   font-weight: 700;
-  color: var(--marazul-blue-dark);
+  color: var(--marazul-white);
+  line-height: 1.1;
+  margin-bottom: var(--spacing-sm);
 }
 
 .tips-subtitle {
-  font-size: 18px;
-  color: var(--text-muted);
-  max-width: 650px;
-  line-height: 1.7;
+  font-size: var(--subtitle);
+  color: var(--marazul-white);
+  max-width: 800px;
+  line-height: 1.6;
+  margin: 0 auto;
 }
 
 .tips-hero-actions {
@@ -60,7 +75,7 @@
   border-color: var(--marazul-red);
 }
 
-.tips-boarding-card {
+/* .tips-boarding-card {
   position: relative;
   z-index: 1;
   background: var(--marazul-white);
@@ -109,7 +124,7 @@
   font-weight: 800;
 }
 
-.boarding-list-number,
+.boarding-list-number, */
 .tip-mini-icon {
   width: 42px;
   height: 42px;
@@ -121,7 +136,7 @@
   background: rgba(227, 30, 36, 0.1);
 }
 
-.boarding-list-number {
+/* .boarding-list-number {
   color: var(--marazul-red);
   font-size: 13px;
   font-weight: 900;
@@ -138,7 +153,7 @@
   font-size: inherit;
   font-weight: inherit;
   line-height: 1.4;
-}
+} */
 
 .tip-mini-icon img {
   width: 23px;
@@ -177,8 +192,9 @@
 .tips-section-title {
   color: var(--marazul-blue-dark);
   font-size: 2.5rem;
+  font-weight: 700;
   line-height: 1.05;
-  margin: 0;
+  margin-top: 8px;
 }
 
 .tip-mini-card {
@@ -345,8 +361,12 @@
 }
 
 @media (max-width: 767px) {
-  .tips-hero {
-    padding: 110px 0 56px;
+  .tips-hero-img {
+    height: 400px;
+  }
+
+  .tips-title {
+    font-size: 2.5rem;
   }
 
   .tips-hero-actions,
