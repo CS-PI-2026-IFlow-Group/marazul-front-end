@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Marazul</title>
+    <title data-i18n="fleet.page-title">Nossa Frota - Marazul</title>
     <link
       href="/assets/bootstrap-5.3.8-dist/css/bootstrap.min.css"
       rel="stylesheet"
@@ -31,7 +31,7 @@
         <img
           src="../assets/images/Nossa-frota.jpg"
           alt="Ônibus enfileirados"
-          data-i18n-alt="about.img-bus"
+          data-i18n-alt="fleet.hero-image"
           class="about-banner-img img-fluid w-100"
         />
       </picture>
@@ -41,11 +41,14 @@
         <div class="container pb-5 text-end" style="max-width: 600px">
           <h2
             class="main-title text-center main-layout"
-            data-i18n="about.intro-title"
+            data-i18n="fleet.hero-title"
           >
             Nossa frota
           </h2>
-          <p class="text-center fs-5 mt-3 mb-4 text-color">
+          <p
+            class="text-center fs-5 mt-3 mb-4 text-color"
+            data-i18n="fleet.hero-description"
+          >
             Conheça nossos veículos e encontre a opção perfeita para a sua
             viagem, com o máximo de conforto e segurança.
           </p>
@@ -54,9 +57,16 @@
     </section>
     <main class="mb-5 mt-5">
     <section class="text-center">
-      <p class="text-uppercase text-danger mb-1">comodidades</p>
-      <h1 class="main-title fw-bold">Tudo pensado para seu conforto</h1>
-      <p class="caption">Nossos ônibus são equipados com o que há de melhor em tecnologia e conforto.</p>
+      <p
+        class="text-uppercase text-danger mb-1"
+        data-i18n="fleet.amenities.label"
+      >comodidades</p>
+      <h1 class="main-title fw-bold" data-i18n="fleet.amenities.title">
+        Tudo pensado para seu conforto
+      </h1>
+      <p class="caption" data-i18n="fleet.amenities.description">
+        Nossos ônibus são equipados com o que há de melhor em tecnologia e conforto.
+      </p>
   <section class="container py-5">
     <div class="row g-4">
 
@@ -64,14 +74,25 @@
       <div class="card h-100 border-0 shadow-sm card-comodidade">
         <div class="card-body">
           <div class="mb-3 icon-box">
-            <img src="../assets/icons/chair.svg" alt="Poltronas" width="48">
+            <img
+              src="../assets/icons/chair.svg"
+              alt="Poltronas"
+              data-i18n-alt="fleet.amenity.reclining-seats.image"
+              width="48"
+            >
           </div>
 
-          <h5 class="fw-bold text-start">
+          <h5
+            class="fw-bold text-start"
+            data-i18n="fleet.amenity.reclining-seats.title"
+          >
             Poltronas Reclináveis
           </h5>
 
-          <p class="mb-0 caption text-start">
+          <p
+            class="mb-0 caption text-start"
+            data-i18n="fleet.amenity.reclining-seats.description"
+          >
             Poltronas leito e semi-leito com apoio para pernas e encosto regulável para o máximo de conforto.
           </p>
         </div>
@@ -85,11 +106,17 @@
             <img src="../assets/icons/snow-flake.svg" alt="" width="48">
           </div>
 
-          <h5 class="fw-bold text-start">
+          <h5
+            class="fw-bold text-start"
+            data-i18n="fleet.amenity.air-conditioning.title"
+          >
             Ar-condicionado
           </h5>
 
-          <p class="mb-0 caption text-start">
+          <p
+            class="mb-0 caption text-start"
+            data-i18n="fleet.amenity.air-conditioning.description"
+          >
             Sistema de climatização individual que garante a temperatura ideal durante toda a viagem.
           </p>
         </div>
@@ -103,11 +130,17 @@
             <img src="../assets/icons/wifi.svg" alt="" width="48">
           </div>
 
-          <h5 class="fw-bold text-start">
+          <h5
+            class="fw-bold text-start"
+            data-i18n="fleet.amenity.wifi.title"
+          >
             Wi-Fi a Bordo
           </h5>
 
-          <p class="mb-0 caption text-start">
+          <p
+            class="mb-0 caption text-start"
+            data-i18n="fleet.amenity.wifi.description"
+          >
             Internet de alta velocidade para você se manter conectado durante todo o trajeto.
           </p>
         </div>
@@ -121,11 +154,17 @@
             <img src="../assets/icons/tv.svg" alt="" width="48">
           </div>
 
-          <h5 class="fw-bold text-start">
+          <h5
+            class="fw-bold text-start"
+            data-i18n="fleet.amenity.entertainment.title"
+          >
             Entretenimento
           </h5>
 
-          <p class="mb-0 caption text-start">
+          <p
+            class="mb-0 caption text-start"
+            data-i18n="fleet.amenity.entertainment.description"
+          >
             Telas individuais com catálogo de filmes, séries, músicas e jogos para toda a família.
           </p>
         </div>
@@ -139,11 +178,17 @@
             <img src="../assets/icons/charger.svg" alt="" width="48">
           </div>
 
-          <h5 class="fw-bold text-start">
+          <h5
+            class="fw-bold text-start"
+            data-i18n="fleet.amenity.power-outlets.title"
+          >
             Tomadas USB
           </h5>
 
-          <p class="mb-0 caption text-start">
+          <p
+            class="mb-0 caption text-start"
+            data-i18n="fleet.amenity.power-outlets.description"
+          >
             Tomadas USB e 110V em cada poltrona para manter seus dispositivos carregados.
           </p>
         </div>
@@ -157,11 +202,17 @@
             <img src="../assets/icons/secure.svg" alt="" width="48">
           </div>
 
-          <h5 class="fw-bold text-start">
+          <h5
+            class="fw-bold text-start"
+            data-i18n="fleet.amenity.safety.title"
+          >
             Segurança Total
           </h5>
 
-          <p class="mb-0 caption text-start">
+          <p
+            class="mb-0 caption text-start"
+            data-i18n="fleet.amenity.safety.description"
+          >
             GPS, câmeras de monitoramento e cintos de segurança em todas as poltronas.
           </p>
         </div>
@@ -174,15 +225,22 @@
     
 <section class="basic-infra-information pb-1 pt-3">
   <div class="text-center">
-  <p class="text-uppercase text-danger mb-1">Nossos Veículos</p>
-  <h1 class="main-title fw-bold mb-5">Escolha o ideal para sua viagem</h1>
+  <p
+    class="text-uppercase text-danger mb-1"
+    data-i18n="fleet.vehicles.label"
+  >Nossos Veículos</p>
+  <h1 class="main-title fw-bold mb-5" data-i18n="fleet.vehicles.title">
+    Escolha o ideal para sua viagem
+  </h1>
   </div>
 <section class="m-4 mb-5">
 <div class="row justify-content-center g-4">
 <div class="col-12 col-md-6 col-lg-3">
   <div class="card h-100 shadow-sm">
     <div class="card-body">
-      <h5 class="card-title fw-bold">Ônibus semi-leito - 56 Lugares</h5>
+      <h5 class="card-title fw-bold" data-i18n="fleet.vehicle.13001.title">
+        Ônibus semi-leito - 56 Lugares
+      </h5>
 
       <picture>
         <source
@@ -192,7 +250,8 @@
         <img
           class="card-img-top"
           src="../assets/images/modal/13001/jpeg/parked_bus.jpeg"
-          alt="Imagem ônibus estacionado"
+          alt="Imagem de ônibus estacionado"
+          data-i18n-alt="fleet.vehicle.13001.image"
         />
       </picture>
 
@@ -203,6 +262,7 @@
           data-bus="13001"
           data-bs-toggle="modal"
           data-bs-target="#busModal"
+          data-i18n="fleet.vehicles.details-button"
         >
           Ver detalhes
         </button>
@@ -214,7 +274,9 @@
 <div class="col-12 col-md-6 col-lg-3">
   <div class="card h-100 shadow-sm">
     <div class="card-body">
-      <h5 class="card-title fw-bold">Ônibus semi-leito - 42 Lugares</h5>
+      <h5 class="card-title fw-bold" data-i18n="fleet.vehicle.1101.title">
+        Ônibus semi-leito - 42 Lugares
+      </h5>
 
       <picture>
         <source
@@ -224,7 +286,8 @@
         <img
           class="card-img-top"
           src="../assets/images/modal/11001/jpeg/front_bus11001.jpeg"
-          alt="Imagem ônibus estacionado"
+          alt="Imagem de ônibus estacionado"
+          data-i18n-alt="fleet.vehicle.1101.image"
         />
       </picture>
 
@@ -235,6 +298,7 @@
           data-bus="1101"
           data-bs-toggle="modal"
           data-bs-target="#busModal"
+          data-i18n="fleet.vehicles.details-button"
         >
           Ver detalhes
         </button>
@@ -246,7 +310,9 @@
 <div class="col-12 col-md-6 col-lg-3">
   <div class="card h-100 shadow-sm">
     <div class="card-body">
-      <h5 class="card-title fw-bold">Ônibus leito - 53 Lugares</h5>
+      <h5 class="card-title fw-bold" data-i18n="fleet.vehicle.18001.title">
+        Ônibus leito - 53 Lugares
+      </h5>
 
       <picture>
         <source
@@ -256,7 +322,8 @@
         <img
           class="card-img-top"
           src="../assets/images/modal/18001/jpeg/18001-Garagem.jpeg"
-          alt="Imagem ônibus estacionado"
+          alt="Imagem de ônibus estacionado"
+          data-i18n-alt="fleet.vehicle.18001.image"
         />
       </picture>
 
@@ -267,6 +334,7 @@
           data-bus="18001"
           data-bs-toggle="modal"
           data-bs-target="#busModal"
+          data-i18n="fleet.vehicles.details-button"
         >
           Ver detalhes
         </button>
@@ -278,7 +346,9 @@
 <div class="col-12 col-md-6 col-lg-3">
   <div class="card h-100 shadow-sm">
     <div class="card-body">
-      <h5 class="card-title fw-bold">Ônibus semi-leito - 56 Lugares</h5>
+      <h5 class="card-title fw-bold" data-i18n="fleet.vehicle.20001.title">
+        Ônibus semi-leito - 56 Lugares
+      </h5>
 
       <picture>
         <source
@@ -288,7 +358,8 @@
         <img
           class="card-img-top"
           src="../assets/images/modal/20001/jpeg/interna-do-20001.jpeg"
-          alt="Imagem ônibus estacionado"
+          alt="Imagem de ônibus estacionado"
+          data-i18n-alt="fleet.vehicle.20001.image"
         />
       </picture>
 
@@ -299,6 +370,7 @@
           data-bus="20001"
           data-bs-toggle="modal"
           data-bs-target="#busModal"
+          data-i18n="fleet.vehicles.details-button"
         >
           Ver detalhes
         </button>
@@ -316,6 +388,7 @@
       <img
         src="../assets/images/security-bus.jpg"
         alt="Ônibus em viagem"
+        data-i18n-alt="fleet.safety.image"
         class="img-fluid rounded-4 shadow-sm"
       />
     </div>
@@ -326,11 +399,14 @@
         <img src="../assets/icons/tool.svg">
       </div>
 
-      <h2 class="fw-bold mb-2 main-title text-start">
+      <h2
+        class="fw-bold mb-2 main-title text-start"
+        data-i18n="fleet.safety.title"
+      >
         Segurança é prioridade
       </h2>
 
-      <p class="lead mb-4 caption">
+      <p class="lead mb-4 caption" data-i18n="fleet.safety.description">
         Investimos continuamente em manutenção,
         treinamento e tecnologia para garantir
         que cada viagem seja segura.
@@ -345,7 +421,9 @@
             width="24"
             class="me-3"
           >
-          <span>Manutenção preventiva rigorosa em toda a frota</span>
+          <span data-i18n="fleet.safety.item-1">
+            Manutenção preventiva rigorosa em toda a frota
+          </span>
         </div>
 
         <div class="d-flex align-items-center">
@@ -355,7 +433,9 @@
             width="24"
             class="me-3"
           >
-          <span>Motoristas experientes e treinados regularmente</span>
+          <span data-i18n="fleet.safety.item-2">
+            Motoristas experientes e treinados regularmente
+          </span>
         </div>
 
         <div class="d-flex align-items-center">
@@ -365,7 +445,9 @@
             width="24"
             class="me-3"
           >
-          <span>Monitoramento por GPS em tempo real</span>
+          <span data-i18n="fleet.safety.item-3">
+            Monitoramento por GPS em tempo real
+          </span>
         </div>
 
         <div class="d-flex align-items-center">
@@ -375,7 +457,9 @@
             width="24"
             class="me-3"
           >
-          <span>Seguros completos para passageiros e bagagem</span>
+          <span data-i18n="fleet.safety.item-4">
+            Seguros completos para passageiros e bagagem
+          </span>
         </div>
 
         <div class="d-flex align-items-center">
@@ -385,7 +469,9 @@
             width="24"
             class="me-3"
           >
-          <span>Inspeção técnica antes de cada viagem</span>
+          <span data-i18n="fleet.safety.item-5">
+            Inspeção técnica antes de cada viagem
+          </span>
         </div>
 
       </div>
@@ -400,12 +486,18 @@
       <div class="modal-dialog">
         <div class="modal-content">
           <div class="modal-header">
-            <h5 id="modal-title" class="modal-title">Título</h5>
+            <h5
+              id="modal-title"
+              class="modal-title"
+              data-i18n="fleet.modal.title"
+            >Detalhes do veículo</h5>
 
             <button
               type="button"
               class="btn-close"
               data-bs-dismiss="modal"
+              aria-label="Fechar"
+              data-i18n-aria-label="fleet.modal.close"
             ></button>
           </div>
 
@@ -427,6 +519,7 @@
                             class="active"
                             aria-current="true"
                             aria-label="Ir para a primeira foto"
+                            data-i18n-aria-label="fleet.modal.first-photo"
                           ></button>
 
                           <button
@@ -434,6 +527,7 @@
                             data-bs-target="#aboutCarousel"
                             data-bs-slide-to="1"
                             aria-label="Ir para a segunda foto"
+                            data-i18n-aria-label="fleet.modal.second-photo"
                           ></button>
 
                           <button
@@ -441,6 +535,7 @@
                             data-bs-target="#aboutCarousel"
                             data-bs-slide-to="2"
                             aria-label="Ir para a terceira foto"
+                            data-i18n-aria-label="fleet.modal.third-photo"
                           ></button>
 
                           <button
@@ -448,6 +543,7 @@
                             data-bs-target="#aboutCarousel"
                             data-bs-slide-to="3"
                             aria-label="Ir para a quarta foto"
+                            data-i18n-aria-label="fleet.modal.fourth-photo"
                           ></button>
                         </div>
 
@@ -458,8 +554,8 @@
                               <img
                                 src=""
                                 class="d-block w-100 object-fit-cover carousel-photo"
-                                data-i18n="img.bus5"
                                 alt="Ônibus da Marazul na estrada de lado"
+                                data-i18n-alt="fleet.modal.image-1"
                               />
                             </picture>
                           </div>
@@ -470,8 +566,8 @@
                               <img
                                 src=""
                                 class="d-block w-100 object-fit-cover carousel-photo"
-                                data-i18n="img.bus-inside"
                                 alt="Foto do interno do ônibus com assentos"
+                                data-i18n-alt="fleet.modal.image-2"
                               />
                             </picture>
                           </div>
@@ -482,8 +578,8 @@
                               <img
                                 src=""
                                 class="d-block w-100 object-fit-cover carousel-photo"
-                                data-i18n="img.our-fleet"
                                 alt="Foto dos ônibus da Marazul alinhados lado a lado"
+                                data-i18n-alt="fleet.modal.image-3"
                               />
                             </picture>
                           </div>
@@ -494,8 +590,8 @@
                               <img
                                 src=""
                                 class="d-block w-100 object-fit-cover carousel-photo"
-                                data-i18n="img.bus-sunset"
                                 alt="Foto do ônibus na estrada ao pôr do sol"
+                                data-i18n-alt="fleet.modal.image-4"
                               />
                             </picture>
                           </div>
@@ -506,7 +602,9 @@
                 </div>
               </div>
             </div>
-            <p id="modal-description">Hello World</p>
+            <p id="modal-description" data-i18n="fleet.modal.description">
+              Selecione um veículo para ver mais informações.
+            </p>
           </div>
         </div>
       </div>

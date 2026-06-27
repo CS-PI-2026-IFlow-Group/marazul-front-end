@@ -1,5 +1,3 @@
-
-
 .experience-badge {
   position: absolute;
   bottom: -20px;
@@ -41,13 +39,16 @@
 
 .about-title {
   margin: 0;
+  color: var(--marazul-red);
+  font-size: 0.9rem;
+  letter-spacing: 2px;
+  font-weight: 700;
 }
 
 .subtitle-red {
-  color: var(--marazul-red);
-  text-transform: uppercase;
-  font-size: 0.9rem;
-  letter-spacing: 1px;
+  color: var(--marazul-blue-dark);
+  font-weight: 700;
+  margin: 10px 0;
 }
 
 .stat-card {
@@ -329,7 +330,6 @@
 
 .fleet-subtitle {
   color: var(--marazul-red);
-  text-transform: uppercase;
   font-weight: 700;
   letter-spacing: 2px;
 }
@@ -435,7 +435,6 @@
 
 .useful-links-subtitle {
   color: var(--marazul-red);
-  text-transform: uppercase;
   font-weight: 700;
   letter-spacing: 2px;
   font-size: 0.9rem;
@@ -546,7 +545,6 @@
 
 .faq-subtitle {
   color: var(--marazul-red);
-  text-transform: uppercase;
   font-weight: 700;
   letter-spacing: 2px;
   font-size: 0.9rem;
@@ -651,7 +649,7 @@
   transform: translateY(-2px);
 }
 
-/* RESPONSIVO */
+/* RESPONSIVO FAQ */
 @media (max-width: 768px) {
   .faq-section {
     padding: 60px 20px;
@@ -659,5 +657,210 @@
 
   .faq-item summary {
     font-size: 0.95rem;
+  }
+}
+
+/* ==========================================================================
+   DEPOIMENTOS (TESTIMONIALS) - BOOTSTRAP CAROUSEL
+   ========================================================================== */
+.testimonials-section {
+  background: var(--marazul-white);
+  padding: 80px 0;
+}
+
+/* O contêiner de carrossel do Bootstrap deve manter 100% de largura para transição horizontal perfeita */
+.testimonials-section .carousel {
+  position: relative;
+  padding: 0; /* Remove padding para não quebrar a transição do slide */
+}
+
+/* CARD DEPOIMENTO */
+.testimonial-card {
+  background: var(--bg-light) !important;
+  border-radius: var(--radius-g) !important;
+  box-shadow: var(--shadow-soft);
+  transition: transform var(--transition-default);
+  border: none !important;
+  display: flex;
+  flex-direction: column;
+  height: 255px; /* Altura padrão para desktop */
+  min-height: 255px;
+}
+
+.testimonial-card:hover {
+  transform: translateY(-5px);
+}
+
+.testimonial-card .card-body {
+  padding: 32px;
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+}
+
+/* NOME */
+.testimonial-name {
+  font-size: 1.2rem;
+  font-weight: 700;
+  color: var(--marazul-blue-dark);
+  margin-bottom: 6px;
+}
+
+/* ESTRELAS */
+.testimonial-stars {
+  color: #f5b301;
+  font-size: 18px;
+  margin-bottom: 16px;
+}
+
+/* TEXTO */
+.testimonial-text {
+  color: var(--text-muted);
+  font-size: 0.95rem;
+  line-height: 1.6;
+  margin-bottom: 24px;
+  flex-grow: 1;
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+
+/* GUIA & ROTA */
+.testimonial-guide {
+  font-size: 0.85rem;
+  color: var(--marazul-red);
+  font-weight: 600;
+  margin-bottom: 2px;
+}
+
+.testimonial-route {
+  font-size: 0.85rem;
+  color: var(--text-muted);
+  margin-bottom: 0;
+}
+
+/* BOTÕES CUSTOMIZADOS DE CONTROLE */
+.custom-carousel-btn {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 48px;
+  height: 48px;
+  background-color: var(--marazul-red) !important;
+  border: none;
+  border-radius: 50%;
+  opacity: 1; /* Vermelho sólido, sem opacidade reduzida */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 5;
+}
+
+.custom-carousel-btn i {
+  color: white;
+  font-size: 20px;
+}
+
+/* Posiciona as setas com folga das bordas, ocupando o recuo de 48px gerado por px-5 no HTML */
+.testimonials-section .carousel-control-prev.custom-carousel-btn {
+  left: 10px;
+}
+
+.testimonials-section .carousel-control-next.custom-carousel-btn {
+  right: 10px;
+}
+
+/* ==========================================================================
+   RESPONSIVIDADE DEPOIMENTOS
+   ========================================================================== */
+
+/* TABLET (telas < 992px) */
+@media (max-width: 991px) {
+  .testimonial-card {
+    height: 265px; /* Altura compacta ideal para tablet */
+    min-height: 265px;
+  }
+
+  .testimonial-card .card-body {
+    padding: 24px;
+  }
+
+  .testimonials-section .carousel-control-prev.custom-carousel-btn {
+    left: 8px;
+    width: 42px;
+    height: 42px;
+  }
+
+  .testimonials-section .carousel-control-next.custom-carousel-btn {
+    right: 8px;
+    width: 42px;
+    height: 42px;
+  }
+
+  .custom-carousel-btn i {
+    font-size: 18px;
+  }
+}
+
+/* MOBILE E TELAS PEQUENAS (telas < 768px, ex: 425px e 375px) */
+@media (max-width: 767px) {
+  .testimonials-section {
+    padding: 50px 0;
+  }
+
+  /* Força altura mínima idêntica para todos os cards no mobile, evitando oscilações nas transições */
+  .testimonial-card {
+    min-height: 275px;
+    height: 275px; /* Altura de 275px evita espaço em branco em 425px e 375px */
+  }
+
+  .testimonial-card .card-body {
+    padding: 20px;
+  }
+
+  .testimonial-text {
+    margin-bottom: 16px;
+  }
+
+  /* Posiciona setas de forma confortável no mobile */
+  .testimonials-section .carousel-control-prev.custom-carousel-btn {
+    left: 4px;
+    width: 36px;
+    height: 36px;
+  }
+
+  .testimonials-section .carousel-control-next.custom-carousel-btn {
+    right: 4px;
+    width: 36px;
+    height: 36px;
+  }
+
+  .custom-carousel-btn i {
+    font-size: 16px;
+  }
+}
+
+/* AJUSTE MOBILE ESTREITO EXTREMO (320px) */
+@media (max-width: 330px) {
+  .testimonial-card {
+    min-height: 320px;
+    height: 320px; /* Altura aumentada apenas para 320px para comportar o texto com folga */
+  }
+
+  .testimonials-section .carousel-control-prev.custom-carousel-btn {
+    left: 2px;
+    width: 30px;
+    height: 30px;
+  }
+
+  .testimonials-section .carousel-control-next.custom-carousel-btn {
+    right: 2px;
+    width: 30px;
+    height: 30px;
+  }
+
+  .custom-carousel-btn i {
+    font-size: 14px;
   }
 }

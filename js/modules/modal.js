@@ -1,13 +1,57 @@
 import { fleet } from "../data/fleet.js";
 
+const LANG_FOLDER = { pt: "ptbr", es: "es" };
+
+async function loadFleetTranslations() {
+  const lang = localStorage.getItem("marazul-lang") || "pt";
+  const folder = LANG_FOLDER[lang] ?? lang;
+
+  try {
+    const response = await fetch(`/json/i18n/${folder}/fleet.json`);
+    if (!response.ok) return {};
+    return await response.json();
+  } catch {
+    return {};
+  }
+}
+
+function applyModalTranslations(modal, translations) {
+  modal.querySelectorAll("[data-i18n]").forEach((element) => {
+    const key = element.dataset.i18n;
+    if (key in translations) element.textContent = translations[key];
+  });
+
+  modal.querySelectorAll("[data-i18n-alt]").forEach((element) => {
+    const key = element.dataset.i18nAlt;
+    if (key in translations) element.alt = translations[key];
+  });
+
+  modal.querySelectorAll("[data-i18n-aria-label]").forEach((element) => {
+    const key = element.dataset.i18nAriaLabel;
+    if (key in translations) element.setAttribute("aria-label", translations[key]);
+  });
+}
+
 export function initModal() {
-  console.log("AAAAAAAA")
   const modal = document.getElementById("busModal");
+  if (!modal) return;
 
   const titleEl = document.getElementById("modal-title");
   const descEl = document.getElementById("modal-description");
 
-  modal.addEventListener("show.bs.modal", (event) => {
+  loadFleetTranslations().then((translations) => {
+    applyModalTranslations(modal, translations);
+  });
+
+  document.addEventListener("click", (event) => {
+    if (!event.target.closest(".lang-btn[data-lang]")) return;
+
+    loadFleetTranslations().then((translations) => {
+      applyModalTranslations(modal, translations);
+    });
+  });
+
+  modal.addEventListener("show.bs.modal", async (event) => {
     const button = event.relatedTarget;
 
     if (!button) return;
@@ -18,10 +62,15 @@ export function initModal() {
 
     if (!bus) return;
 
+    titleEl.dataset.i18n = bus.title.i18n;
+    descEl.dataset.i18n = bus.description.i18n;
     titleEl.textContent = bus.title.fallback;
     descEl.textContent = bus.description.fallback;
 
     updateCarousel(bus.images);
+
+    const translations = await loadFleetTranslations();
+    applyModalTranslations(modal, translations);
   });
 
   const closeBtn = document.getElementById("close-modal-btn");
@@ -67,6 +116,10 @@ function updateCarousel(images) {
         />
       </picture>
     `;
+
+    const image = item.querySelector("img");
+    image.dataset.i18nAlt = "fleet.modal.vehicle-image";
+    image.alt = "Imagem do veículo selecionado";
 
     inner.appendChild(item);
   });
