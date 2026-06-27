@@ -40,7 +40,7 @@
       >
         <div class="container pb-5 text-end" style="max-width: 600px">
           <h2
-            class="main-title text-center main-layout"
+            class="main-title-banner text-center main-layout"
             data-i18n="fleet.hero-title"
           >
             Nossa frota
@@ -55,13 +55,13 @@
         </div>
       </div>
     </section>
-    <main class="mb-5 mt-5">
+    <main class="mb-5 mt-5 font-family">
     <section class="text-center">
       <p
-        class="text-uppercase text-danger mb-1"
+        class="text-uppercase mb-1 red-text"
         data-i18n="fleet.amenities.label"
       >comodidades</p>
-      <h1 class="main-title fw-bold" data-i18n="fleet.amenities.title">
+      <h1 class="main-title-body fw-bold" data-i18n="fleet.amenities.title">
         Tudo pensado para seu conforto
       </h1>
       <p class="caption" data-i18n="fleet.amenities.description">
@@ -226,35 +226,44 @@
 <section class="basic-infra-information pb-1 pt-3">
   <div class="text-center">
   <p
-    class="text-uppercase text-danger mb-1"
+    class="text-uppercase red-text mb-1"
     data-i18n="fleet.vehicles.label"
   >Nossos Veículos</p>
-  <h1 class="main-title fw-bold mb-5" data-i18n="fleet.vehicles.title">
+  <h1 class="main-title-body  fw-bold mb-5" data-i18n="fleet.vehicles.title">
     Escolha o ideal para sua viagem
   </h1>
   </div>
 <section class="m-4 mb-5">
 <div class="row justify-content-center g-4">
 <div class="col-12 col-md-6 col-lg-3">
-  <div class="card h-100 shadow-sm">
-    <div class="card-body">
-      <h5 class="card-title fw-bold" data-i18n="fleet.vehicle.13001.title">
-        Ônibus semi-leito - 56 Lugares
-      </h5>
+  <div class="bus-card">
+    <picture>
+      <source
+        srcset="../assets/images/modal/13001/webp/parked_bus.webp"
+        type="image/webp"
+      />
+      <img
+        class="bus-card-img"
+        src="../assets/images/modal/13001/jpeg/parked_bus.jpeg"
+        alt="Imagem de ônibus estacionado"
+        data-i18n-alt="fleet.vehicle.13001.image"
+      />
+    </picture>
 
-      <picture>
-        <source
-          srcset="../assets/images/modal/13001/webp/parked_bus.webp"
-          type="image/webp"
-        />
-        <img
-          class="card-img-top"
-          src="../assets/images/modal/13001/jpeg/parked_bus.jpeg"
-          alt="Imagem de ônibus estacionado"
-          data-i18n-alt="fleet.vehicle.13001.image"
-        />
-      </picture>
+    <div class="bus-card-body">
+      <h3 class="bus-card-text" data-i18n="fleet.vehicle.13001.title">
+        Ônibus semi-leito 
+      </h3>
 
+      <div class="d-flex align-items-center">
+          <img
+            src="../assets/icons/people.svg"
+            alt=""
+            width="24"
+            class="me-3"
+          >
+          <span class="caption-cards" data-i18n="fleet.vehicle.13001.seats">56 Lugares</span>
+        </div>
       <div class="text-center mt-3">
         <button
           type="button"
@@ -272,25 +281,33 @@
 </div>
 
 <div class="col-12 col-md-6 col-lg-3">
-  <div class="card h-100 shadow-sm">
-    <div class="card-body">
-      <h5 class="card-title fw-bold" data-i18n="fleet.vehicle.1101.title">
-        Ônibus semi-leito - 42 Lugares
-      </h5>
+  <div class="bus-card">
+    <picture>
+      <source
+        srcset="../assets/images/modal/11001/webp/front_bus11001.webp"
+        type="image/webp"
+      />
+      <img
+        class="bus-card-img"
+        src="../assets/images/modal/11001/jpeg/front_bus11001.jpeg"
+        alt="Imagem de ônibus estacionado"
+        data-i18n-alt="fleet.vehicle.1101.image"
+      />
+    </picture>
 
-      <picture>
-        <source
-          srcset="../assets/images/modal/11001/webp/front_bus11001.webp"
-          type="image/webp"
-        />
-        <img
-          class="card-img-top"
-          src="../assets/images/modal/11001/jpeg/front_bus11001.jpeg"
-          alt="Imagem de ônibus estacionado"
-          data-i18n-alt="fleet.vehicle.1101.image"
-        />
-      </picture>
-
+    <div class="bus-card-body">
+      <h3 class="bus-card-text" data-i18n="fleet.vehicle.1101.title">
+        Ônibus semi-leito
+      </h3>
+      <div class="d-flex align-items-center">
+          <img
+            src="../assets/icons/people.svg"
+            alt=""
+            width="24"
+            class="me-3"
+          >
+          <span class="caption-cards" data-i18n="fleet.vehicle.1101.seats">42 Lugares</span>
+        </div>
       <div class="text-center mt-3">
         <button
           type="button"
@@ -308,25 +325,35 @@
 </div>
 
 <div class="col-12 col-md-6 col-lg-3">
-  <div class="card h-100 shadow-sm">
-    <div class="card-body">
-      <h5 class="card-title fw-bold" data-i18n="fleet.vehicle.18001.title">
-        Ônibus leito - 53 Lugares
-      </h5>
+  <div class="bus-card">
+    <picture>
+      <source
+        srcset="../assets/images/modal/18001/webp/18001-Garagem.webp"
+        type="image/webp"
+      />
+      <img
+        class="bus-card-img"
+        src="../assets/images/modal/18001/jpeg/18001-Garagem.jpeg"
+        alt="Imagem de ônibus estacionado"
+        data-i18n-alt="fleet.vehicle.18001.image"
+      />
+    </picture>
 
-      <picture>
-        <source
-          srcset="../assets/images/modal/18001/webp/18001-Garagem.webp"
-          type="image/webp"
-        />
-        <img
-          class="card-img-top"
-          src="../assets/images/modal/18001/jpeg/18001-Garagem.jpeg"
-          alt="Imagem de ônibus estacionado"
-          data-i18n-alt="fleet.vehicle.18001.image"
-        />
-      </picture>
+    <div class="bus-card-body">
+      <h3 class="bus-card-text" data-i18n="fleet.vehicle.18001.title">
+        Ônibus leito
+      </h3>
 
+      <div class="d-flex align-items-center">
+          <img
+            src="../assets/icons/people.svg"
+            alt=""
+            width="24"
+            class="me-3"
+          >
+          <span class="caption-cards" data-i18n="fleet.vehicle.18001.seats">53 Lugares</span>
+        </div>
+      
       <div class="text-center mt-3">
         <button
           type="button"
@@ -344,25 +371,34 @@
 </div>
 
 <div class="col-12 col-md-6 col-lg-3">
-  <div class="card h-100 shadow-sm">
-    <div class="card-body">
-      <h5 class="card-title fw-bold" data-i18n="fleet.vehicle.20001.title">
-        Ônibus semi-leito - 56 Lugares
-      </h5>
+  <div class="bus-card">
+    <picture>
+      <source
+        srcset="../assets/images/modal/20001/webp/interna-do-20001.webp"
+        type="image/webp"
+      />
+      <img
+        class="bus-card-img"
+        src="../assets/images/modal/20001/jpeg/interna-do-20001.jpeg"
+        alt="Imagem de ônibus estacionado"
+        data-i18n-alt="fleet.vehicle.20001.image"
+      />
+    </picture>
 
-      <picture>
-        <source
-          srcset="../assets/images/modal/20001/webp/interna-do-20001.webp"
-          type="image/webp"
-        />
-        <img
-          class="card-img-top"
-          src="../assets/images/modal/20001/jpeg/interna-do-20001.jpeg"
-          alt="Imagem de ônibus estacionado"
-          data-i18n-alt="fleet.vehicle.20001.image"
-        />
-      </picture>
+    <div class="bus-card-body">
+      <h3 class="bus-card-text" data-i18n="fleet.vehicle.20001.title">
+        Ônibus semi-leito
+      </h3>
 
+      <div class="d-flex align-items-center">
+          <img
+            src="../assets/icons/people.svg"
+            alt=""
+            width="24"
+            class="me-3"
+          >
+          <span class="caption-cards" data-i18n="fleet.vehicle.20001.seats">56 Lugares</span>
+        </div>
       <div class="text-center mt-3">
         <button
           type="button"
