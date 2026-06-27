@@ -3,7 +3,9 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title data-i18n="page-title">Marazul Turismo - Viagens de ônibus pelo Brasil</title>
+    <title data-i18n="page-title">
+      Marazul Turismo - Viagens de ônibus pelo Brasil
+    </title>
     <link
       href="/assets/bootstrap-5.3.8-dist/css/bootstrap.min.css"
       rel="stylesheet"
@@ -996,8 +998,109 @@
           </div>
         </div>
       </section>
-      <section class="bras"></section>
-      <section class="contact"></section>
+      <section class="services-section py-5" id="service">
+        <div class="container">
+          <div class="text-center mb-5">
+            <span
+              class="section-subtitle text-uppercase"
+              data-i18n="services.subtitle"
+            >
+              Serviços
+            </span>
+
+            <h2 class="section-title" data-i18n="services.title">
+              Conheça nossos serviços
+            </h2>
+          </div>
+
+          <!-- TURISMO -->
+          <div class="row align-items-center g-0 service-card mb-5">
+            <div class="col-lg-6">
+              <picture>
+                <source
+                  srcset="assets/images/costa-do-santinho.webp"
+                  type="image/webp"
+                />
+
+                <img
+                  src="assets/images/costa-do-santinho.jpg"
+                  class="img-fluid service-image"
+                  alt="Resort Costão do Santinho"
+                  data-i18n-alt="services.tourism.imageAlt"
+                />
+              </picture>
+            </div>
+
+            <div class="col-lg-6">
+              <div class="service-content">
+                <span class="service-tag" data-i18n="services.tourism.tag">
+                  Turismo
+                </span>
+
+                <h3 data-i18n="services.tourism.title">Costão do Santinho</h3>
+
+                <p data-i18n="services.tourism.text">
+                  Conheça um dos destinos mais procurados do Brasil com todo
+                  conforto, segurança e qualidade da Marazul Turismo.
+                </p>
+
+                <a
+                  href="/pages/contact.html"
+                  class="btn btn-marazul-primary"
+                  data-i18n="services.tourism.button"
+                >
+                  Solicitar cotação
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <!-- COMPRAS BRÁS -->
+          <div
+            class="row align-items-center g-0 service-card flex-lg-row-reverse"
+          >
+            <div class="col-lg-6">
+              <picture>
+                <source
+                  srcset="assets/images/bras.webp"
+                  type="image/webp"
+                />
+
+                <img
+                  src="assets/images/bras.jpg"
+                  class="img-fluid service-image"
+                  alt="Ônibus da Marazul realizando viagem ao Brás"
+                  data-i18n-alt="services.shopping.imageAlt"
+                />
+              </picture>
+            </div>
+
+            <div class="col-lg-6">
+              <div class="service-content">
+                <span class="service-tag" data-i18n="services.shopping.tag">
+                  Compras
+                </span>
+
+                <h3 data-i18n="services.shopping.title">Compras no Brás</h3>
+
+                <p data-i18n="services.shopping.text">
+                  Viaje para o maior polo de compras do Brasil em ônibus
+                  modernos, confortáveis e com toda segurança.
+                </p>
+
+                <a
+                  href="https://wa.me/5544997392626?text=Olá,%20quero%20reservar%20uma%20passagem%20para%20o%20Brás."
+                  target="_blank"
+                  class="btn btn-marazul-secondary"
+                  data-i18n="services.shopping.button"
+                >
+                  Reservar passagem
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
       <section class="useful-links-section" id="useful-links">
         <div class="container">
           <div class="useful-links-header">
