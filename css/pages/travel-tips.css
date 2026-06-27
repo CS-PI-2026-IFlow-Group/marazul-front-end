@@ -5,7 +5,7 @@
 }
 
 .tips-hero-img {
-  height: 500px;
+  height: 420px;
   object-fit: cover;
 }
 
@@ -21,29 +21,21 @@
 .tips-section-label {
   display: inline-flex;
   align-items: center;
-  gap: 10px;
+  gap: var(--spacing-xs);
   color: var(--marazul-red);
-  font-size: var(--btn-text);
+  font-size: var(--subtitle);
   font-weight: 700;
   letter-spacing: 2px;
   text-transform: uppercase;
-  margin-bottom: var(--spacing-sm);
+  margin-bottom: var(--spacing-md);
 }
-
-.tips-section-label::before {
-  content: "";
-  width: 30px;
-  height: 2px;
-  background: var(--marazul-red);
-}
-
 .tips-title {
   font-family: "Playfair Display", serif;
   font-size: 4rem;
   font-weight: 700;
   color: var(--marazul-white);
   line-height: 1.1;
-  margin-bottom: var(--spacing-sm);
+  margin-bottom: 0;
 }
 
 .tips-subtitle {
@@ -75,56 +67,6 @@
   border-color: var(--marazul-red);
 }
 
-/* .tips-boarding-card {
-  position: relative;
-  z-index: 1;
-  background: var(--marazul-white);
-  border: 1px solid rgba(6, 42, 69, 0.12);
-  border-radius: var(--radius-m);
-  box-shadow: 0 24px 60px rgba(6, 42, 69, 0.16);
-  padding: var(--spacing-lg);
-}
-
-.boarding-card-header {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  gap: var(--spacing-md);
-  color: var(--marazul-blue-dark);
-  border-bottom: 1px solid rgba(6, 42, 69, 0.12);
-  padding-bottom: var(--spacing-md);
-  margin-bottom: var(--spacing-md);
-}
-
-.boarding-card-header span {
-  color: var(--text-muted);
-  font-size: 14px;
-  font-weight: 700;
-  text-transform: uppercase;
-}
-
-.boarding-card-header strong {
-  color: var(--marazul-red);
-  font-size: 22px;
-}
-
-.boarding-list {
-  list-style: none;
-  padding: 0;
-  margin: 0;
-  display: grid;
-  gap: var(--spacing-md);
-}
-
-.boarding-list li {
-  display: flex;
-  align-items: center;
-  gap: var(--spacing-md);
-  color: var(--marazul-blue-dark);
-  font-weight: 800;
-}
-
-.boarding-list-number, */
 .tip-mini-icon {
   width: 42px;
   height: 42px;
@@ -135,25 +77,6 @@
   border-radius: 50%;
   background: rgba(227, 30, 36, 0.1);
 }
-
-/* .boarding-list-number {
-  color: var(--marazul-red);
-  font-size: 13px;
-  font-weight: 900;
-}
-
-.boarding-list-text {
-  width: auto;
-  height: auto;
-  display: block;
-  flex: 1 1 auto;
-  border-radius: 0;
-  background: transparent;
-  color: var(--marazul-blue-dark);
-  font-size: inherit;
-  font-weight: inherit;
-  line-height: 1.4;
-} */
 
 .tip-mini-icon img {
   width: 23px;
@@ -179,7 +102,7 @@
 
 .tips-intro-grid p {
   color: var(--text-muted);
-  font-size: var(--paragraph);
+  font-size: 1.05rem;
   line-height: 1.7;
   margin: 0;
 }
@@ -191,10 +114,8 @@
 
 .tips-section-title {
   color: var(--marazul-blue-dark);
-  font-size: 2.5rem;
+  font-size: 2.8rem;
   font-weight: 700;
-  line-height: 1.05;
-  margin-top: 8px;
 }
 
 .tip-mini-card {
@@ -351,7 +272,7 @@
 
 @media (max-width: 991px) {
   .tips-hero {
-    padding-top: 120px;
+    padding: 0;
     min-height: auto;
   }
 
@@ -362,7 +283,7 @@
 
 @media (max-width: 767px) {
   .tips-hero-img {
-    height: 400px;
+    height: 240px;
   }
 
   .tips-title {
