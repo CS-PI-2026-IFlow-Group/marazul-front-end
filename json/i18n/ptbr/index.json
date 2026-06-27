@@ -1,0 +1,148 @@
+{
+  "page-title": "Marazul Turismo - Viagens de ônibus pelo Brasil",
+  "badge-number": "Desde 1956",
+  "badge-text": "anos no mercado",
+  "about-title": "Sobre Nós",
+  "about-subtitle": "Sua viagem dos sonhos começa aqui",
+  "about-desc": "Com 70 anos de tradição, a Marazul Turismo conecta destinos e realiza sonhos com segurança e conforto. Nossa história de sucesso é fruto de dedicação da nossa equipe e da confiança contínua de nossos clientes e parceiros. Seguimos rumo ao futuro com o compromisso de inovar e oferecer excelência em cada viagem.",
+  "stat-clients": "Clientes Atendidos",
+  "stat-experience": "Anos de Experiência",
+  "stat-trips": "Viagens Realizadas",
+  "btn-about-us": "Leia mais",
+  "img.bus5": "Ônibus da Marazul na estrada de lado",
+  "img.bus-inside": "Foto do interno do ônibus com assentos",
+  "img.our-fleet": "Foto dos ônibus da Marazul alinhados lado a lado",
+  "img.bus-sunset": "Foto do ônibus na estrada ao pôr do sol",
+  "img.users": "Ícone de clientes",
+  "img.award": "Ícone de medalha",
+  "img.bus-front": "Ícone de ônibus",
+  "btn-location-text": "Viagens inesquecíveis pelo Brasil",
+  "cursive-welcome-text": "Descubra o Brasil",
+  "normal-letters-text": "com a Marazul",
+  "description-text": "Conforto, segurança e as melhores experiências de turismo rodoviário para você e sua família.",
+  "btn-primary-text": "Solicitar orçamento",
+  "btn-secondary-text": "Conheça nossa frota",
+  "img-icon-gps": "ícone de GPS",
+  "img-home-bus": "Ônibus da Marazul em Aparecida do Norte",
+  "img-icon-arrow": "símbolo flecha para a direita",
+
+  "fleet.subtitle": "Nossa Frota",
+  "fleet.title": "Conheça nossos veículos",
+  "fleet.description": "Sua segurança é o nosso destino principal. Nossa frota é equipada com o máximo de conforto e rigorosamente revisada para que você apenas relaxe, encoste a poltrona e aproveite a viagem.",
+
+  "fleet.bus1.alt": "Ônibus Marcopolo DD da frota Marazul",
+  "fleet.bus1.title": "13001 - Marcopolo DD",
+  "fleet.bus1.seats": "56 lugares",
+  "fleet.bus1.feature1": "Carregador",
+  "fleet.bus1.feature2": "Ar-condicionado",
+  "fleet.bus1.feature3": "USB individual",
+  "fleet.bus1.feature4": "Starlink",
+  "fleet.bus1.feature5": "Banheiro",
+  "fleet.bus1.feature6": "Cortinas individuais",
+
+  "fleet.bus2.alt": "Ônibus Marcopolo LD da frota Marazul",
+  "fleet.bus2.title": "1101 - Marcopolo LD",
+  "fleet.bus2.seats": "42 lugares",
+  "fleet.bus2.feature1": "Carregador",
+  "fleet.bus2.feature2": "Ar-condicionado",
+  "fleet.bus2.feature3": "USB individual",
+  "fleet.bus2.feature4": "Starlink",
+  "fleet.bus2.feature5": "Banheiro",
+  "fleet.bus2.feature6": "Cortinas individuais",
+
+  "fleet.bus3.alt": "Ônibus da frota Marazul estacionados",
+  "fleet.bus3.title": "18001 - Marcopolo DD",
+  "fleet.bus3.seats": "53 lugares",
+  "fleet.bus3.feature1": "Carregador",
+  "fleet.bus3.feature2": "Ar-condicionado",
+  "fleet.bus3.feature3": "USB individual",
+  "fleet.bus3.feature4": "Starlink",
+  "fleet.bus3.feature5": "Banheiro",
+  "fleet.bus3.feature6": "Cortinas individuais",
+
+  "fleet.bus4.alt": "Ônibus Marcopolo DD da frota Marazul",
+  "fleet.bus4.title": "2001 - Marcopolo DD",
+  "fleet.bus4.seats": "56 lugares",
+  "fleet.bus4.feature1": "Carregador",
+  "fleet.bus4.feature2": "Ar-condicionado",
+  "fleet.bus4.feature3": "USB individual",
+  "fleet.bus4.feature4": "Starlink",
+  "fleet.bus4.feature5": "Banheiro",
+  "fleet.bus4.feature6": "Cortinas individuais",
+
+  "fleet.btn-view-fleet": "Conhecer frota",
+
+  "useful-links.subtitle": "Informações importantes",
+  "useful-links.title": "Acesso rápido a órgãos oficiais",
+  "useful-links.description": "Acesso rápido a órgãos reguladores, parceiros e informações importantes para a sua viagem.",
+
+  "useful-links.antt.title": "ANTT",
+  "useful-links.antt.desc": "Agência Nacional de Transportes Terrestres",
+
+  "useful-links.der.title": "DER-PR",
+  "useful-links.der.desc": "Departamento de Edificações e Rodovias do Paraná",
+
+  "useful-links.cadastur.title": "CADASTUR",
+  "useful-links.cadastur.desc": "Ministério do Turismo - Cadastro de prestadores",
+
+  "useful-links.cta": "Acessar site",
+
+  "faq.subtitle": "FAQ",
+  "faq.title": "Ainda tem dúvidas?",
+
+  "faq.q1": "Quais são as opções de ônibus disponíveis para locação?",
+  "faq.a1": "Nossa frota atende a diferentes necessidades, contando com ônibus convencionais, executivos e leito. Todos os veículos passam por rigorosas revisões periódicas para garantir a sua segurança.",
+
+  "faq.q2": "Os ônibus possuem Wi-Fi, ar-condicionado e tomadas?",
+  "faq.a2": "Sim! Nossos veículos da categoria Executivo e Leito são equipados com Wi-Fi, ar-condicionado com controle individual, tomadas para carregamento de eletrônicos e frigobar. A disponibilidade pode variar conforme o veículo.",
+
+  "faq.q3": "Como faço para solicitar um orçamento de viagem?",
+  "faq.a3": "Basta acessar a seção “Contato” do site e preencher o formulário com origem, destino, datas e número de passageiros. Retornaremos com a proposta ideal.",
+
+  "faq.q4": "Como funciona a política de cancelamento ou alteração de datas?",
+  "faq.a4": "Cancelamentos ou alterações podem ser feitos conforme contrato, geralmente sem multa quando realizados com antecedência mínima definida.",
+
+  "faq.q5": "É permitido levar bebidas ou alimentos no ônibus?",
+  "faq.a5": "Sim, é permitido o consumo de alimentos leves e bebidas não alcoólicas durante a viagem. Solicitamos apenas o cuidado com a limpeza do ambiente.",
+
+  "faq.q6": "Há limite para o tamanho ou peso das bagagens?",
+  "faq.a6": "Nossos ônibus possuem bagageiros amplos e compartimentos internos para bagagens de mão. Equipamentos maiores devem ser informados no orçamento.",
+
+  "testimonials.subtitle": "EXPERIÊNCIAS",
+  "testimonials.title": "O que dizem nossos passageiros",
+
+  "testimonials.card1.name": "João Pereira",
+  "testimonials.card1.text": "Viagem excelente, ônibus confortável e equipe extremamente atenciosa durante todo o percurso.",
+  "testimonials.card1.guide": "Guia: Curitiba/PR",
+  "testimonials.card1.route": "Paranavaí → Foz do Iguaçu",
+
+  "testimonials.card2.name": "Maria Silva",
+  "testimonials.card2.text": "A Marazul superou minhas expectativas! O ônibus era moderno e confortável durante todo o percurso.",
+  "testimonials.card2.guide": "Guia: São Paulo/SP",
+  "testimonials.card2.route": "Paranavaí → Maringá/PR",
+
+  "testimonials.card3.name": "Carlos Oliveira",
+  "testimonials.card3.text": "Viagem excelente, ônibus confortável e equipe extremamente atenciosa durante todo o percurso.",
+  "testimonials.card3.guide": "Guia: Curitiba/PR",
+  "testimonials.card3.route": "Paranavaí → Aparecida do Norte/SP",
+
+  "testimonials.card4.name": "Claudia Santos",
+  "testimonials.card4.text": "Empresa séria e comprometida com a satisfação do cliente. A equipe foi atenciosa, ônibus limpos e confortáveis, e a viagem foi tranquila do início ao fim. Recomendo a Marazul para quem busca uma experiência de viagem rodoviária de qualidade.",
+  "testimonials.card4.guide": "Guia: Rio de Janeiro/RJ",
+  "testimonials.card4.route": "Paranavaí → Rio de Janeiro/RJ",
+
+  "services.subtitle": "Serviços",
+  "services.title": "Conheça nossos serviços",
+
+  "services.tourism.tag": "Turismo",
+  "services.tourism.title": "Costão do Santinho",
+  "services.tourism.text": "Conheça um dos destinos mais procurados do Brasil com todo conforto, segurança e qualidade da Marazul Turismo.",
+  "services.tourism.button": "Solicitar cotação",
+  "services.tourism.imageAlt": "Resort Costão do Santinho",
+
+  "services.shopping.tag": "Compras",
+  "services.shopping.title": "Compras no Brás",
+  "services.shopping.text": "Viaje para o maior polo de compras do Brasil em ônibus modernos, confortáveis e com toda segurança.",
+  "services.shopping.button": "Reservar passagem",
+  "services.shopping.imageAlt": "Ônibus da Marazul realizando viagem ao Brás"
+}

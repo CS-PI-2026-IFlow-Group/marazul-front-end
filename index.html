@@ -1,0 +1,1321 @@
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title data-i18n="page-title">
+      Marazul Turismo - Viagens de ônibus pelo Brasil
+    </title>
+    <link
+      rel="icon"
+      type="image/png"
+      href="../assets/images/logo-correta.png"
+    />
+    <link
+      href="/assets/bootstrap-5.3.8-dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./css/main.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Bitcount+Grid+Double:wght@100..900&family=Bitcount+Prop+Double:wght@100..900&family=Bitcount:wght@100..900&family=Mrs+Saint+Delafield&family=Roboto:ital,wght@0,100..900;1,100..900&family=VT323&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Exo+2:wght@500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Rajdhani:wght@500;600;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div id="header"></div>
+    <div class="overlay" id="overlay"></div>
+    <main>
+      <div class="hero-wrapper-overflow">
+        <section class="hero">
+          <div class="welcome-page-wrapper">
+            <div class="container-image-text">
+              <div class="text-content-welcome">
+                <a
+                  class="btn-location glass-effect"
+                  data-i18n="btn-location-text"
+                >
+                  <img
+                    class="btn-icon"
+                    src="assets/icons/mao-pin.svg"
+                    alt="icone de gps"
+                    data-i18n="img-icon-gps"
+                  />
+                  Viagens inesquecíveis pelo Brasil
+                </a>
+                <div class="cursive-welcome-text">
+                  <h1 data-i18n="cursive-welcome-text">Descubra o Brasil</h1>
+                </div>
+                <div class="normal-letters">
+                  <h1 data-i18n="normal-letters-text">com a Marazul</h1>
+                </div>
+                <p class="description" data-i18n="description-text">
+                  Conforto, segurança e as melhores experiências de turismo
+                  rodoviário para você e sua família.
+                </p>
+              </div>
+              <div
+                class="container-btn-right d-flex flex-column flex-sm-row justify-content-center align-items-center gap-4 mt-4"
+              >
+                <a
+                  class="btn btn-primary btn-lg"
+                  id="btn-budget"
+                  data-i18n="btn-primary-text"
+                  href="./pages/contact.html"
+                >
+                  Solicitar orçamento
+                  <img
+                    class="btn-icon"
+                    src="assets/icons/arrow-right.svg"
+                    alt="símbolo flecha para a direita"
+                    data-i18n="img-icon-arrow"
+                  />
+                </a>
+                <a
+                  id="btn-fleet"
+                  class="btn btn-outline-light btn-lg glass-effect hover-transparent"
+                  data-i18n="btn-secondary-text"
+                  href="#fleet-section"
+                  >Conheça nossa frota</a
+                >
+              </div>
+            </div>
+          </div>
+          <picture>
+            <source
+              srcset="assets/images/foto-da-home.webp"
+              type="image/webp"
+            />
+            <img
+              src="assets/images/foto-da-home.jpg"
+              class="image-background"
+              alt="Ônibus da Marazul em Aparecida do Norte"
+              data-i18n-alt="img-home-bus"
+            />
+          </picture>
+        </section>
+      </div>
+      <section class="fleet" id="fleet-section"></section>
+      <section class="about py-5">
+        <div class="container py-lg-4">
+          <div class="row align-items-center gy-5 gx-lg-5">
+            <div class="col-lg-6">
+              <div class="position-relative d-inline-block w-100">
+                <div id="aboutCarousel" class="carousel slide carousel-fade">
+                  <div class="carousel-indicators">
+                    <button
+                      type="button"
+                      data-bs-target="#aboutCarousel"
+                      data-bs-slide-to="0"
+                      class="active"
+                      aria-current="true"
+                      aria-label="Ir para a primeira foto"
+                    ></button>
+                    <button
+                      type="button"
+                      data-bs-target="#aboutCarousel"
+                      data-bs-slide-to="1"
+                      aria-label="Ir para a segunda foto"
+                    ></button>
+                    <button
+                      type="button"
+                      data-bs-target="#aboutCarousel"
+                      data-bs-slide-to="2"
+                      aria-label="Ir para a terceira foto"
+                    ></button>
+                    <button
+                      type="button"
+                      data-bs-target="#aboutCarousel"
+                      data-bs-slide-to="3"
+                      aria-label="Ir para a quarta foto"
+                    ></button>
+                  </div>
+
+                  <div class="carousel-inner about-img">
+                    <div class="carousel-item active">
+                      <picture>
+                        <source
+                          srcset="../assets/images/bus5.webp"
+                          type="image/webp"
+                        />
+                        <img
+                          src="assets/images/bus5.jpeg"
+                          class="d-block w-100 object-fit-cover carousel-photo"
+                          data-i18n="img.bus5"
+                          alt="Ônibus da Marazul na estrada de lado"
+                        />
+                      </picture>
+                    </div>
+
+                    <div class="carousel-item">
+                      <picture>
+                        <source
+                          srcset="../assets/images/bus_inside.webp"
+                          type="image/webp"
+                        />
+                        <img
+                          src="assets/images/bus_inside.jpg"
+                          class="d-block w-100 object-fit-cover carousel-photo"
+                          data-i18n="img.bus-inside"
+                          alt="Foto do interno do ônibus com assentos"
+                        />
+                      </picture>
+                    </div>
+
+                    <div class="carousel-item">
+                      <picture>
+                        <source
+                          srcset="assets/images/our_fleet.webp"
+                          type="image/webp"
+                        />
+                        <img
+                          src="assets/images/our_fleet.jpg"
+                          class="d-block w-100 object-fit-cover carousel-photo"
+                          data-i18n="img.our-fleet"
+                          alt="Foto dos ônibus da Marazul alinhados lado a lado"
+                        />
+                      </picture>
+                    </div>
+
+                    <div class="carousel-item">
+                      <picture>
+                        <source
+                          srcset="assets/images/bus_sunset.webp"
+                          type="image/webp"
+                        />
+                        <img
+                          src="assets/images/bus_sunset.jpg"
+                          class="d-block w-100 object-fit-cover carousel-photo"
+                          data-i18n="img.bus-sunset"
+                          alt="Foto do ônibus na estrada ao pôr do sol"
+                        />
+                      </picture>
+                    </div>
+                  </div>
+                </div>
+                <div
+                  class="experience-badge position-absolute text-center shadow"
+                >
+                  <span class="badge-number d-block" data-i18n="badge-number"
+                    >Desde 1956</span
+                  >
+                  <span class="badge-text fw-bold" data-i18n="badge-text"
+                    >no mercado</span
+                  >
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-6">
+              <span class="about-title text-uppercase" data-i18n="about-title">
+                Sobre Nós
+              </span>
+              <h2 class="subtitle-red fw-bold mb-4" data-i18n="about-subtitle">
+                Sua viagem dos sonhos começa aqui
+              </h2>
+
+              <p class="about-desc fs-5 mt-3 mb-4" data-i18n="about-desc">
+                Com 70 anos de tradição, a Marazul Turismo conecta destinos e
+                realiza sonhos com segurança e conforto. Nossa história de
+                sucesso é fruto de dedicação da nossa equipe e da confiança
+                contínua de nossos clientes e parceiros. Seguimos rumo ao futuro
+                com o compromisso de inovar e oferecer excelência em cada
+                viagem.
+              </p>
+              <div class="row g-3 mb-4">
+                <div class="col-sm-6">
+                  <div class="stat-card d-flex p-3 rounded-3">
+                    <div
+                      class="stat-icon flex-shrink-0 me-3 rounded-3 d-flex align-items-center justify-content-center"
+                    >
+                      <img
+                        src="assets/icons/users.svg"
+                        data-i18n="img.users"
+                        alt="Ícone de clientes"
+                      />
+                    </div>
+                    <div>
+                      <strong class="stat-number d-block mb-0 fs-5"
+                        >3.500+</strong
+                      >
+                      <span class="stat-label small" data-i18n="stat-clients"
+                        >Clientes Atendidos</span
+                      >
+                    </div>
+                  </div>
+                </div>
+
+                <div class="col-sm-6">
+                  <div class="stat-card d-flex p-3 rounded-3">
+                    <div
+                      class="stat-icon flex-shrink-0 me-3 rounded-3 d-flex align-items-center justify-content-center"
+                    >
+                      <img
+                        src="assets/icons/award.svg"
+                        data-i18n="img.award"
+                        alt="Ícone de medalha"
+                      />
+                    </div>
+                    <div>
+                      <strong class="stat-number d-block mb-0 fs-5">70+</strong>
+                      <span class="stat-label small" data-i18n="stat-experience"
+                        >Anos de Experiência</span
+                      >
+                    </div>
+                  </div>
+                </div>
+                <div class="col-sm-12">
+                  <div class="stat-card d-flex p-3 rounded-3">
+                    <div
+                      class="stat-icon flex-shrink-0 me-3 rounded-3 d-flex align-items-center justify-content-center"
+                    >
+                      <img
+                        src="assets/icons/bus-front.svg"
+                        data-i18n="img.bus-front"
+                        alt="Ícone de ônibus"
+                      />
+                    </div>
+                    <div>
+                      <strong class="stat-number d-block mb-0 fs-5"
+                        >2.000+</strong
+                      >
+                      <span class="stat-label small" data-i18n="stat-trips"
+                        >Viagens Realizadas</span
+                      >
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <a
+                href="pages/about.html"
+                class="btn-read-more d-inline-block"
+                data-i18n="btn-about-us"
+                aria-label="Botão conhecer nossa história"
+                >Conheça nossa história</a
+              >
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="fleet py-5" id="fleet-section">
+        <div class="container">
+          <div class="text-center mb-5">
+            <span
+              class="fleet-subtitle text-uppercase"
+              data-i18n="fleet.subtitle"
+            >
+              Nossa Frota
+            </span>
+            <h2 class="fleet-title" data-i18n="fleet.title">
+              Conheça nossos veículos
+            </h2>
+            <p class="fleet-description" data-i18n="fleet.description">
+              Sua segurança é o nosso destino principal. Nossa frota é equipada
+              com o máximo de conforto e rigorosamente revisada para que você
+              apenas relaxe, encoste a poltrona e aproveite a viagem.
+            </p>
+          </div>
+
+          <div class="row g-4">
+            <!-- CARD 1 -->
+            <div class="col-12 col-md-6 col-lg-3">
+              <div class="bus-card">
+                <picture>
+                  <source
+                    srcset="assets/images/especifica-do-13.webp"
+                    type="image/webp"
+                  />
+                  <img
+                    src="assets/images/especifica-do-13.jpg"
+                    class="bus-card-img"
+                    alt="Ônibus Marcopolo DD da frota Marazul"
+                    data-i18n-alt="fleet.bus1.alt"
+                  />
+                </picture>
+
+                <div class="bus-card-body">
+                  <h3 class="bus-type" data-i18n="fleet.bus1.title">
+                    13001 - Marcopolo DD
+                  </h3>
+
+                  <p class="bus-seats">
+                    <i class="bi bi-people-fill" aria-hidden="true"></i>
+                    <span data-i18n="fleet.bus1.seats">56 lugares</span>
+                  </p>
+
+                  <ul class="bus-details">
+                    <li>
+                      <i class="bi bi-check-circle-fill" aria-hidden="true"></i>
+                      <span data-i18n="fleet.bus1.feature1">Carregador</span>
+                    </li>
+                    <li>
+                      <i class="bi bi-check-circle-fill" aria-hidden="true"></i>
+                      <span data-i18n="fleet.bus1.feature2"
+                        >Ar-condicionado</span
+                      >
+                    </li>
+                    <li>
+                      <i class="bi bi-check-circle-fill" aria-hidden="true"></i>
+                      <span data-i18n="fleet.bus1.feature3"
+                        >USB individual</span
+                      >
+                    </li>
+                    <li>
+                      <i class="bi bi-check-circle-fill" aria-hidden="true"></i>
+                      <span data-i18n="fleet.bus1.feature4">Starlink</span>
+                    </li>
+                    <li>
+                      <i class="bi bi-check-circle-fill" aria-hidden="true"></i>
+                      <span data-i18n="fleet.bus1.feature5">Banheiro</span>
+                    </li>
+                    <li>
+                      <i class="bi bi-check-circle-fill" aria-hidden="true"></i>
+                      <span data-i18n="fleet.bus1.feature6">
+                        Cortinas individuais
+                      </span>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+
+            <!-- CARD 2 -->
+            <div class="col-12 col-md-6 col-lg-3">
+              <div class="bus-card">
+                <picture>
+                  <source
+                    srcset="assets/images/Carro-11001.webp"
+                    type="image/webp"
+                  />
+                  <img
+                    src="assets/images/Carro-11001.jpg"
+                    class="bus-card-img"
+                    alt="Ônibus Marcopolo LD da frota Marazul"
+                    data-i18n-alt="fleet.bus2.alt"
+                  />
+                </picture>
+
+                <div class="bus-card-body">
+                  <h3 class="bus-type" data-i18n="fleet.bus2.title">
+                    1101 - Marcopolo LD
+                  </h3>
+
+                  <p class="bus-seats">
+                    <i class="bi bi-people-fill" aria-hidden="true"></i>
+                    <span data-i18n="fleet.bus2.seats">42 lugares</span>
+                  </p>
+
+                  <ul class="bus-details">
+                    <li>
+                      <i class="bi bi-check-circle-fill" aria-hidden="true"></i>
+                      <span data-i18n="fleet.bus2.feature1">Carregador</span>
+                    </li>
+                    <li>
+                      <i class="bi bi-check-circle-fill" aria-hidden="true"></i>
+                      <span data-i18n="fleet.bus2.feature2"
+                        >Ar-condicionado</span
+                      >
+                    </li>
+                    <li>
+                      <i class="bi bi-check-circle-fill" aria-hidden="true"></i>
+                      <span data-i18n="fleet.bus2.feature3"
+                        >USB individual</span
+                      >
+                    </li>
+                    <li>
+                      <i class="bi bi-check-circle-fill" aria-hidden="true"></i>
+                      <span data-i18n="fleet.bus2.feature4">Starlink</span>
+                    </li>
+                    <li>
+                      <i class="bi bi-check-circle-fill" aria-hidden="true"></i>
+                      <span data-i18n="fleet.bus2.feature5">Banheiro</span>
+                    </li>
+                    <li>
+                      <i class="bi bi-check-circle-fill" aria-hidden="true"></i>
+                      <span data-i18n="fleet.bus2.feature6">
+                        Cortinas individuais
+                      </span>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+
+            <!-- CARD 3 -->
+            <div class="col-12 col-md-6 col-lg-3">
+              <div class="bus-card">
+                <picture>
+                  <source srcset="assets/images/bus18.webp" type="image/webp" />
+                  <img
+                    src="assets/images/bus18.jpeg"
+                    class="bus-card-img"
+                    alt="Ônibus da frota Marazul estacionados"
+                    data-i18n-alt="fleet.bus3.alt"
+                  />
+                </picture>
+
+                <div class="bus-card-body">
+                  <h3 class="bus-type" data-i18n="fleet.bus3.title">
+                    18001 - Marcopolo DD
+                  </h3>
+
+                  <p class="bus-seats">
+                    <i class="bi bi-people-fill" aria-hidden="true"></i>
+                    <span data-i18n="fleet.bus3.seats">53 lugares</span>
+                  </p>
+
+                  <ul class="bus-details">
+                    <li>
+                      <i class="bi bi-check-circle-fill" aria-hidden="true"></i>
+                      <span data-i18n="fleet.bus3.feature1">Carregador</span>
+                    </li>
+                    <li>
+                      <i class="bi bi-check-circle-fill" aria-hidden="true"></i>
+                      <span data-i18n="fleet.bus3.feature2"
+                        >Ar-condicionado</span
+                      >
+                    </li>
+                    <li>
+                      <i class="bi bi-check-circle-fill" aria-hidden="true"></i>
+                      <span data-i18n="fleet.bus3.feature3"
+                        >USB individual</span
+                      >
+                    </li>
+                    <li>
+                      <i class="bi bi-check-circle-fill" aria-hidden="true"></i>
+                      <span data-i18n="fleet.bus3.feature4">Starlink</span>
+                    </li>
+                    <li>
+                      <i class="bi bi-check-circle-fill" aria-hidden="true"></i>
+                      <span data-i18n="fleet.bus3.feature5">Banheiro</span>
+                    </li>
+                    <li>
+                      <i class="bi bi-check-circle-fill" aria-hidden="true"></i>
+                      <span data-i18n="fleet.bus3.feature6">
+                        Cortinas individuais
+                      </span>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+
+            <!-- CARD 4 -->
+            <div class="col-12 col-md-6 col-lg-3">
+              <div class="bus-card">
+                <picture>
+                  <source srcset="assets/images/bus20.webp" type="image/webp" />
+                  <img
+                    src="assets/images/bus20.jpg"
+                    class="bus-card-img"
+                    alt="Ônibus Marcopolo DD da frota Marazul"
+                    data-i18n-alt="fleet.bus4.alt"
+                  />
+                </picture>
+
+                <div class="bus-card-body">
+                  <h3 class="bus-type" data-i18n="fleet.bus4.title">
+                    2001 - Marcopolo DD
+                  </h3>
+
+                  <p class="bus-seats">
+                    <i class="bi bi-people-fill" aria-hidden="true"></i>
+                    <span data-i18n="fleet.bus4.seats">56 lugares</span>
+                  </p>
+
+                  <ul class="bus-details">
+                    <li>
+                      <i class="bi bi-check-circle-fill" aria-hidden="true"></i>
+                      <span data-i18n="fleet.bus4.feature1">Carregador</span>
+                    </li>
+                    <li>
+                      <i class="bi bi-check-circle-fill" aria-hidden="true"></i>
+                      <span data-i18n="fleet.bus4.feature2"
+                        >Ar-condicionado</span
+                      >
+                    </li>
+                    <li>
+                      <i class="bi bi-check-circle-fill" aria-hidden="true"></i>
+                      <span data-i18n="fleet.bus4.feature3"
+                        >USB individual</span
+                      >
+                    </li>
+                    <li>
+                      <i class="bi bi-check-circle-fill" aria-hidden="true"></i>
+                      <span data-i18n="fleet.bus4.feature4">Starlink</span>
+                    </li>
+                    <li>
+                      <i class="bi bi-check-circle-fill" aria-hidden="true"></i>
+                      <span data-i18n="fleet.bus4.feature5">Banheiro</span>
+                    </li>
+                    <li>
+                      <i class="bi bi-check-circle-fill" aria-hidden="true"></i>
+                      <span data-i18n="fleet.bus4.feature6">
+                        Cortinas individuais
+                      </span>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="text-center mt-5">
+            <a
+              href="./pages/fleet.html"
+              class="btn-fleet-page"
+              data-i18n="fleet.btn-view-fleet"
+            >
+              Conhecer frota
+            </a>
+          </div>
+        </div>
+      </section>
+      <section class="testimonials-section py-5">
+        <div class="container">
+          <div class="text-center mb-5">
+            <span
+              class="section-subtitle text-uppercase"
+              data-i18n="testimonials.subtitle"
+            >
+              Experiências
+            </span>
+
+            <h2 class="section-title" data-i18n="testimonials.title">
+              O que dizem nossos passageiros
+            </h2>
+          </div>
+
+          <!-- CARROSSEL DESKTOP (telas >= 768px) -->
+          <div
+            id="testimonialsCarouselDesktop"
+            class="carousel slide d-none d-md-block"
+            data-bs-ride="carousel"
+            data-bs-interval="8000"
+          >
+            <div class="carousel-inner">
+              <!-- Slide 1: Cards 1, 2 e 3 -->
+              <div class="carousel-item active">
+                <div class="row justify-content-center g-4 px-5">
+                  <div class="col-md-6 col-lg-4">
+                    <article class="testimonial-card card border-0 h-100">
+                      <div class="card-body d-flex flex-column h-100">
+                        <h3
+                          class="testimonial-name"
+                          data-i18n="testimonials.card1.name"
+                        >
+                          João Pereira
+                        </h3>
+                        <div class="testimonial-stars">★★★★★</div>
+                        <p
+                          class="testimonial-text flex-grow-1"
+                          data-i18n="testimonials.card1.text"
+                        >
+                          Viagem excelente, ônibus confortável e equipe
+                          extremamente atenciosa durante todo o percurso.
+                        </p>
+                        <p
+                          class="testimonial-guide"
+                          data-i18n="testimonials.card1.guide"
+                        >
+                          Guia: Curitiba/PR
+                        </p>
+                        <p
+                          class="testimonial-route"
+                          data-i18n="testimonials.card1.route"
+                        >
+                          Paranavaí → Foz do Iguaçu
+                        </p>
+                      </div>
+                    </article>
+                  </div>
+                  <div class="col-md-6 col-lg-4">
+                    <article class="testimonial-card card border-0 h-100">
+                      <div class="card-body d-flex flex-column h-100">
+                        <h3
+                          class="testimonial-name"
+                          data-i18n="testimonials.card2.name"
+                        >
+                          Maria Silva
+                        </h3>
+                        <div class="testimonial-stars">★★★★★</div>
+                        <p
+                          class="testimonial-text flex-grow-1"
+                          data-i18n="testimonials.card2.text"
+                        >
+                          A Marazul superou minhas expectativas! O ônibus era
+                          moderno e confortável.
+                        </p>
+                        <p
+                          class="testimonial-guide"
+                          data-i18n="testimonials.card2.guide"
+                        >
+                          Guia: São Paulo/SP
+                        </p>
+                        <p
+                          class="testimonial-route"
+                          data-i18n="testimonials.card2.route"
+                        >
+                          Paranavaí → Maringá/PR
+                        </p>
+                      </div>
+                    </article>
+                  </div>
+                  <div class="col-md-6 col-lg-4 d-none d-lg-block">
+                    <article class="testimonial-card card border-0 h-100">
+                      <div class="card-body d-flex flex-column h-100">
+                        <h3
+                          class="testimonial-name"
+                          data-i18n="testimonials.card3.name"
+                        >
+                          Carlos Oliveira
+                        </h3>
+                        <div class="testimonial-stars">★★★★★</div>
+                        <p
+                          class="testimonial-text flex-grow-1"
+                          data-i18n="testimonials.card3.text"
+                        >
+                          Viagem excelente, ônibus confortável e equipe
+                          extremamente atenciosa durante todo o percurso.
+                        </p>
+                        <p
+                          class="testimonial-guide"
+                          data-i18n="testimonials.card3.guide"
+                        >
+                          Guia: Curitiba/PR
+                        </p>
+                        <p
+                          class="testimonial-route"
+                          data-i18n="testimonials.card3.route"
+                        >
+                          Paranavaí → Aparecida do Norte/SP
+                        </p>
+                      </div>
+                    </article>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Slide 2: Cards 4, 1 e 2 -->
+              <div class="carousel-item">
+                <div class="row justify-content-center g-4 px-5">
+                  <div class="col-md-6 col-lg-4">
+                    <article class="testimonial-card card border-0 h-100">
+                      <div class="card-body d-flex flex-column h-100">
+                        <h3
+                          class="testimonial-name"
+                          data-i18n="testimonials.card4.name"
+                        >
+                          Claudia Santos
+                        </h3>
+                        <div class="testimonial-stars">★★★★★</div>
+                        <p
+                          class="testimonial-text flex-grow-1"
+                          data-i18n="testimonials.card4.text"
+                        >
+                          Empresa séria e comprometida com a satisfação do
+                          cliente.
+                        </p>
+                        <p
+                          class="testimonial-guide"
+                          data-i18n="testimonials.card4.guide"
+                        >
+                          Guia: Rio de Janeiro/RJ
+                        </p>
+                        <p
+                          class="testimonial-route"
+                          data-i18n="testimonials.card4.route"
+                        >
+                          Paranavaí → Rio de Janeiro/RJ
+                        </p>
+                      </div>
+                    </article>
+                  </div>
+                  <div class="col-md-6 col-lg-4">
+                    <article class="testimonial-card card border-0 h-100">
+                      <div class="card-body d-flex flex-column h-100">
+                        <h3
+                          class="testimonial-name"
+                          data-i18n="testimonials.card1.name"
+                        >
+                          João Pereira
+                        </h3>
+                        <div class="testimonial-stars">★★★★★</div>
+                        <p
+                          class="testimonial-text flex-grow-1"
+                          data-i18n="testimonials.card1.text"
+                        >
+                          Viagem excelente, ônibus confortável e equipe
+                          extremamente atenciosa durante todo o percurso.
+                        </p>
+                        <p
+                          class="testimonial-guide"
+                          data-i18n="testimonials.card1.guide"
+                        >
+                          Guia: Curitiba/PR
+                        </p>
+                        <p
+                          class="testimonial-route"
+                          data-i18n="testimonials.card1.route"
+                        >
+                          Paranavaí → Foz do Iguaçu
+                        </p>
+                      </div>
+                    </article>
+                  </div>
+                  <div class="col-md-6 col-lg-4 d-none d-lg-block">
+                    <article class="testimonial-card card border-0 h-100">
+                      <div class="card-body d-flex flex-column h-100">
+                        <h3
+                          class="testimonial-name"
+                          data-i18n="testimonials.card2.name"
+                        >
+                          Maria Silva
+                        </h3>
+                        <div class="testimonial-stars">★★★★★</div>
+                        <p
+                          class="testimonial-text flex-grow-1"
+                          data-i18n="testimonials.card2.text"
+                        >
+                          A Marazul superou minhas expectativas! O ônibus era
+                          moderno e confortável.
+                        </p>
+                        <p
+                          class="testimonial-guide"
+                          data-i18n="testimonials.card2.guide"
+                        >
+                          Guia: São Paulo/SP
+                        </p>
+                        <p
+                          class="testimonial-route"
+                          data-i18n="testimonials.card2.route"
+                        >
+                          Paranavaí → Maringá/PR
+                        </p>
+                      </div>
+                    </article>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Controles Desktop -->
+            <button
+              class="carousel-control-prev custom-carousel-btn"
+              type="button"
+              data-bs-target="#testimonialsCarouselDesktop"
+              data-bs-slide="prev"
+            >
+              <i class="bi bi-chevron-left"></i>
+            </button>
+            <button
+              class="carousel-control-next custom-carousel-btn"
+              type="button"
+              data-bs-target="#testimonialsCarouselDesktop"
+              data-bs-slide="next"
+            >
+              <i class="bi bi-chevron-right"></i>
+            </button>
+          </div>
+
+          <!-- CARROSSEL MOBILE (telas < 768px) -->
+          <div
+            id="testimonialsCarouselMobile"
+            class="carousel slide d-md-none"
+            data-bs-ride="carousel"
+            data-bs-interval="8000"
+          >
+            <div class="carousel-inner">
+              <!-- Slide 1 -->
+              <div class="carousel-item active">
+                <div class="px-5">
+                  <article class="testimonial-card card border-0 h-100">
+                    <div class="card-body">
+                      <h3
+                        class="testimonial-name"
+                        data-i18n="testimonials.card1.name"
+                      >
+                        João Pereira
+                      </h3>
+                      <div class="testimonial-stars">★★★★★</div>
+                      <p
+                        class="testimonial-text"
+                        data-i18n="testimonials.card1.text"
+                      >
+                        Viagem excelente, ônibus confortável e equipe
+                        extremamente atenciosa durante todo o percurso.
+                      </p>
+                      <p
+                        class="testimonial-guide"
+                        data-i18n="testimonials.card1.guide"
+                      >
+                        Guia: Curitiba/PR
+                      </p>
+                      <p
+                        class="testimonial-route"
+                        data-i18n="testimonials.card1.route"
+                      >
+                        Paranavaí → Foz do Iguaçu
+                      </p>
+                    </div>
+                  </article>
+                </div>
+              </div>
+
+              <!-- Slide 2 -->
+              <div class="carousel-item">
+                <div class="px-5">
+                  <article class="testimonial-card card border-0 h-100">
+                    <div class="card-body">
+                      <h3
+                        class="testimonial-name"
+                        data-i18n="testimonials.card2.name"
+                      >
+                        Maria Silva
+                      </h3>
+                      <div class="testimonial-stars">★★★★★</div>
+                      <p
+                        class="testimonial-text"
+                        data-i18n="testimonials.card2.text"
+                      >
+                        A Marazul superou minhas expectativas! O ônibus era
+                        moderno e confortável.
+                      </p>
+                      <p
+                        class="testimonial-guide"
+                        data-i18n="testimonials.card2.guide"
+                      >
+                        Guia: São Paulo/SP
+                      </p>
+                      <p
+                        class="testimonial-route"
+                        data-i18n="testimonials.card2.route"
+                      >
+                        Paranavaí → Maringá/PR
+                      </p>
+                    </div>
+                  </article>
+                </div>
+              </div>
+
+              <!-- Slide 3 -->
+              <div class="carousel-item">
+                <div class="px-5">
+                  <article class="testimonial-card card border-0 h-100">
+                    <div class="card-body">
+                      <h3
+                        class="testimonial-name"
+                        data-i18n="testimonials.card3.name"
+                      >
+                        Carlos Oliveira
+                      </h3>
+                      <div class="testimonial-stars">★★★★★</div>
+                      <p
+                        class="testimonial-text"
+                        data-i18n="testimonials.card3.text"
+                      >
+                        Viagem excelente, ônibus confortável e equipe
+                        extremamente atenciosa durante todo o percurso.
+                      </p>
+                      <p
+                        class="testimonial-guide"
+                        data-i18n="testimonials.card3.guide"
+                      >
+                        Guia: Curitiba/PR
+                      </p>
+                      <p
+                        class="testimonial-route"
+                        data-i18n="testimonials.card3.route"
+                      >
+                        Paranavaí → Aparecida do Norte/SP
+                      </p>
+                    </div>
+                  </article>
+                </div>
+              </div>
+
+              <!-- Slide 4 -->
+              <div class="carousel-item">
+                <div class="px-5">
+                  <article class="testimonial-card card border-0 h-100">
+                    <div class="card-body">
+                      <h3
+                        class="testimonial-name"
+                        data-i18n="testimonials.card4.name"
+                      >
+                        Claudia Santos
+                      </h3>
+                      <div class="testimonial-stars">★★★★★</div>
+                      <p
+                        class="testimonial-text"
+                        data-i18n="testimonials.card4.text"
+                      >
+                        Empresa séria e comprometida com a satisfação do
+                        cliente.
+                      </p>
+                      <p
+                        class="testimonial-guide"
+                        data-i18n="testimonials.card4.guide"
+                      >
+                        Guia: Rio de Janeiro/RJ
+                      </p>
+                      <p
+                        class="testimonial-route"
+                        data-i18n="testimonials.card4.route"
+                      >
+                        Paranavaí → Rio de Janeiro/RJ
+                      </p>
+                    </div>
+                  </article>
+                </div>
+              </div>
+            </div>
+
+            <!-- Controles Mobile -->
+            <button
+              class="carousel-control-prev custom-carousel-btn"
+              type="button"
+              data-bs-target="#testimonialsCarouselMobile"
+              data-bs-slide="prev"
+            >
+              <i class="bi bi-chevron-left"></i>
+            </button>
+            <button
+              class="carousel-control-next custom-carousel-btn"
+              type="button"
+              data-bs-target="#testimonialsCarouselMobile"
+              data-bs-slide="next"
+            >
+              <i class="bi bi-chevron-right"></i>
+            </button>
+          </div>
+        </div>
+      </section>
+      <section class="services-section py-5" id="service">
+        <div class="container">
+          <div class="text-center mb-5">
+            <span
+              class="section-subtitle text-uppercase"
+              data-i18n="services.subtitle"
+            >
+              Serviços
+            </span>
+
+            <h2 class="section-title" data-i18n="services.title">
+              Conheça nossos serviços
+            </h2>
+          </div>
+
+          <!-- TURISMO -->
+          <div class="row align-items-center g-0 service-card mb-5">
+            <div class="col-lg-6">
+              <picture>
+                <source
+                  srcset="assets/images/costa-do-santinho.webp"
+                  type="image/webp"
+                />
+
+                <img
+                  src="assets/images/costa-do-santinho.jpg"
+                  class="img-fluid service-image"
+                  alt="Resort Costão do Santinho"
+                  data-i18n-alt="services.tourism.imageAlt"
+                />
+              </picture>
+            </div>
+
+            <div class="col-lg-6">
+              <div class="service-content">
+                <span class="service-tag" data-i18n="services.tourism.tag">
+                  Turismo
+                </span>
+
+                <h3 data-i18n="services.tourism.title">Costão do Santinho</h3>
+
+                <p data-i18n="services.tourism.text">
+                  Conheça um dos destinos mais procurados do Brasil com todo
+                  conforto, segurança e qualidade da Marazul Turismo.
+                </p>
+
+                <a
+                  href="/pages/contact.html"
+                  class="btn btn-marazul-primary"
+                  data-i18n="services.tourism.button"
+                >
+                  Solicitar cotação
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <!-- COMPRAS BRÁS -->
+          <div
+            class="row align-items-center g-0 service-card flex-lg-row-reverse"
+          >
+            <div class="col-lg-6">
+              <picture>
+                <source
+                  srcset="assets/images/bras.webp"
+                  type="image/webp"
+                />
+
+                <img
+                  src="assets/images/bras.jpg"
+                  class="img-fluid service-image"
+                  alt="Ônibus da Marazul realizando viagem ao Brás"
+                  data-i18n-alt="services.shopping.imageAlt"
+                />
+              </picture>
+            </div>
+
+            <div class="col-lg-6">
+              <div class="service-content">
+                <span class="service-tag" data-i18n="services.shopping.tag">
+                  Compras
+                </span>
+
+                <h3 data-i18n="services.shopping.title">Compras no Brás</h3>
+
+                <p data-i18n="services.shopping.text">
+                  Viaje para o maior polo de compras do Brasil em ônibus
+                  modernos, confortáveis e com toda segurança.
+                </p>
+
+                <a
+                  href="https://wa.me/5544997392626?text=Olá,%20quero%20reservar%20uma%20passagem%20para%20o%20Brás."
+                  target="_blank"
+                  class="btn btn-marazul-secondary"
+                  data-i18n="services.shopping.button"
+                >
+                  Reservar passagem
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="useful-links-section" id="useful-links">
+        <div class="container">
+          <div class="useful-links-header">
+            <span
+              class="useful-links-subtitle text-uppercase"
+              data-i18n="useful-links.subtitle"
+            >
+              Informações importantes
+            </span>
+
+            <h2 class="useful-links-title" data-i18n="useful-links.title">
+              Acesso rápido a órgãos oficiais
+            </h2>
+
+            <p
+              class="useful-links-description"
+              data-i18n="useful-links.description"
+            >
+              Acesso rápido a órgãos reguladores, parceiros e informações
+              importantes para a sua viagem.
+            </p>
+          </div>
+
+          <div class="useful-links-list">
+            <!-- ANTT -->
+            <a
+              href="https://www.gov.br/antt"
+              target="_blank"
+              class="useful-link-card"
+            >
+              <h3 class="link-card-title" data-i18n="useful-links.antt.title">
+                ANTT
+              </h3>
+              <p
+                class="link-card-description"
+                data-i18n="useful-links.antt.desc"
+              >
+                Agência Nacional de Transportes Terrestres
+              </p>
+              <span class="link-card-action" data-i18n="useful-links.cta">
+                Acessar site
+              </span>
+            </a>
+
+            <!-- DER-PR -->
+            <a
+              href="https://www.der.pr.gov.br"
+              target="_blank"
+              class="useful-link-card"
+            >
+              <h3 class="link-card-title" data-i18n="useful-links.der.title">
+                DER-PR
+              </h3>
+              <p
+                class="link-card-description"
+                data-i18n="useful-links.der.desc"
+              >
+                Departamento de Edificações e Rodovias do Paraná
+              </p>
+              <span class="link-card-action" data-i18n="useful-links.cta">
+                Acessar site
+              </span>
+            </a>
+
+            <!-- CADASTUR -->
+            <a
+              href="https://cadastur.turismo.gov.br"
+              target="_blank"
+              class="useful-link-card"
+            >
+              <h3
+                class="link-card-title"
+                data-i18n="useful-links.cadastur.title"
+              >
+                CADASTUR
+              </h3>
+              <p
+                class="link-card-description"
+                data-i18n="useful-links.cadastur.desc"
+              >
+                Ministério do Turismo - Cadastro de prestadores
+              </p>
+              <span class="link-card-action" data-i18n="useful-links.cta">
+                Acessar site
+              </span>
+            </a>
+          </div>
+        </div>
+      </section>
+      <section class="faq-section">
+        <div class="container">
+          <div class="faq-header">
+            <span class="faq-subtitle text-uppercase" data-i18n="faq.subtitle"
+              >FAQ</span
+            >
+            <h2 class="faq-title" data-i18n="faq.title">Ainda tem dúvidas?</h2>
+          </div>
+
+          <div class="faq-accordion">
+            <!-- 1 -->
+            <details class="faq-item">
+              <summary>
+                <span data-i18n="faq.q1">
+                  Quais são as opções de ônibus disponíveis para locação?
+                </span>
+                <span class="faq-icon"></span>
+              </summary>
+              <div class="faq-content">
+                <p data-i18n="faq.a1">
+                  Nossa frota atende a diferentes necessidades, contando com
+                  ônibus convencionais, executivos e leito. Todos os veículos
+                  passam por rigorosas revisões periódicas para garantir a sua
+                  segurança.
+                </p>
+              </div>
+            </details>
+
+            <!-- 2 -->
+            <details class="faq-item">
+              <summary>
+                <span data-i18n="faq.q2">
+                  Os ônibus possuem Wi-Fi, ar-condicionado e tomadas?
+                </span>
+                <span class="faq-icon"></span>
+              </summary>
+              <div class="faq-content">
+                <p data-i18n="faq.a2">
+                  Sim! Nossos veículos da categoria Executivo e Leito são
+                  equipados com Wi-Fi, ar-condicionado com controle individual,
+                  tomadas para carregamento de eletrônicos e frigobar. A
+                  disponibilidade pode variar conforme o veículo.
+                </p>
+              </div>
+            </details>
+
+            <!-- 3 -->
+            <details class="faq-item">
+              <summary>
+                <span data-i18n="faq.q3">
+                  Como faço para solicitar um orçamento de viagem?
+                </span>
+                <span class="faq-icon"></span>
+              </summary>
+              <div class="faq-content">
+                <p data-i18n="faq.a3">
+                  Basta acessar a seção “Contato” do site e preencher o
+                  formulário com origem, destino, datas e número de passageiros.
+                  Retornaremos com a proposta ideal.
+                </p>
+              </div>
+            </details>
+
+            <!-- 4 -->
+            <details class="faq-item">
+              <summary>
+                <span data-i18n="faq.q4">
+                  Como funciona a política de cancelamento ou alteração de
+                  datas?
+                </span>
+                <span class="faq-icon"></span>
+              </summary>
+              <div class="faq-content">
+                <p data-i18n="faq.a4">
+                  Cancelamentos ou alterações podem ser feitos conforme
+                  contrato, geralmente sem multa quando realizados com
+                  antecedência mínima definida.
+                </p>
+              </div>
+            </details>
+
+            <!-- 5 -->
+            <details class="faq-item">
+              <summary>
+                <span data-i18n="faq.q5">
+                  É permitido levar bebidas ou alimentos no ônibus?
+                </span>
+                <span class="faq-icon"></span>
+              </summary>
+              <div class="faq-content">
+                <p data-i18n="faq.a5">
+                  Sim, é permitido o consumo de alimentos leves e bebidas não
+                  alcoólicas durante a viagem. Solicitamos apenas o cuidado com
+                  a limpeza do ambiente.
+                </p>
+              </div>
+            </details>
+
+            <!-- 6 -->
+            <details class="faq-item">
+              <summary>
+                <span data-i18n="faq.q6">
+                  Há limite para o tamanho ou peso das bagagens?
+                </span>
+                <span class="faq-icon"></span>
+              </summary>
+              <div class="faq-content">
+                <p data-i18n="faq.a6">
+                  Nossos ônibus possuem bagageiros amplos e compartimentos
+                  internos para bagagens de mão. Equipamentos maiores devem ser
+                  informados no orçamento.
+                </p>
+              </div>
+            </details>
+          </div>
+        </div>
+      </section>
+    </main>
+    <div id="footer"></div>
+    <script src="/assets/popper2.11.8/popper.min.js"></script>
+    <script src="/assets/bootstrap-5.3.8-dist/js/bootstrap.bundle.min.js"></script>
+    <script type="module" src="./js/main.js"></script>
+  </body>
+</html>
