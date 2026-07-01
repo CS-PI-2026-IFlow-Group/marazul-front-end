@@ -128,5 +128,20 @@
   "testimonials.card4.name": "Claudia Santos",
   "testimonials.card4.text": "Empresa seria y comprometida con la satisfacción del cliente, con autobuses modernos y limpios.",
   "testimonials.card4.guide": "Guía: Rio de Janeiro/RJ",
-  "testimonials.card4.route": "Paranavaí → Rio de Janeiro/RJ"
+  "testimonials.card4.route": "Paranavaí → Rio de Janeiro/RJ",
+
+  "services.subtitle": "Servicios",
+  "services.title": "Conoce nuestros servicios",
+
+  "services.tourism.tag": "Turismo",
+  "services.tourism.title": "Costão do Santinho",
+  "services.tourism.text": "Descubre uno de los destinos más populares de Brasil con toda la comodidad, seguridad y calidad de Marazul Turismo.",
+  "services.tourism.button": "Solicitar presupuesto",
+  "services.tourism.imageAlt": "Resort Costão do Santinho",
+
+  "services.shopping.tag": "Compras",
+  "services.shopping.title": "Compras en Brás",
+  "services.shopping.text": "Viaja al mayor centro comercial de Brasil en autobuses modernos, cómodos y con total seguridad.",
+  "services.shopping.button": "Reservar pasaje",
+  "services.shopping.imageAlt": "Autobús de Marazul realizando viaje al Brás"
 }

@@ -129,5 +129,20 @@
   "testimonials.card4.name": "Claudia Santos",
   "testimonials.card4.text": "Empresa séria e comprometida com a satisfação do cliente. A equipe foi atenciosa, ônibus limpos e confortáveis, e a viagem foi tranquila do início ao fim. Recomendo a Marazul para quem busca uma experiência de viagem rodoviária de qualidade.",
   "testimonials.card4.guide": "Guia: Rio de Janeiro/RJ",
-  "testimonials.card4.route": "Paranavaí → Rio de Janeiro/RJ"
+  "testimonials.card4.route": "Paranavaí → Rio de Janeiro/RJ",
+
+  "services.subtitle": "Serviços",
+  "services.title": "Conheça nossos serviços",
+
+  "services.tourism.tag": "Turismo",
+  "services.tourism.title": "Costão do Santinho",
+  "services.tourism.text": "Conheça um dos destinos mais procurados do Brasil com todo conforto, segurança e qualidade da Marazul Turismo.",
+  "services.tourism.button": "Solicitar cotação",
+  "services.tourism.imageAlt": "Resort Costão do Santinho",
+
+  "services.shopping.tag": "Compras",
+  "services.shopping.title": "Compras no Brás",
+  "services.shopping.text": "Viaje para o maior polo de compras do Brasil em ônibus modernos, confortáveis e com toda segurança.",
+  "services.shopping.button": "Reservar passagem",
+  "services.shopping.imageAlt": "Ônibus da Marazul realizando viagem ao Brás"
 }
