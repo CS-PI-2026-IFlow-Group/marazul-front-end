@@ -1,12 +1,3 @@
-.gap-costum{
-    gap: 20rem;
-    row-gap: 2rem;
-}
-
-.gap-card{
-    gap: 5rem;
-}
-
 .bus-card-text {
   color: var(--marazul-blue-dark);
   font-size: 1.3rem;
@@ -105,5 +96,34 @@
 @media (min-width: 992px) {
     #busModal .carousel-photo {
         height: clamp(295px, 44vh, 355px);
+    }
+
+    #busModal .fleet-carousel-control {
+        width: 44px;
+        height: 44px;
+        top: 50%;
+        bottom: auto;
+        border-radius: 50%;
+        background-color: rgba(255, 255, 255, 0.548);
+        box-shadow: var(--shadow-soft);
+        opacity: 0.9;
+        transform: translateY(-50%);
+    }
+
+    #busModal .carousel-control-prev {
+        left: 1rem;
+    }
+
+    #busModal .carousel-control-next {
+        right: 1rem;
+    }
+
+    #busModal .fleet-carousel-control:hover {
+        opacity: 1;
+    }
+
+    #busModal .fleet-carousel-control img {
+        width: 24px;
+        height: 24px;
     }
 }

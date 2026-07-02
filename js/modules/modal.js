@@ -108,19 +108,6 @@ export function initModal() {
     applyModalTranslations(modal, translations);
   });
 
-  const closeBtn = document.getElementById("close-modal-btn");
-
-  if (closeBtn) {
-    closeBtn.addEventListener("click", () => {
-      modal.classList.remove("open");
-    });
-  }
-
-  modal.addEventListener("click", (e) => {
-    if (e.target === modal) {
-      modal.classList.remove("open");
-    }
-  });
 }
 
 

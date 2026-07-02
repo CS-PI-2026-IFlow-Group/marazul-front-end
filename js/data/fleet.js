@@ -6,7 +6,7 @@ export const fleet = {
     },
     description: {
       fallback:
-        "56 lugares, 44 semileito, 12 leito. Carregador USB individual, ar-condicionado, Starlink e cortinas individuais.",
+        "56 lugares, 44 semileito, 12 leito. Carregador USB individual, Ar-condicionado, Starlink e Cortinas individuais.",
       i18n: "fleet.bus13001.description"
     },
     images: 
@@ -37,7 +37,7 @@ export const fleet = {
     },
     description: {
       fallback:
-        "42 lugares semileito, cortinas individuais, ar-condicionado, banheiro, Starlink e carregador USB individual.",
+        "42 lugares semileito, Cortinas individuais, Ar-condicionado, Banheiro, Starlink e Carregador USB individual.",
       i18n: "fleet.bus1101.description"
     },
     images: 
@@ -72,7 +72,7 @@ export const fleet = {
     },
     description: {
       fallback:
-        "53 lugares, 44 semileito e 9 leito. Carregador USB individual, Starlink, toalete, cortinas individuais e ar-condicionado.",
+        "53 lugares, 44 semileito e 9 leito. Carregador USB individual, Starlink, Toalete, Cortinas individuais e Ar-condicionado.",
       i18n: "fleet.bus18001.description"
     },
     images: 
@@ -98,7 +98,7 @@ export const fleet = {
     },
     description: {
       fallback:
-        "56 lugares. Cortinas individuais, carregador USB individual, ar-condicionado, toalete e Starlink.",
+        "56 lugares. Cortinas individuais, Carregador USB individual, Ar-condicionado, Toalete e Starlink.",
       i18n: "fleet.bus20001.description"
     },
     images: 
