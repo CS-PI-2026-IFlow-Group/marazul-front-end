@@ -1,0 +1,129 @@
+.bus-card-text {
+  color: var(--marazul-blue-dark);
+  font-size: 1.3rem;
+  font-weight: 700;
+}
+
+.font-family{
+      font-family: "Exo 2", sans-serif;
+}
+
+.red-text{
+    color: var(--marazul-red);
+    font-weight: 700;
+    letter-spacing: 2px;
+}
+
+.caption-cards{
+    color: var(--marazul-red);
+    font-weight: bold;
+}
+
+.main-title-banner {
+    font-family: "Playfair Display", serif;
+    line-height: 1.1;
+    text-align: center;
+}
+
+.main-title-body{
+    color: var(--marazul-blue-dark);
+    font-weight: 700;
+    margin-top: 8px;
+}
+
+.main-layout{
+    color: var(--marazul-white);
+    font-size: 96px;
+}
+
+.caption{
+    color: #6C8093;
+}
+
+
+
+
+
+.text-color{
+  color: var(--marazul-white);
+}
+
+
+.basic-infra-information{
+    background-color: var(--bg-light);
+}
+
+
+.icon-box {
+    width: 50px;
+    height: 50px;
+    background: #062A45;
+    border-radius: 12px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.icon-box img{
+    width: 30px;
+    height: 30px;
+}
+
+.card-comodidade {
+    transition: all 0.3s ease;
+}
+
+.card-comodidade:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
+}
+
+#modal-description {
+    margin-top: 1rem;
+}
+
+.modal-description-list {
+    padding: 1rem 1rem 1rem 2rem;
+    border-radius: 10px;
+    background-color: var(--bg-light);
+    color: var(--marazul-blue-dark);
+}
+
+.modal-description-list li + li {
+    margin-top: 0.5rem;
+}
+
+@media (min-width: 992px) {
+    #busModal .carousel-photo {
+        height: clamp(295px, 44vh, 355px);
+    }
+
+    #busModal .fleet-carousel-control {
+        width: 44px;
+        height: 44px;
+        top: 50%;
+        bottom: auto;
+        border-radius: 50%;
+        background-color: rgba(255, 255, 255, 0.548);
+        box-shadow: var(--shadow-soft);
+        opacity: 0.9;
+        transform: translateY(-50%);
+    }
+
+    #busModal .carousel-control-prev {
+        left: 1rem;
+    }
+
+    #busModal .carousel-control-next {
+        right: 1rem;
+    }
+
+    #busModal .fleet-carousel-control:hover {
+        opacity: 1;
+    }
+
+    #busModal .fleet-carousel-control img {
+        width: 24px;
+        height: 24px;
+    }
+}
