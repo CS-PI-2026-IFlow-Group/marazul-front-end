@@ -12,16 +12,20 @@ export const fleet = {
     images: 
     [
       {
-      webp: "../assets/images/modal/13001/webp/front_bus13001.webp",
-      fallback: "../assets/images/modal/13001/jpeg/front_bus13001.jpeg"
+        webp: "../assets/images/modal/13001/webp/13001-bus-front.webp",
+        fallback: "../assets/images/modal/13001/jpeg/13001-bus-front.jpg"
       },
       {
-        webp: "../assets/images/modal/13001/webp/parked_bus.webp",
-        fallback: "../assets/images/modal/13001/jpeg/parked_bus.jpeg"
+        webp: "../assets/images/modal/13001/webp/13001-armchair.webp",
+        fallback: "../assets/images/modal/13001/jpeg/13001-armchair.jpg"
       },
       {
-        webp: "../assets/images/modal/13001/webp/trazeira_13001.webp",
-        fallback: "../assets/images/modal/13001/jpeg/trazeira_13001.jpeg"
+        webp: "../assets/images/modal/13001/webp/13001-recliner.webp",
+        fallback: "../assets/images/modal/13001/jpeg/13001-recliner.jpg"
+      },
+      {
+        webp: "../assets/images/modal/13001/webp/13001-stairs.webp",
+        fallback: "../assets/images/modal/13001/jpeg/13001-stairs.jpg"
       }
     ]
   },
@@ -39,19 +43,25 @@ export const fleet = {
     images: 
     [
       {
-        webp: "../assets/images/modal/11001/webp/front_bus11001.webp",
-        fallback: "../assets/images/modal/11001/jpeg/front_bus11001.jpeg"
+        webp: "../assets/images/modal/11001/webp/11001-bus.webp",
+        fallback: "../assets/images/modal/11001/jpeg/11001-bus.jpeg"
       },
-
       {
-        webp: "../assets/images/modal/11001/webp/ônibus-11001.webp",
-        fallback: "../assets/images/modal/11001/jpeg/ônibus-11001.jpeg"
+        webp: "../assets/images/modal/11001/webp/11001-armchair.webp",
+        fallback: "../assets/images/modal/11001/jpeg/11001-armchair.jpeg"
       },
-
       {
-        webp: "../assets/images/modal/11001/webp/side_bus11001.webp",
-        fallback: "../assets/images/modal/11001/jpeg/side_bus11001.jpeg"
+        webp: "../assets/images/modal/11001/webp/11001-front-bus.webp",
+        fallback: "../assets/images/modal/11001/jpeg/11001-front-bus.jpeg"
       },
+      {
+        webp: "../assets/images/modal/11001/webp/11001-recliner.webp",
+        fallback: "../assets/images/modal/11001/jpeg/11001-recliner.jpeg"
+      },
+      {
+        webp: "../assets/images/modal/11001/webp/11001-stairs.webp",
+        fallback: "../assets/images/modal/11001/jpeg/11001-stairs.jpg"
+      }
     ]
   },
 
@@ -68,22 +78,17 @@ export const fleet = {
     images: 
     [
       {
-        webp: "../assets/images/modal/18001/webp/18001-Garagem.webp",
-        fallback: "../assets/images/modal/18001/jpeg/18001-Garagem.jpeg"
+        webp: "../assets/images/modal/18001/webp/18001-bus.webp",
+        fallback: "../assets/images/modal/18001/jpeg/18001-bus.jpg"
       },
       {
-        webp: "../assets/images/modal/18001/webp/Bancos-do-18001.webp",
-        fallback: "../assets/images/modal/18001/jpeg/Bancos-do-18001.jpeg"
+        webp: "../assets/images/modal/18001/webp/18001-armchair.webp",
+        fallback: "../assets/images/modal/18001/jpeg/18001-armchair.jpg"
       },
       {
-        webp: "../assets/images/modal/18001/webp/escadas-18001.webp",
-        fallback: "../assets/images/modal/18001/jpeg/escadas-18001.jpeg"
-      },
-      {
-        webp: "../assets/images/modal/18001/webp/Interno-18001-editado.webp",
-        fallback: "../assets/images/modal/18001/jpeg/Interno-18001-editado.jpeg"
+        webp: "../assets/images/modal/18001/webp/18001-recliner.webp",
+        fallback: "../assets/images/modal/18001/jpeg/18001-recliner.jpg"
       }
-
     ]
   },
   20001: {
@@ -99,8 +104,16 @@ export const fleet = {
     images: 
     [
       {
+        webp: "../assets/images/modal/20001/webp/20001-bus.webp",
+        fallback: "../assets/images/modal/20001/jpeg/20001-bus.jpg"
+      },
+      {
+        webp: "../assets/images/modal/20001/webp/2001-nova.webp",
+        fallback: "../assets/images/modal/20001/jpeg/2001-nova.jpeg"
+      },
+      {
         webp: "../assets/images/modal/20001/webp/interna-do-20001.webp",
-        fallback: "../assets/images/modal/20001/jpeg/interna-do-20001.jpeg"
+        fallback: "../assets/images/modal/20001/jpeg/20001-armchair.jpg"
       }
     ]
   }

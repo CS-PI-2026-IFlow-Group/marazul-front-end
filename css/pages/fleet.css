@@ -104,6 +104,6 @@
 
 @media (min-width: 992px) {
     #busModal .carousel-photo {
-        height: clamp(280px, 42vh, 340px);
+        height: clamp(295px, 44vh, 355px);
     }
 }

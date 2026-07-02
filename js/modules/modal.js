@@ -125,17 +125,33 @@ export function initModal() {
 
 
 function updateCarousel(images) {
-  const inner = document.querySelector(".carousel-inner");
+  const carousel = document.getElementById("aboutCarousel");
+  const inner = carousel.querySelector(".carousel-inner");
+  const indicators = carousel.querySelector(".carousel-indicators");
+  const carouselInstance = window.bootstrap?.Carousel.getInstance(carousel);
+  const isSpanish = localStorage.getItem("marazul-lang") === "es";
 
-  inner.innerHTML = "";
+  carouselInstance?.dispose();
+  inner.replaceChildren();
+  indicators.replaceChildren();
 
   images.forEach((img, index) => {
     const item = document.createElement("div");
+    const indicator = document.createElement("button");
 
     item.classList.add("carousel-item");
+    indicator.type = "button";
+    indicator.dataset.bsTarget = "#aboutCarousel";
+    indicator.dataset.bsSlideTo = index;
+    indicator.setAttribute(
+      "aria-label",
+      `${isSpanish ? "Ir a la foto" : "Ir para a foto"} ${index + 1}`,
+    );
 
     if (index === 0) {
       item.classList.add("active");
+      indicator.classList.add("active");
+      indicator.setAttribute("aria-current", "true");
     }
 
     item.innerHTML = `
@@ -157,5 +173,17 @@ function updateCarousel(images) {
     image.alt = "Imagem do veículo selecionado";
 
     inner.appendChild(item);
+    indicators.appendChild(indicator);
   });
+
+  if (window.bootstrap?.Carousel) {
+    const updatedCarousel = new window.bootstrap.Carousel(carousel, {
+      interval: 4000,
+      touch: true,
+      pause: "hover",
+      ride: "carousel",
+    });
+
+    updatedCarousel.cycle();
+  }
 }
