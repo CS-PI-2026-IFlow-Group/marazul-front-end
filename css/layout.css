@@ -285,27 +285,30 @@ body {
   }
 }
 
-@media (min-width: 1025px) and (max-width: 1199px) {
+@media (min-width: 993px) and (max-width: 1199px) {
   .logo img {
-    max-height: 65px; /* reduz a logo */
+    max-height: 60px;
     width: auto;
   }
 
   .navbar {
-    padding: 10px 16px; /* dá mais respiro */
+    padding: 4px 8px;
   }
 
-  .navbar-nav .nav-link {
-    font-size: 0.8rem; 
-    justify-content: flex-end; /* centraliza os links */
+  .nav-links {
+    gap: 10px;
+  }
+
+  .nav-links a {
+    font-size: 0.95rem;
   }
 
   .brand-strong {
-    font-size: 1.4rem; /* ajusta o tamanho da marca */
+    font-size: 1.3rem;
   }
 
   .brand-light {
-    font-size: 1.2rem; /* ajusta o tamanho da marca */
+    font-size: 1.1rem;
   }
 }
 
