@@ -32,12 +32,12 @@ export const fleet = {
 
   1101: {
     title: {
-      fallback: "11001 - Marcopolo LD",
+      fallback: "1101 - Marcopolo LD",
       i18n: "fleet.bus1101.title"
     },
     description: {
       fallback:
-        "42 lugares semileito, Cortinas individuais, Ar-condicionado, Banheiro, Starlink e Carregador USB individual.",
+        "44 lugares semileito, Cortinas individuais, Ar-condicionado, Banheiro, Starlink e Carregador USB individual.",
       i18n: "fleet.bus1101.description"
     },
     images: 
