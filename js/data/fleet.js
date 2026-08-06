@@ -43,8 +43,8 @@ export const fleet = {
     images: 
     [
       {
-        webp: "../assets/images/modal/11001/webp/11001-bus.webp",
-        fallback: "../assets/images/modal/11001/jpeg/11001-bus.jpeg"
+        webp: "../assets/images/modal/11001/webp/11.webp",
+        fallback: "../assets/images/modal/11001/jpeg/11.jpg"
       },
       {
         webp: "../assets/images/modal/11001/webp/11001-armchair.webp",
@@ -78,8 +78,8 @@ export const fleet = {
     images: 
     [
       {
-        webp: "../assets/images/modal/18001/webp/18001-bus.webp",
-        fallback: "../assets/images/modal/18001/jpeg/18001-bus.jpg"
+        webp: "../assets/images/modal/18001/webp/18001.webp",
+        fallback: "../assets/images/modal/18001/jpeg/18001.jpg"
       },
       {
         webp: "../assets/images/modal/18001/webp/18001-armchair.webp",
@@ -104,8 +104,8 @@ export const fleet = {
     images: 
     [
       {
-        webp: "../assets/images/modal/20001/webp/20001-bus.webp",
-        fallback: "../assets/images/modal/20001/jpeg/20001-bus.jpg"
+        webp: "../assets/images/modal/20001/webp/20.webp",
+        fallback: "../assets/images/modal/20001/jpeg/20.jpg"
       },
       {
         webp: "../assets/images/modal/20001/webp/2001-nova.webp",
