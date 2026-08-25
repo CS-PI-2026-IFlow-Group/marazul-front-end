@@ -1,0 +1,73 @@
+{
+  "about.page-title": "Sobre Nós - Marazul",
+
+  "about.intro-title": "Nossa História",
+  "about.story-label": "NOSSA HISTÓRIA",
+
+  "about.main-title": "Sua viagem dos sonhos começa aqui",
+
+  "about.intro-text": "A Marazul Turismo é referência em turismo rodoviário no Brasil. Com mais de 15 anos de experiência, oferecemos viagens seguras, confortáveis e inesquecíveis para os mais belos destinos do país.",
+
+  "about.history-text-1": "Fundada em 2010, nossa empresa nasceu do sonho de tornar o turismo acessível e prazeroso para todos. Começamos com apenas dois veículos e uma equipe apaixonada.",
+
+  "about.history-text-2": "Nossa missão é proporcionar momentos únicos para você e sua família, com uma equipe dedicada e uma frota moderna.",
+
+  "about.timeline-title": "Nossa Trajetória",
+
+  "about.mvv-title": "Nossos Valores",
+
+  "about.mission-label": "Missão",
+  "about.mission-title": "Nossa Missão",
+  "about.mission-text": "Transportar pessoas com alegria, segurança e compromisso inabalável com a qualidade. Mais do que deslocamentos, criamos conexões e experiências inesquecíveis.",
+
+  "about.vision-label": "Visão",
+  "about.vision-title": "Nossa Visão",
+  "about.vision-text": "Ser referência no transporte regional, investindo em inovação, qualificação da equipe e renovação contínua da frota para oferecer a melhor experiência.",
+
+  "about.values-label": "Valores",
+  "about.values-title": "Nossos Valores",
+
+  "about.value-1": "Foco no cliente",
+  "about.value-2": "Segurança acima de tudo",
+  "about.value-3": "Ética e transparência",
+  "about.value-4": "Comprometimento com a qualidade",
+  "about.value-5": "Respeito às pessoas",
+
+  "about.photo-1": "Primeiro Ônibus",
+  "about.photo-2": "Viagem Aparecida do Norte",
+  "about.photo-3": "Exposição da frota",
+  "about.photo-4": "Expansão da frota",
+  "about.photo-5": "Viagem ao Beto Carreiro",
+  "about.photo-6": "Viagem a Costão de Santinho",
+  "about.photo-7": "Tecnologia",
+
+  "about.img-bus": "Ônibus Marazul",
+  "about.img-firstBus": "Foto 1 - Fundação Marazul",
+  "about.img-travelingToAparecidaDoNorte": "Foto 2 - Viagem Aparecida do Norte",
+  "about.img-driver": "Foto 3 - Motorista",
+  "about.img-betoCarreiro": "Foto 4 - Viagem ao Beto Carreiro",
+  "about.img-fleet": "Foto 5 - Expansão da frota",
+  "about.img-photo-6": "Foto 6 - Novos Portos",
+  "about.img-photo-7": "Foto 7 - Tecnologia",
+
+  "about.stat-security-value": "100%",
+  "about.stat-security-label": "Segurança",
+
+  "about.stat-clients-value": "5.000+",
+  "about.stat-clients-label": "Clientes",
+
+  "about.stat-years-value": "15+",
+  "about.stat-years-label": "Anos",
+
+  "about.stat-trips-value": "2.000+",
+  "about.stat-trips-label": "Viagens",
+
+  "about.badge-number": "15+",
+  "about.badge-text": "Anos no mercado",
+
+  "about.call-to-action-title": "Pronto para viajar conosco?",
+  "about.call-to-action-subtitle": "O primeiro passo para a sua próxima grande memória.",
+
+  "about.fleet-btn": "Conheça nossa frota",
+  "about.img-icon-arrow": "símbolo de flecha para a direita"
+}

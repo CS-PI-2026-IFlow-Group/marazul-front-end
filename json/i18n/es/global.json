@@ -1,0 +1,27 @@
+{
+  "nav-hero": "Inicio",
+  "nav-about": "Sobre Nosotros",
+  "nav-fleet": "Nuestra Flota",
+  "nav-travel-tips": "Consejos de Viaje",
+  "nav-service": "Servicios",
+  "nav-contact": "Contacto",
+  "nav-faq": "FAQ",
+  "btn-budget": "Solicitar Presupuesto",
+
+  "footer-desc": "Con siete décadas de tradición, Marazul garantiza viajes seguros y cómodos para que solo te relajes y disfrutes del trayecto.",
+
+  "footer-time": "Horario de atención",
+  "footer-time-desc": "Lunes a viernes: 09h00 a 18h00",
+
+  "footer-email": "Correo electrónico",
+  "footer-phone": "Teléfono",
+
+  "footer-address": "Dirección",
+  "footer-address-desc": "Rua José Brazilino da Silva, 121 - Jardim Oasis, Paranavaí - PR",
+
+  "footer-instagram": "Instagram",
+
+  "footer-rights": "Todos los derechos reservados",
+
+  "footer-admin": "Administrado por IflowGroup"
+}
