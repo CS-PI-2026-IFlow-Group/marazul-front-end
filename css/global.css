@@ -1,0 +1,60 @@
+:root {
+  --marazul-blue-dark: #062A45;
+  --marazul-blue-royal: #0056b3;
+  --marazul-red: #e31e24;
+  --marazul-white: #ffffff;
+  --light-yellow: #fff9ef;
+
+  --bg-light: #f4f7f9;
+  --text-main: #1a1a1a;
+  --text-muted: #555555;
+   
+
+  --hover-blue: #004494;
+  --hover-red: #c1191f;
+
+  --title: 26px;
+  --subtitle: 20px;
+  --paragraph: 16px;
+  --btn-text: 12px;
+
+  --radius-p: 4px;
+  --radius-m: 8px;
+  --radius-g: 16px;
+  --shadow-soft: 0 4px 6px rgba(0, 0, 0, 0.1);
+  --transition-default: 0.25s ease;
+
+  --spacing-xs: 4px;
+  --spacing-sm: 8px;
+  --spacing-md: 16px;
+  --spacing-lg: 32px;
+  --spacing-xl: 64px;
+}
+
+body {
+  font-family: "Exo 2", sans-serif;
+  line-height: 1.5;
+  margin: 0;
+  padding: 0;
+}
+.btn-marazul-red {
+  display: inline-flex;
+  align-items: center;
+  gap: var(--spacing-sm);
+  background-color: var(--marazul-red);
+  color: var(--marazul-white);
+  font-size: var(--paragraph);
+  font-weight: 700;
+  text-decoration: none;
+  padding: 14px 32px;
+  border-radius: var(--radius-m);
+  border: none;
+  cursor: pointer;
+  transition: background-color var(--transition-default), transform var(--transition-default);
+}
+
+.btn-marazul-red:hover {
+  background-color: var(--hover-red);
+  color: var(--marazul-white);
+  transform: translateY(-2px);
+}

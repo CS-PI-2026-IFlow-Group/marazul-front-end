@@ -1,0 +1,238 @@
+.bus-card-text {
+  color: var(--marazul-blue-dark);
+  font-size: 1.3rem;
+  font-weight: 700;
+}
+
+.font-family{
+      font-family: "Exo 2", sans-serif;
+}
+
+.red-text{
+    color: var(--marazul-red);
+    font-weight: 700;
+    letter-spacing: 2px;
+}
+
+.caption-cards{
+    color: var(--marazul-red);
+    font-weight: bold;
+}
+
+.main-title-banner {
+    font-family: "Playfair Display", serif;
+    line-height: 1.1;
+    text-align: center;
+}
+
+.main-title-body{
+    color: var(--marazul-blue-dark);
+    font-weight: 700;
+    margin-top: 8px;
+}
+
+.main-layout{
+    color: var(--marazul-white);
+    font-size: 96px;
+}
+
+.caption{
+    color: #6C8093;
+}
+
+
+
+
+
+.text-color{
+  color: var(--marazul-white);
+}
+
+
+.basic-infra-information{
+    background-color: var(--bg-light);
+}
+
+
+.icon-box {
+    width: 50px;
+    height: 50px;
+    background: #062A45;
+    border-radius: 12px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.icon-box img{
+    width: 30px;
+    height: 30px;
+}
+
+.card-comodidade {
+    transition: all 0.3s ease;
+}
+
+.card-comodidade:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
+}
+
+#modal-description {
+    margin-top: 1rem;
+}
+
+/* PREMIUM MODAL STYLING */
+#busModal .modal-content {
+  border: none;
+  border-radius: var(--radius-g);
+  box-shadow: 0 15px 35px rgba(6, 42, 69, 0.2);
+  overflow: hidden;
+  background-color: var(--marazul-white);
+}
+
+#busModal .modal-header {
+  border-bottom: 1px solid rgba(6, 42, 69, 0.08);
+  padding: 1.2rem 1.5rem;
+  background-color: var(--marazul-white);
+}
+
+#busModal .modal-title {
+  color: var(--marazul-blue-dark);
+  font-family: "Exo 2", sans-serif;
+  font-weight: 700;
+  font-size: 1.5rem;
+}
+
+#busModal .btn-close {
+  background-color: var(--bg-light);
+  opacity: 0.8;
+  border-radius: 50%;
+  padding: 0.5rem;
+  transition: all 0.25s ease;
+}
+
+#busModal .btn-close:hover {
+  background-color: var(--marazul-red);
+  color: var(--marazul-white) !important;
+  opacity: 1;
+  transform: rotate(90deg);
+}
+
+/* CAROUSEL IN MODAL */
+#busModal .carousel {
+  border-radius: var(--radius-m);
+  overflow: hidden;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.1);
+  background-color: var(--marazul-blue-dark); /* Azul escuro oficial como fundo para preencher as laterais */
+}
+
+#busModal .carousel-photo {
+  height: 240px;
+  object-fit: contain;
+  width: 100%;
+}
+
+@media (min-width: 992px) {
+  #busModal .carousel-photo {
+    height: 420px; /* Aumentado ligeiramente para aproveitar o modal-lg */
+  }
+}
+
+/* Carousel Indicators style */
+#busModal .carousel-indicators [data-bs-target] {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background-color: var(--marazul-white);
+  opacity: 0.5;
+  margin: 0 5px;
+  border: 2px solid transparent;
+  transition: all 0.3s ease;
+}
+
+#busModal .carousel-indicators .active {
+  width: 24px;
+  border-radius: 5px;
+  background-color: var(--marazul-red);
+  opacity: 1;
+}
+
+/* Carousel Controls style */
+#busModal .fleet-carousel-control {
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  background-color: rgba(255, 255, 255, 0.7);
+  backdrop-filter: blur(4px);
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+  opacity: 0.9;
+  transition: all 0.3s ease;
+  top: 50%;
+  transform: translateY(-50%);
+  bottom: auto;
+}
+
+#busModal .carousel-control-prev {
+  left: 1rem;
+}
+
+#busModal .carousel-control-next {
+  right: 1rem;
+}
+
+#busModal .fleet-carousel-control:hover {
+  background-color: var(--marazul-red);
+  opacity: 1;
+}
+
+#busModal .fleet-carousel-control:hover img {
+  filter: brightness(0) invert(1);
+}
+
+#busModal .fleet-carousel-control img {
+  width: 20px;
+  height: 20px;
+}
+
+/* Description List styled as a modern grid of checkmarks */
+.modal-description-list {
+  list-style: none;
+  padding: 1.5rem !important;
+  border-radius: var(--radius-m);
+  background-color: var(--bg-light);
+  color: var(--marazul-blue-dark);
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 0.8rem;
+  box-shadow: inset 0 2px 6px rgba(0, 0, 0, 0.02);
+  margin-top: 1rem;
+}
+
+@media (min-width: 576px) {
+  .modal-description-list {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+.modal-description-list li {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-size: 0.95rem;
+  font-weight: 600;
+  color: var(--marazul-blue-dark);
+}
+
+.modal-description-list li::before {
+  content: "\f26e"; /* Bootstrap icon code for check-circle-fill */
+  font-family: "bootstrap-icons" !important;
+  color: var(--marazul-red);
+  font-size: 1.1rem;
+  font-style: normal;
+  font-weight: normal;
+  display: inline-block;
+  line-height: 1;
+}
+
